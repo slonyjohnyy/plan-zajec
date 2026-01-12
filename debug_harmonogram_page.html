@@ -1,3748 +1,494 @@
-<html><head><style>
-.sv_font { font-family:tahoma; font-size:8pt; }
-.sv_head { font-family:tahoma; font-size:8pt; font-weight:bold; text-align:right; }
-.sv_info { font-family:tahoma; font-size:8pt; font-weight:bold; color:#0000CC; }
-.sv_error { font-family:tahoma; font-size:8pt; font-weight:bold; color:#CC0000; }
-.sv_bar { background-color:#cc0000; border:1px solid black; }
-#stats_type { font-family:tahoma; font-size:8pt; width:450px; }
-#stats_year_from { font-family:tahoma; font-size:8pt; width:150px; }
-#stats_month_from { font-family:tahoma; font-size:8pt; width:150px; }
-#stats_day_from { font-family:tahoma; font-size:8pt; width:150px; }
-#stats_year_to { font-family:tahoma; font-size:8pt; width:150px; }
-#stats_month_to { font-family:tahoma; font-size:8pt; width:150px; }
-#stats_day_to { font-family:tahoma; font-size:8pt; width:150px; }
-#set_today { font-family:tahoma; font-size:8pt; width:50px; }
-#set_yesterday { font-family:tahoma; font-size:8pt; width:70px; }
-#set_current_month { font-family:tahoma; font-size:8pt; width:120px; }
-#set_last_month { font-family:tahoma; font-size:8pt; width:110px; }
-#set_current_year { font-family:tahoma; font-size:8pt; width:100px; }
-#show_statistics { font-family:tahoma; font-size:8pt; width:450px; }
-</style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<title>Harmonogramy zajęć</title>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<link rel="shortcut icon" href="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=55&amp;_CheckSum=-934094379" type="image/x-icon">
-
-
-
-<link rel="stylesheet" type="text/css" href="/palio/html.run?_Instance=cambridge&amp;_PageID=4&amp;_SessionID=1644632&amp;_SessionKey=339089337&amp;ZoomView=&amp;DisplayMode=&amp;_CheckSum=-454949">
-<script language="javascript" type="text/javascript" src="/palio/html.run?_Instance=cambridge&amp;_PageID=5&amp;_SessionID=1644632&amp;_SessionKey=339089337&amp;_CheckSum=1879605935"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script>
-function grayscaleImagesIE10Plus(){}
-</script>
-
-
-
-
-
-
-
- 
-
-
-
-
-<script type="text/javascript" src="/palio/html.script?_Instance=cambridge&amp;_fileName=menu/jsdomenu.js"></script>
-<script type="text/javascript" src="/palio/html.script?_Instance=cambridge&amp;_fileName=menu/jsdomenubar.js"></script><style type="text/css">
-.jsdomenuarrow {
-	background-image: url(/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=1&amp;_CheckSum=645068048);
-	background-repeat: no-repeat; /* Do not alter this line! */
-	height: 7px;
-	position: absolute; /* Do not alter this line! */
-	right: 8px;
-	width: 4px;
-}
-
-.jsdomenuarrowover {
-	background-image: url(/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=1&amp;_CheckSum=645068048);
-	background-repeat: no-repeat; /* Do not alter this line! */
-	height: 7px;
-	position: absolute; /* Do not alter this line! */
-	right: 8px;
-	width: 4px;
-}
-
-.jsdomenubardiv {
-	background-color: #F2EEDE;
-	background-image: url(classic_divider.png);
-	background-position: left;
-	background-repeat: no-repeat;
-	border:1px solid gray;
-	cursor: default;
-	padding-bottom: 3px;
-	padding-left: 1px;
-	padding-right: 1px;
-	padding-top: 3px;
-	position: absolute; /* Do not alter this line! */
-	visibility: visible;
-}
-
-.jsdomenubardragdiv {
-	cursor: move;
-	display: inline;
-	font-family: Verdana, arial, helvetica, sans-serif;
-	font-size: 10;
-	padding-bottom: 2px;
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-top: 2px;
-	position: relative; /* Do not alter this line! */
-	visibility: hidden;
-	width: 9px;
-}
-
-.jsdomenubaritem {
-	background-color: #F2EEDE;
-	border: none;
-	color: #000000;
-	display: inline;
-	font-family: Verdana, arial, helvetica, sans-serif;
-	font-size: 10;
-	padding-bottom: 2px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 2px;
-	position: relative; /* Do not alter this line! */
-}
-
-.jsdomenubaritemclick {
-	background-color: #C1D2EE;
-	border: 1px solid #778db4;
-	color: #000000;
-	display: inline;
-	font-family: Verdana, arial, helvetica, sans-serif;
-	font-size: 10;
-	padding-bottom: 2px;
-	padding-left: 9px;
-	padding-right: 9px;
-	padding-top: 2px;
-	position: relative; /* Do not alter this line! */
-}
-
-.jsdomenubaritemover {
-	background-color: #e9e9e9;
-	border: 1px outset;
-	color: #000000;
-	display: inline;
-	font-family: Verdana, arial, helvetica, sans-serif;
-	font-size: 10;
-	padding-bottom: 2px;
-	padding-left: 9px;
-	padding-right: 9px;
-	padding-top: 2px;
-	position: relative; /* Do not alter this line! */
-}
-
-.jsdomenudiv {
-	background-color: #FFFFFF;
-	border: 1px solid gray;
-	padding-bottom: 1px;
-	padding-top: 1px;
-	cursor: default;
-	position: absolute; /* Do not alter this line! */
-	visibility: hidden;
-	z-index: 10;
-}
-
-.jsdomenuitem {
-	background-color: transparent;
-	border: none;
-	color: #000000;
-	font-family: Verdana, arial, helvetica, sans-serif;
-	font-size: 10;
-	padding-bottom: 3px;
-	padding-left: 10px;
-	padding-right: 15px;
-	padding-top: 3px;
-	position: relative; /* Do not alter this line! */
-}
-
-.jsdomenuitemover {
-	background-color: #C1D2EE;
-	border: 1px solid #316AC5;
-	color: #000000;
-	font-family: Verdana, arial, helvetica, sans-serif;
-	font-size: 10;
-    margin-left: 1px;
-    margin-right: 1px;
-    padding-bottom: 2px;
-	padding-left: 8px;
-	padding-right: 15px;
-	padding-top: 2px;
-	position: relative; /* Do not alter this line! */
-}
-
-.jsdomenusep {
-}
-
-.jsdomenusep hr {
-    border:0;
-    width: 95%;
-	color: gray;
-    background-color: gray;
-    height: 1px;
-}
-
-</style>
-
-
-<script language="javascript">
-function createMenuBar() {
-CambridgeMenuBar = new jsDOMenuBar("absolute", true)
-
-
-
-
-
-
-AccountMenu=new jsDOMenu(200, "", "absolute", false);
-
-AccountMenu.addMenuItem(new menuItem("Zmiana hasła", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=11&amp;_SessionID=1644632&amp;_SessionKey=339089337&amp;_CheckSum=282490654"));
-
-  AccountMenu.addMenuItem(new menuItem("Komunikator", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=180&amp;_SessionID=1644632&amp;_SessionKey=339089337&amp;_CheckSum=1919092195"));
-
-
-
-
-
-
-AccountMenu.addMenuItem(new menuItem("Yammer", "", "https://www.yammer.com/onlineszkolafilmowa.com.pl/"));
-
-
-
-AccountMenu.addMenuItem(new menuItem("-"));
-
-AccountMenu.addMenuItem(new menuItem("Wylogowanie", "", "https://student.szkolafilmowa.pl/palio/html.run?_Instance=cambridge&amp;_PageID=10012&amp;_Action=Logout&amp;_SessionID=1644632&amp;_SessionKey=339089337"));
-
-CambridgeMenuBar.addMenuBarItem(new menuBarItem("Konto", AccountMenu));
-
-
-
-
-
-
-StudentsMenu=new jsDOMenu(320, "", "absolute", false);
-
-
-
-StudentsMenu.addMenuItem(new menuItem("Moje dane", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=185&amp;_SessionID=1644632&amp;_SessionKey=339089337&amp;_CheckSum=776418024"));
-
-
-
-
-StudentsMenu.addMenuItem(new menuItem("Moje indeksy", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=186&amp;_SessionID=1644632&amp;_SessionKey=339089337&amp;_CheckSum=1406876649"));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-CambridgeMenuBar.addMenuBarItem(new menuBarItem("Studenci", StudentsMenu));
-
-
-
-StudiesMenu=new jsDOMenu(250, "", "absolute", false);
-
-
-
-StudiesMenu.addMenuItem(new menuItem("Moje plany studiów", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=258&amp;_SessionID=1644632&amp;_SessionKey=339089337&amp;_CheckSum=150066511"));
-
-
-
-
-
-
-
-StudiesMenu.addMenuItem(new menuItem("Harmonogramy zajęć", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=95&amp;_SessionID=1644632&amp;_SessionKey=339089337&amp;_CheckSum=244274202"));
-
-StudiesMenu.addMenuItem(new menuItem("Harmonogramy moich zajęć", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=191&amp;_SessionID=1644632&amp;_SessionKey=339089337&amp;_CheckSum=618931715"));
-
-StudiesMenu.addMenuItem(new menuItem("Harmonogramy innych zajęć", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=248&amp;_SessionID=1644632&amp;_SessionKey=339089337&amp;_CheckSum=2080685616"));
-
-StudiesMenu.addMenuItem(new menuItem("Harmonogramy zajętości sal", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=269&amp;_SessionID=1644632&amp;_SessionKey=339089337&amp;_CheckSum=-1150093969"));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-CambridgeMenuBar.addMenuBarItem(new menuBarItem("Studia", StudiesMenu));
-
-ScholarshipsMenu=new jsDOMenu(230, "", "absolute", false);
-
-
-ScholarshipsMenu.addMenuItem(new menuItem("Moje stypendia", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=187&amp;_SessionID=1644632&amp;_SessionKey=339089337&amp;_CheckSum=2037335274"));
-
-ScholarshipsMenu.addMenuItem(new menuItem("Mój numer rachunku", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=380&amp;_SessionID=1644632&amp;_SessionKey=339089337&amp;_CheckSum=-1815175323"));
-
-
-
-
-
-
-ScholarshipsMenu.addMenuItem(new menuItem("-"));
-
-
-ScholarshipsMenu.addMenuItem(new menuItem("Fundusze stypendialne", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=54&amp;_SessionID=1644632&amp;_SessionKey=339089337&amp;_CheckSum=-1253642595"));
-
-ScholarshipsMenu.addMenuItem(new menuItem("Rodzaje stypendiów", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=55&amp;_SessionID=1644632&amp;_SessionKey=339089337&amp;_CheckSum=-623183970"));
-
-
-
-
-CambridgeMenuBar.addMenuBarItem(new menuBarItem("Stypendia", ScholarshipsMenu));
-
-
-ReportsMenu=new jsDOMenu(200, "", "absolute", false);
-
-
-ReportsMenu.addMenuItem(new menuItem("Generowanie raportów", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=68&amp;_SessionID=1644632&amp;_SessionKey=339089337&amp;_CheckSum=-662427200"));
-
-
-
-
-
-CambridgeMenuBar.addMenuBarItem(new menuBarItem("Raporty", ReportsMenu));
-
-AdditionalsMenu=new jsDOMenu(200, "", "absolute", false);
-
-AdditionalsMenu.addMenuItem(new menuItem("Forum internetowe", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=8001&amp;_SessionID=1644632&amp;_SessionKey=339089337&amp;_CheckSum=837607543"));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-CambridgeMenuBar.addMenuBarItem(new menuBarItem("Dodatki", AdditionalsMenu));
-
-
-
-
-
-
-
-
-PollsMenu=new jsDOMenu(225, "", "absolute", false);
-
-
-
-
-PollsMenu.addMenuItem(new menuItem("Wypełnianie ankiet", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=227&amp;_SessionID=1644632&amp;_SessionKey=339089337&amp;_CheckSum=1016497905"));
-
-
-CambridgeMenuBar.addMenuBarItem(new menuBarItem("Ankiety", PollsMenu));
-
-
-CambridgeMenuBar.moveTo(0,20);
-}
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script type="text/javascript" src="/palio/html.script?_Instance=cambridge&amp;_fileName=calendar2/calendar.js"></script>
-<script type="text/javascript" src="/palio/html.script?_Instance=cambridge&amp;_fileName=calendar2/calendar-PL.js"></script>
-<link rel="StyleSheet" href="/palio/html.resource?_Instance=cambridge&amp;_fileName=css/calendar2/calendar-win2k-1.css&amp;_mimeType=text/css" type="text/css">
-
-
-
-</head>
-<body class="main" leftmargin="0" topmargin="0" marginleft="0" marginright="0">
-
-<script language="javascript">createMenuBar();</script><div id="DOMenuBar1" draggable="false" class="jsdomenubardiv" style="position: absolute; left: 0px; top: 20px;"><span class="jsdomenubardragdiv"></span><span id="menuBarItem1" class="jsdomenubaritem">Konto</span><span id="menuBarItem2" class="jsdomenubaritem">Studenci</span><span id="menuBarItem3" class="jsdomenubaritem">Studia</span><span id="menuBarItem4" class="jsdomenubaritem">Stypendia</span><span id="menuBarItem5" class="jsdomenubaritem">Raporty</span><span id="menuBarItem6" class="jsdomenubaritem">Dodatki</span><span id="menuBarItem7" class="jsdomenubaritem">Ankiety</span></div><div id="DOMenu1" class="jsdomenudiv" style="width: 200px; left: 0px; top: 0px;"><div id="menuItem1" class="jsdomenuitem">Zmiana hasła</div><div id="menuItem2" class="jsdomenuitem">Komunikator</div><div id="menuItem3" class="jsdomenuitem">Yammer</div><div id="menuSep1" class="jsdomenusep"><hr></div><div id="menuItem4" class="jsdomenuitem">Wylogowanie</div></div><div id="DOMenu2" class="jsdomenudiv" style="width: 320px; left: 0px; top: 0px;"><div id="menuItem5" class="jsdomenuitem">Moje dane</div><div id="menuItem6" class="jsdomenuitem">Moje indeksy</div></div><div id="DOMenu3" class="jsdomenudiv" style="width: 250px; left: 0px; top: 0px;"><div id="menuItem7" class="jsdomenuitem">Moje plany studiów</div><div id="menuItem8" class="jsdomenuitem">Harmonogramy zajęć</div><div id="menuItem9" class="jsdomenuitem">Harmonogramy moich zajęć</div><div id="menuItem10" class="jsdomenuitem">Harmonogramy innych zajęć</div><div id="menuItem11" class="jsdomenuitem">Harmonogramy zajętości sal</div></div><div id="DOMenu4" class="jsdomenudiv" style="width: 230px; left: 0px; top: 0px;"><div id="menuItem12" class="jsdomenuitem">Moje stypendia</div><div id="menuItem13" class="jsdomenuitem">Mój numer rachunku</div><div id="menuSep2" class="jsdomenusep"><hr></div><div id="menuItem14" class="jsdomenuitem">Fundusze stypendialne</div><div id="menuItem15" class="jsdomenuitem">Rodzaje stypendiów</div></div><div id="DOMenu5" class="jsdomenudiv" style="width: 200px; left: 0px; top: 0px;"><div id="menuItem16" class="jsdomenuitem">Generowanie raportów</div></div><div id="DOMenu6" class="jsdomenudiv" style="width: 200px; left: 0px; top: 0px;"><div id="menuItem17" class="jsdomenuitem">Forum internetowe</div></div><div id="DOMenu7" class="jsdomenudiv" style="width: 225px; left: 0px; top: 0px;"><div id="menuItem18" class="jsdomenuitem">Wypełnianie ankiet</div></div>
-
-
-<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
-<tbody><tr class="top_belt">
-
-<td align="left" height="20"><b>&nbsp;<a class="belt" href="/palio/html.run?_Instance=cambridge&amp;_PageID=6&amp;_SessionID=1644632&amp;_SessionKey=339089337&amp;_CheckSum=-1784902736"><span class="belt_application">CAMBRIDGE</span> <img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=51&amp;_CheckSum=684598873" width="14" height="14" border="0" style="position:relative;top:-2px;vertical-align:bottom"> Warszawska Szkoła Filmowa</a></b></td>
-<td align="right">
-
-
-
-
-
-
-
-
-
-<a href="/palio/html.run?_Instance=cambridge&amp;_PageID=6&amp;_SessionID=1644632&amp;_SessionKey=339089337&amp;SetLanguage=pl&amp;_CheckSum=906902634" class="belt" style="font-size:15px;line-height:18px;text-decoration:none" title="polski"><b>PL</b></a>
-<span class="belt" style="font-size:16px">|</span>
-<a href="/palio/html.run?_Instance=cambridge&amp;_PageID=6&amp;_SessionID=1644632&amp;_SessionKey=339089337&amp;SetLanguage=en&amp;_CheckSum=-1495281379" class="belt" style="font-size:15px;line-height:18px;text-decoration:none" title="english"><b>EN</b></a>
-<span class="belt" style="font-size:16px">|</span>
-
-
-<img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=94&amp;_CheckSum=-1316787974" style="cursor:pointer;vertical-align:bottom;margin-bottom:2px;margin-right:5px" alt="Wyloguj" title="Wyloguj" onclick="if(confirm('Czy na pewno chcesz się wylogować?'))window.location='https://student.szkolafilmowa.pl/palio/html.run?_Instance=cambridge&amp;_PageID=10012&amp;_Action=Logout&amp;_SessionID=1644632&amp;_SessionKey=339089337'">
-</td>
-
-</tr>
-</tbody></table>
-<br><br><br>
-
-<table border="0" cellspacing="0" cellpadding="0" align="center" width="750">
-<tbody><tr>
-<td valign="top" width="14"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=2&amp;_CheckSum=-1907088913" width="14" height="13" border="0"></td>
-<td valign="top" align="left" class="p_title">&nbsp;HARMONOGRAMY ZAJĘĆ</td>
-<td valign="top" align="right" class="font">użytkownik: <b>janprzybylak</b></td>
-</tr>
-</tbody></table>
-
-<table align="center" class="main-tab"><tbody><tr><td height="400" valign="top">
-<br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="info_text">Indywidualny harmonogram zajęć studenta<br>Warszawska Szkoła Filmowa - Film i multimedia/Realizacja obrazu filmowego - licencjackie stacjonarne - semestr I<br>Rozkład zajęć: FIM/ROF/S/2025 2028 semestr I grupa A</div><br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script>
-function goToDate(d)
-{
-if (correctReverseDate(d))
-{
-document.schedule_scroll_form._firstDayOfWeek.value = d;
-document.schedule_scroll_form.submit();
-}
-}
-function goForward()
-{
-document.schedule_scroll_form._firstDayOfWeek.value = '06-04-2026';
-document.schedule_scroll_form.submit();
-}
-function goBackward()
-{
-document.schedule_scroll_form._firstDayOfWeek.value = '28-03-2026';
-document.schedule_scroll_form.submit();
-}
-</script>
-<form method="post" name="schedule_scroll_form" id="schedule_scroll_form" action="/palio/html.run?_Instance=cambridge&amp;_PageID=191&amp;_SessionID=1644632&amp;_SessionKey=339089337&amp;_RowID=7265&amp;_RowIDType=I&amp;_CheckSum=925028798" onsubmit="return checkFrm_schedule_scroll_form(this)">
-<div style="display:none;"><input type="hidden" name="_formSubmitted" value="yes"></div>
-<input type="hidden" name="_firstDayOfWeek">
-<table cellspacing="0" cellpadding="0" border="0" align="center">
-<tbody><tr>
-<td class="font" align="center"></td>
-<td class="font" align="center">dd-mm-rrrr</td>
-<td class="font" align="center"></td>
-<td class="font" align="center"></td>
-<td class="font" align="center"></td>
-</tr>
-<tr>
-<td class="font" align="center"><a href="javascript:goBackward();" class="link"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=16&amp;_CheckSum=-551400784" border="0" alt="poprzedni tydzień" title="poprzedni tydzień"></a></td>
-<td class="font" align="center"><input type="text" name="schedule_date" id="schedule_date" maxlength="10" class="form" size="10"></td>
-<td class="font" align="center"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=22&amp;_CheckSum=-740161995" width="3" height="1" border="0"></td>
-<td class="font" align="center"><input type="button" name="schedule_date_calendar" id="schedule_date_calendar" value="..." class="button" onclick="showCalendar('schedule_date','schedule_date','%d-%m-%Y','24',true,'Bl');"></td>
-<td class="font" align="center"><a href="javascript:goForward();" class="link"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=15&amp;_CheckSum=2000756177" border="0" alt="następny tydzień" title="następny tydzień"></a></td>
-</tr>
-<tr>
-<td class="font" align="center"></td>
-<td class="font" align="center"><a href="javascript:goToDate(document.schedule_scroll_form.schedule_date.value);" class="link">przejdź</a></td>
-<td class="font" align="center"></td>
-<td class="font" align="center"></td>
-<td class="font" align="center"></td>
-</tr>
-</tbody></table>
-</form>
-
-<script type="text/javascript">
-function checkFrm_schedule_scroll_form(form) {
- var error="";
-
-if (error!="") {
-alert("Błędy w formularzu:"+error);
-return false;}
-return true;
-}
-
-</script>
-<script type="text/javascript" src="/palio/html.script?_Instance=cambridge&amp;_fileName=validate.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<br>
-
-
-
-
-
-
-
-
-
-
- 
- 
- 
-
-
-
-
- 
- 
- 
-
-
-
-
- 
- 
- 
-
-
-
-
- 
- 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<style type="text/css">
-.tip { border:1px solid black; font-size:10pt; }
-</style>
-<script>
-var IE = document.all?true:false
-if (!IE) document.captureEvents(Event.MOUSEMOVE)
-document.onmousemove = getMouseXY;
-var tmpX = 0;
-var tmpY = 0;
-var update_tip = false;
-function getMouseXY(e)
-{
-tmpX = (document.all) ? window.event.x + document.body.scrollLeft : e.pageX;
-tmpY = (document.all) ? window.event.y + document.body.scrollTop : e.pageY;
-if (update_tip == true) showtip(null);
-return true
-}
-function showtip(text)
-{
-if (text != null) tip = text;
-if (document.layers) // Netscape 4.0+
-{
-theString="<DIV CLASS='tip'>"+tip+"</DIV>"
-document.tooltip.document.write(theString)
-document.tooltip.document.close()
-document.tooltip.left=tmpX+10
-document.tooltip.top=tmpY+20
-document.tooltip.visibility="show"
-}
-else
-{
-if (document.getElementById) // Netscape 6.0+ and Internet Explorer 5.0+
-{
-tipDivElement=document.getElementById("tooltip")
-tipDivElement.innerHTML=tip
-tipDivElement.style.left=tmpX+10
-tipDivElement.style.top=tmpY+20
-tipDivElement.style.visibility = "visible"
-}
-}
-update_tip = true;
-}
-function hidetip()
-{
-update_tip = false;
-if (document.layers) // Netscape 4.0+
-{
-document.tooltip.visibility="hidden"
-}
-else
-{
-if (document.getElementById) // Netscape 6.0+ and Internet Explorer 5.0+
-{
-tipDivElement.style.visibility="hidden"
-}
-}
-}
-</script>
-<div id="tooltip" class="tooltip" style="position:absolute;visibility:hidden;border:1px solid black;font-family: Verdana, arial, helvetica, sans-serif; font-size : 10px;padding:1px;z-index:100;"></div>
-
-
-<br><div style="position:relative;height:445;width:935">
-
- 
-
-
-
-
-<div style="position:absolute; top: -5 ; left: 0; "><span class="font"><b>8</b></span></div>
-
-
-
-<div style="position:absolute; top: 25 ; left: 0; "><span class="font"><b>9</b></span></div>
-
-
-
-<div style="position:absolute; top: 55 ; left: 0; "><span class="font"><b>10</b></span></div>
-
-
-
-<div style="position:absolute; top: 85 ; left: 0; "><span class="font"><b>11</b></span></div>
-
-
-
-<div style="position:absolute; top: 115 ; left: 0; "><span class="font"><b>12</b></span></div>
-
-
-
-<div style="position:absolute; top: 145 ; left: 0; "><span class="font"><b>13</b></span></div>
-
-
-
-<div style="position:absolute; top: 175 ; left: 0; "><span class="font"><b>14</b></span></div>
-
-
-
-<div style="position:absolute; top: 205 ; left: 0; "><span class="font"><b>15</b></span></div>
-
-
-
-<div style="position:absolute; top: 235 ; left: 0; "><span class="font"><b>16</b></span></div>
-
-
-
-<div style="position:absolute; top: 265 ; left: 0; "><span class="font"><b>17</b></span></div>
-
-
-
-<div style="position:absolute; top: 295 ; left: 0; "><span class="font"><b>18</b></span></div>
-
-
-
-<div style="position:absolute; top: 325 ; left: 0; "><span class="font"><b>19</b></span></div>
-
-
-
-<div style="position:absolute; top: 355 ; left: 0; "><span class="font"><b>20</b></span></div>
-
-
-
-<div style="position:absolute; top: 385 ; left: 0; "><span class="font"><b>21</b></span></div>
-
-
-
-<div style="position:absolute; top: 415 ; left: 0; "><span class="font"><b>22</b></span></div>
-
-
-
-<style type="text/css">
-.frame { border-width:1px 0px 0px 1px; border-color:#D4D4D4; border-style:solid; }
-</style>
-<div style="position:absolute; top:0; left:20; z-index:0;">
-<table cellspacing="0" cellpadding="0" style="border:solid 1px #D4D4D4; z-index:0;" class="sort">
-
-
-<tbody><tr>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-</tr>
-
-
-<tr>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-</tr>
-
-
-<tr>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-</tr>
-
-
-<tr>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-</tr>
-
-
-<tr>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-</tr>
-
-
-<tr>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-</tr>
-
-
-<tr>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-</tr>
-
-
-<tr>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-</tr>
-
-
-<tr>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-</tr>
-
-
-<tr>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-</tr>
-
-
-<tr>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-</tr>
-
-
-<tr>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-</tr>
-
-
-<tr>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-</tr>
-
-
-<tr>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
-
-</tr>
-
-
-</tbody></table>
+<!DOCTYPE html><html dir="ltr" class="" lang="en"><head>
+    <title>Sign in to your account</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <link rel="preconnect" href="https://aadcdn.msftauth.net" crossorigin="">
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="//aadcdn.msftauth.net">
+<link rel="dns-prefetch" href="//aadcdn.msauth.net">
+
+    <meta name="PageID" content="ConvergedChangePassword">
+    <meta name="SiteID" content="">
+    <meta name="ReqLC" content="1033">
+    <meta name="LocLC" content="en-US">
+
+
+        <meta name="format-detection" content="telephone=no">
+
+    <noscript>
+        <meta http-equiv="Refresh" content="0; URL=https://login.microsoftonline.com/jsdisabled" />
+    </noscript>
+
+    
+    
+<meta name="robots" content="none">
+
+<script type="text/javascript" nonce="">//<![CDATA[
+$Config={"urlAsyncSsprBegin":"/common/SSPR/Begin","urlAsyncSsprPoll":"/common/SSPR/Poll","urlPasswordTypeCheckBegin":"/common/SSPR/BeginUserPasswordType","urlPasswordTypeCheckPoll":"/common/SSPR/PollUserPasswordType","urlErrorPage":"https://login.microsoftonline.com/common/error?mkt=en-US","iPollingTimeout":40000,"fCanGetSsprErrorDetailsFromErrorCode":true,"iMaxStackForKnockoutAsyncComponents":10000,"fShowButtons":true,"urlCdn":"https://aadcdn.msftauth.net/shared/1.0/","urlDefaultFavicon":"https://aadcdn.msftauth.net/shared/1.0/content/images/favicon_a_eupayfgghqiai7k9sol6lg2.ico","urlFooterTOU":"https://www.microsoft.com/en-US/servicesagreement/","urlFooterPrivacy":"https://privacy.microsoft.com/en-US/privacystatement","urlPost":"/common/SSPR/End","iPawnIcon":0,"iPollingInterval":2000,"sPOST_Username":"janprzybylak@onlineszkolafilmowa.com.pl","fEnableNumberMatching":true,"sFT":"AQABIQEAAABlMNzVhAPUTrARzfQjWPtKRXZvU3RzQXJ0aWZhY3RzAQAAAAAANn-zU5Xar8KitzovNRJdP1Ck7CPEvPRQwBx2FS4pp8Eu2N1igeoNkggM-jzGJLmQTIY6hJTxH11BOHk-8pJAa7oaoDYYmMZiC7EC8sjSkD8ZMtb5muWlyTd9CMlWF9iFQz0MESmrs5AeXBu28dob6OmAbhm8GtIsEd_khdnqPJZasJwCDLs_ycfNGnJvLvWmn0mMfY0kPEp_UkYQRdanzcPwqVUPIo-FoSPHDwUD7OBrC761F2fjX-aJw9lGtOHrmAqMGAfLlxhGKGar4bliaE0SQ0cCe8s25khmoV7HblyKdPIIPW1uop3GikFWrufJmIcX7yhigeYP_iWURBMeis7u0VDxbP0a-giYNHXHA8DSZGrvR2e2gigqPfKAOR3uB8wNAETn3FXT4adNRQpXnMYEJYoRMofjAwrfIlwC5xhry7e-KULOIMplJkUmYCjwd_q9R2es47ki8z1cfT3Ds7_xQcR9YYhHRr3eGcGQg4gQEA3-UkitqCIQFFybJrXaD9zmm6hahR-YAF8T-v9o4UjU4HtfH9PsVkvciaeG3oLdlM9A_qrJdofhv1WIcggblrfuEArA1dDG-ncvdVMo_4dLg_JTDYYbzPCmkv38_0sO1ridC8UlKKmqiH7ptnaE5M9XwEXmVh6hgNKH052eT-NqtxG6FYmoijbEgtUg2n4gAA","sFTName":"flowToken","sCtx":"rQQIARAA42Kw0s8oKSkottLXT0ktS83JL8hNzSvRy8_LycxLLa7Kzs9JTMvMyc0vT9RLzs_VK8jRLxLiElA9W2fecfGP44S6wLykI9MvrWJUg5lSXpymV5JflAdTXpCYk5kPtCM3R6-oNO8Qo1JmilFKmoW5UWKimaFZmomJmXliimlSimWqWYphqlGSmWXiBUbGF4yMDUyMt5hYgxNzc4xeMbHm5Kdn5m1iVjExsjRNsjBN0TUxMErUNUk1NNFNSjNJ0TUzMDMzTEkxTUlONXzErJ6VmFdQVFWZVJmTmO2A2zMXWHhesTAZcPxgYVzECvRXcnv8zaOqeR4rGa3KP3RwM5xi1Y9yLwjNNEmLyPavjPJyMcszDSvRtnTzC9Qv8Y3M9wm2rMwtzzP0dorKK8i2NbIynMDGe4qN4QMbUwc7wyx2hl2cXsQFjH28Z15xSWJecqptcmJuUlFmSnqqWmJugXV8QGJ6qqeLrbGpwQFehh98vee-Xm84MOW9xyt-Hf2wLK9Cr5ISswKvYG-DqrSqzETvkhyfAHeLtHTXiEAf8zwzxzDD3BLjUl_bDQIMD4BIkOGHIEOHEAMA0","fEnableOneDSClientTelemetry":true,"dynamicTenantBranding":null,"staticTenantBranding":null,"oAppCobranding":{},"iBackgroundImage":4,"fApplicationInsightsEnabled":false,"iApplicationInsightsEnabledPercentage":0,"urlSetDebugMode":"https://login.microsoftonline.com/common/debugmode","fEnableCssAnimation":true,"fAllowGrayOutLightBox":true,"fUseMsaSessionState":true,"fIsRemoteNGCSupported":true,"desktopSsoConfig":{"isEdgeAnaheimAllowed":true,"iwaEndpointUrlFormat":"https://autologon.microsoftazuread-sso.com/{0}/winauth/sso?client-request-id=377ecd25-d188-41fc-907e-516e62c497d2","iwaSsoProbeUrlFormat":"https://autologon.microsoftazuread-sso.com/{0}/winauth/ssoprobe?client-request-id=377ecd25-d188-41fc-907e-516e62c497d2","iwaIFrameUrlFormat":"https://autologon.microsoftazuread-sso.com/{0}/winauth/iframe?client-request-id=377ecd25-d188-41fc-907e-516e62c497d2\u0026isAdalRequest=False","iwaRequestTimeoutInMs":10000,"startDesktopSsoOnPageLoad":false,"progressAnimationTimeout":10000,"isEdgeAllowed":false,"minDssoEdgeVersion":"17","isSafariAllowed":true,"redirectUri":"https://wsf.torn.com.pl/palio/html.run?_Instance=cambridge\u0026amp%3b_PageID=350\u0026error=interaction_required\u0026error_description=Seamless+single+sign+on+failed+for+the+user.+This+can+happen+if+the+user+is+unable+to+access+on+premises+AD+or+intranet+zone+is+not+configured+correctly+Trace+ID%3a+1ef2ae49-9a00-4842-ac37-5adec99f0a00+Correlation+ID%3a+377ecd25-d188-41fc-907e-516e62c497d2+Timestamp%3a+2026-01-12+17%3a28%3a53Z","isIEAllowedForSsoProbe":true,"edgeRedirectUri":"https://autologon.microsoftazuread-sso.com/4295b85d-402a-4e14-bf4d-60661dd5dce1/winauth/sso/edgeredirect?client-request-id=377ecd25-d188-41fc-907e-516e62c497d2\u0026origin=login.microsoftonline.com\u0026is_redirected=1","isFlowTokenPassedInEdge":true},"iSessionPullType":2,"fUseSameSite":true,"uiflavor":1001,"fLoadStringCustomizationPromises":true,"fUseAlternateTextForSwitchToCredPickerLink":true,"fOfflineAccountVisible":false,"fEnableUserStateFix":true,"fShowAccessPassPeek":true,"fUpdateSessionPollingLogic":true,"fEnableShowPickerCredObservable":true,"fFetchSessionsSkipDsso":true,"fIsCiamUserFlowUxNewLogicEnabled":true,"fUseNonMicrosoftDefaultBrandingForCiam":true,"sCompanyDisplayName":"Warszawska Szkoła Filmowa","fRemoveCustomCss":true,"fFixUICrashForApiRequestHandler":true,"fShowUpdatedKoreanPrivacyFooter":true,"fUsePostCssHotfix":true,"fFixUserFlowBranding":true,"fEnablePasskeyNullFix":true,"fEnableRefreshCookiesFix":true,"fEnableWebNativeBridgeInterstitialUx":true,"fEnableWindowParentingFix":true,"fEnableNativeBridgeErrors":true,"urlAcmaServerPath":"https://login.microsoftonline.com","sTenantId":"4295b85d-402a-4e14-bf4d-60661dd5dce1","sMkt":"en-US","fIsDesktop":true,"fUpdateConfigInit":true,"fLogDisallowedCssProperties":true,"fDisallowExternalFonts":true,"scid":1000,"hpgact":2000,"hpgid":1116,"pgid":"ConvergedChangePassword","apiCanary":"PAQABDgEAAABlMNzVhAPUTrARzfQjWPtKJ2JOIOm2h1_kJBdxxxDS7fxt2I4q_q6jPFMyBlmgiqbEnpysvWH7zBYiT0xiCC_-47VTFKMYDFlWy7G0lj9QORy4RnskuwG-WvdVQdCBHdq2HiNlRfkZvRuyrC4jgb81UfoGpWpSmf8UidGKd2VrXot9yBeSLCjSdvkZTJzo2Kc_tJ4O-2zpTrNoREM8p-FAqOl9IaLWPCCFokjC4yX_6iAA","canary":"ZGpUi4fXkOyZJD6n5Vt+9FNQ/tMYoLS9ymwn1KBZnpk=8:1:CANARY:/VjJqJtt6pJSK0zfziaKtlLPG8fgEXQL7n6AV1mt3uM=","sCanaryTokenName":"canary","fSkipRenderingNewCanaryToken":false,"fEnableNewCsrfProtection":true,"correlationId":"377ecd25-d188-41fc-907e-516e62c497d2","sessionId":"1ef2ae49-9a00-4842-ac37-5adec99f0a00","sRingId":"R6","locale":{"mkt":"en-US","lcid":1033},"slMaxRetry":2,"slReportFailure":true,"strings":{"desktopsso":{"authenticatingmessage":"Trying to sign you in"}},"enums":{"ClientMetricsModes":{"None":0,"SubmitOnPost":1,"SubmitOnRedirect":2,"InstrumentPlt":4}},"urls":{"instr":{"pageload":"https://login.microsoftonline.com/common/instrumentation/reportpageload","dssostatus":"https://login.microsoftonline.com/common/instrumentation/dssostatus"}},"browser":{"ltr":1,"Chrome":1,"_Linux":1,"_M120":1,"_D0":1,"Full":1,"RE_WebKit":1,"b":{"name":"Chrome","major":120,"minor":0},"os":{"name":"Linux","version":""},"V":"120.0"},"watson":{"url":"/common/handlers/watson","bundle":"https://aadcdn.msftauth.net/ests/2.1/content/cdnbundles/watson.min_q5ptmu8aniymd4ftuqdkda2.js","sbundle":"https://aadcdn.msftauth.net/ests/2.1/content/cdnbundles/watsonsupportwithjquery.3.5.min_dc940oomzau4rsu8qesnvg2.js","fbundle":"https://aadcdn.msftauth.net/ests/2.1/content/cdnbundles/frameworksupport.min_oadrnc13magb009k4d20lg2.js","resetErrorPeriod":5,"maxCorsErrors":-1,"maxInjectErrors":5,"maxErrors":10,"maxTotalErrors":3,"expSrcs":["https://login.microsoftonline.com","https://aadcdn.msauth.net/","https://aadcdn.msftauth.net/",".login.microsoftonline.com"],"envErrorRedirect":true,"envErrorUrl":"/common/handlers/enverror"},"loader":{"cdnRoots":["https://aadcdn.msauth.net/","https://aadcdn.msftauth.net/"],"logByThrowing":true},"serverDetails":{"slc":"ProdSlices","dc":"FRC","ri":"PA2XXXX","ver":{"v":[2,1,22891,5]},"rt":"2026-01-12T17:28:53","et":159},"clientEvents":{"enabled":true,"telemetryEnabled":true,"useOneDSEventApi":true,"flush":60000,"autoPost":true,"autoPostDelay":1000,"minEvents":1,"maxEvents":1,"pltDelay":500,"appInsightsConfig":{"instrumentationKey":"b0c252808e614e949086e019ae1cb300-e0c02060-e3b3-4965-bd7c-415e1a7a9fde-6951","webAnalyticsConfiguration":{"autoCapture":{"jsError":true}}},"defaultEventName":"IDUX_ESTSClientTelemetryEvent_WebWatson","serviceID":3,"endpointUrl":"https://eu-mobile.events.data.microsoft.com/OneCollector/1.0/"},"fApplyAsciiRegexOnInput":true,"country":"US","fBreakBrandingSigninString":true,"bsso":{"type":"none","reason":"Chrome: Pull suppressed as UserAgent did not meet required criteria, Other: Pull suppressed due to POST request"},"urlNoCookies":"https://login.microsoftonline.com/cookiesdisabled","fTrimChromeBssoUrl":true,"inlineMode":5,"fShowCopyDebugDetailsLink":true,"fTenantBrandingCdnAddEventHandlers":true,"fAddTryCatchForIFrameRedirects":true};
+//]]></script> 
+<script type="text/javascript" nonce="">//<![CDATA[
+!function(){var e=window,r=e.$Debug=e.$Debug||{},t=e.$Config||{};if(!r.appendLog){var n=[],o=0;r.appendLog=function(e){var r=t.maxDebugLog||25,i=(new Date).toUTCString()+":"+e;n.push(o+":"+i),n.length>r&&n.shift(),o++},r.getLogs=function(){return n}}}(),function(){function e(e,r){function t(i){var a=e[i];if(i<n-1){return void(o.r[a]?t(i+1):o.when(a,function(){t(i+1)}))}r(a)}var n=e.length;t(0)}function r(e,r,i){function a(){var e=!!s.method,o=e?s.method:i[0],a=s.extraArgs||[],u=n.$WebWatson;try{
+var c=t(i,!e);if(a&&a.length>0){for(var d=a.length,l=0;l<d;l++){c.push(a[l])}}o.apply(r,c)}catch(e){return void(u&&u.submitFromException&&u.submitFromException(e))}}var s=o.r&&o.r[e];return r=r||this,s&&(s.skipTimeout?a():n.setTimeout(a,0)),s}function t(e,r){return Array.prototype.slice.call(e,r?1:0)}var n=window;n.$Do||(n.$Do={"q":[],"r":[],"removeItems":[],"lock":0,"o":[]});var o=n.$Do;o.when=function(t,n){function i(e){r(e,a,s)||o.q.push({"id":e,"c":a,"a":s})}var a=0,s=[],u=1;"function"==typeof n||(a=n,
+u=2);for(var c=u;c<arguments.length;c++){s.push(arguments[c])}t instanceof Array?e(t,i):i(t)},o.register=function(e,t,n){if(!o.r[e]){o.o.push(e);var i={};if(t&&(i.method=t),n&&(i.skipTimeout=n),arguments&&arguments.length>3){i.extraArgs=[];for(var a=3;a<arguments.length;a++){i.extraArgs.push(arguments[a])}}o.r[e]=i,o.lock++;try{for(var s=0;s<o.q.length;s++){var u=o.q[s];u.id==e&&r(e,u.c,u.a)&&o.removeItems.push(u)}}catch(e){throw e}finally{if(0===--o.lock){for(var c=0;c<o.removeItems.length;c++){
+for(var d=o.removeItems[c],l=0;l<o.q.length;l++){if(o.q[l]===d){o.q.splice(l,1);break}}}o.removeItems=[]}}}},o.unregister=function(e){o.r[e]&&delete o.r[e]}}(),function(e,r){function t(){if(!a){if(!r.body){return void setTimeout(t)}a=!0,e.$Do.register("doc.ready",0,!0)}}function n(){if(!s){if(!r.body){return void setTimeout(n)}t(),s=!0,e.$Do.register("doc.load",0,!0),i()}}function o(e){(r.addEventListener||"load"===e.type||"complete"===r.readyState)&&t()}function i(){
+r.addEventListener?(r.removeEventListener("DOMContentLoaded",o,!1),e.removeEventListener("load",n,!1)):r.attachEvent&&(r.detachEvent("onreadystatechange",o),e.detachEvent("onload",n))}var a=!1,s=!1;if("complete"===r.readyState){return void setTimeout(n)}!function(){r.addEventListener?(r.addEventListener("DOMContentLoaded",o,!1),e.addEventListener("load",n,!1)):r.attachEvent&&(r.attachEvent("onreadystatechange",o),e.attachEvent("onload",n))}()}(window,document),function(){function e(){
+return f.$Config||f.ServerData||{}}function r(e,r){var t=f.$Debug;t&&t.appendLog&&(r&&(e+=" '"+(r.src||r.href||"")+"'",e+=", id:"+(r.id||""),e+=", async:"+(r.async||""),e+=", defer:"+(r.defer||"")),t.appendLog(e))}function t(){var e=f.$B;if(void 0===d){if(e){d=e.IE}else{var r=f.navigator.userAgent;d=-1!==r.indexOf("MSIE ")||-1!==r.indexOf("Trident/")}}return d}function n(){var e=f.$B;if(void 0===l){if(e){l=e.RE_Edge}else{var r=f.navigator.userAgent;l=-1!==r.indexOf("Edge")}}return l}function o(e){
+var r=e.indexOf("?"),t=r>-1?r:e.length,n=e.lastIndexOf(".",t);return e.substring(n,n+v.length).toLowerCase()===v}function i(){var r=e();return(r.loader||{}).slReportFailure||r.slReportFailure||!1}function a(){return(e().loader||{}).redirectToErrorPageOnLoadFailure||!1}function s(){return(e().loader||{}).logByThrowing||!1}function u(e){if(!t()&&!n()){return!1}var r=e.src||e.href||"";if(!r){return!0}if(o(r)){var i,a,s;try{i=e.sheet,a=i&&i.cssRules,s=!1}catch(e){s=!0}if(i&&!a&&s){return!0}
+if(i&&a&&0===a.length){return!0}}return!1}function c(){function t(e){g.getElementsByTagName("head")[0].appendChild(e)}function n(e,r,t,n){var u=null;return u=o(e)?i(e):"script"===n.toLowerCase()?a(e):s(e,n),r&&(u.id=r),"function"==typeof u.setAttribute&&(u.setAttribute("crossorigin","anonymous"),t&&"string"==typeof t&&u.setAttribute("integrity",t)),u}function i(e){var r=g.createElement("link");return r.rel="stylesheet",r.type="text/css",r.href=e,r}function a(e){
+var r=g.createElement("script"),t=g.querySelector("script[nonce]");if(r.type="text/javascript",r.src=e,r.defer=!1,r.async=!1,t){var n=t.nonce||t.getAttribute("nonce");r.setAttribute("nonce",n)}return r}function s(e,r){var t=g.createElement(r);return t.src=e,t}function d(e,r){if(e&&e.length>0&&r){for(var t=0;t<e.length;t++){if(-1!==r.indexOf(e[t])){return!0}}}return!1}function l(r){if(e().fTenantBrandingCdnAddEventHandlers){var t=d(E,r)?E:b;if(!(t&&t.length>1)){return r}for(var n=0;n<t.length;n++){
+if(-1!==r.indexOf(t[n])){var o=t[n+1<t.length?n+1:0],i=r.substring(t[n].length);return"https://"!==t[n].substring(0,"https://".length)&&(o="https://"+o,i=i.substring("https://".length)),o+i}}return r}if(!(b&&b.length>1)){return r}for(var a=0;a<b.length;a++){if(0===r.indexOf(b[a])){return b[a+1<b.length?a+1:0]+r.substring(b[a].length)}}return r}function f(e,t,n,o){if(r("[$Loader]: "+(L.failMessage||"Failed"),o),w[e].retry<y){return w[e].retry++,h(e,t,n),void c._ReportFailure(w[e].retry,w[e].srcPath)}n&&n()}
+function v(e,t,n,o){if(u(o)){return f(e,t,n,o)}r("[$Loader]: "+(L.successMessage||"Loaded"),o),h(e+1,t,n);var i=w[e].onSuccess;"function"==typeof i&&i(w[e].srcPath)}function h(e,o,i){if(e<w.length){var a=w[e];if(!a||!a.srcPath){return void h(e+1,o,i)}a.retry>0&&(a.srcPath=l(a.srcPath),a.origId||(a.origId=a.id),a.id=a.origId+"_Retry_"+a.retry);var s=n(a.srcPath,a.id,a.integrity,a.tagName);s.onload=function(){v(e,o,i,s)},s.onerror=function(){f(e,o,i,s)},s.onreadystatechange=function(){
+"loaded"===s.readyState?setTimeout(function(){v(e,o,i,s)},500):"complete"===s.readyState&&v(e,o,i,s)},t(s),r("[$Loader]: Loading '"+(a.srcPath||"")+"', id:"+(a.id||""))}else{o&&o()}}var p=e(),y=p.slMaxRetry||2,m=p.loader||{},b=m.cdnRoots||[],E=m.tenantBrandingCdnRoots||[],L=this,w=[];L.retryOnError=!0,L.successMessage="Loaded",L.failMessage="Error",L.Add=function(e,r,t,n,o,i){e&&w.push({"srcPath":e,"id":r,"retry":n||0,"integrity":t,"tagName":o||"script","onSuccess":i})},L.AddForReload=function(e,r){
+var t=e.src||e.href||"";L.Add(t,"AddForReload",e.integrity,1,e.tagName,r)},L.AddIf=function(e,r,t){e&&L.Add(r,t)},L.Load=function(e,r){h(0,e,r)}}var d,l,f=window,g=f.document,v=".css";c.On=function(e,r,t){if(!e){throw"The target element must be provided and cannot be null."}r?c.OnError(e,t):c.OnSuccess(e,t)},c.OnSuccess=function(e,t){if(!e){throw"The target element must be provided and cannot be null."}if(u(e)){return c.OnError(e,t)}var n=e.src||e.href||"",o=i(),s=a();r("[$Loader]: Loaded",e);var d=new c
+;d.failMessage="Reload Failed",d.successMessage="Reload Success",d.Load(null,function(){if(o){throw"Unexpected state. ResourceLoader.Load() failed despite initial load success. ['"+n+"']"}s&&(document.location.href="/error.aspx?err=504")})},c.OnError=function(e,t){var n=e.src||e.href||"",o=i(),s=a();if(!e){throw"The target element must be provided and cannot be null."}r("[$Loader]: Failed",e);var u=new c;u.failMessage="Reload Failed",u.successMessage="Reload Success",u.AddForReload(e,t),
+u.Load(null,function(){if(o){throw"Failed to load external resource ['"+n+"']"}s&&(document.location.href="/error.aspx?err=504")}),c._ReportFailure(0,n)},c._ReportFailure=function(e,r){if(s()&&!t()){throw"[Retry "+e+"] Failed to load external resource ['"+r+"'], reloading from fallback CDN endpoint"}},f.$Loader=c}(),function(){function e(){if(!E){var e=new h.$Loader;e.AddIf(!h.jQuery,y.sbundle,"WebWatson_DemandSupport"),y.sbundle=null,delete y.sbundle,e.AddIf(!h.$Api,y.fbundle,"WebWatson_DemandFramework"),
+y.fbundle=null,delete y.fbundle,e.Add(y.bundle,"WebWatson_DemandLoaded"),e.Load(r,t),E=!0}}function r(){if(h.$WebWatson){if(h.$WebWatson.isProxy){return void t()}m.when("$WebWatson.full",function(){for(;b.length>0;){var e=b.shift();e&&h.$WebWatson[e.cmdName].apply(h.$WebWatson,e.args)}})}}function t(){if(!h.$WebWatson||h.$WebWatson.isProxy){if(!L&&JSON){try{var e=new XMLHttpRequest;e.open("POST",y.url),e.setRequestHeader("Accept","application/json"),
+e.setRequestHeader("Content-Type","application/json; charset=UTF-8"),e.setRequestHeader("canary",p.apiCanary),e.setRequestHeader("client-request-id",p.correlationId),e.setRequestHeader("hpgid",p.hpgid||0),e.setRequestHeader("hpgact",p.hpgact||0);for(var r=-1,t=0;t<b.length;t++){if("submit"===b[t].cmdName){r=t;break}}var o=b[r]?b[r].args||[]:[],i={"sr":y.sr,"ec":"Failed to load external resource [Core Watson files]","wec":55,"idx":1,"pn":p.pgid||"","sc":p.scid||0,"hpg":p.hpgid||0,
+"msg":"Failed to load external resource [Core Watson files]","url":o[1]||"","ln":0,"ad":0,"an":!1,"cs":"","sd":p.serverDetails,"ls":null,"diag":v(y)};e.send(JSON.stringify(i))}catch(e){}L=!0}y.loadErrorUrl&&window.location.assign(y.loadErrorUrl)}n()}function n(){b=[],h.$WebWatson=null}function o(r){return function(){var t=arguments;b.push({"cmdName":r,"args":t}),e()}}function i(){var e=["foundException","resetException","submit"],r=this;r.isProxy=!0;for(var t=e.length,n=0;n<t;n++){var i=e[n];i&&(r[i]=o(i))}
+}function a(e,r,t,n,o,i,a){var s=h.event;return i||(i=l(o||s,a?a+2:2)),h.$Debug&&h.$Debug.appendLog&&h.$Debug.appendLog("[WebWatson]:"+(e||"")+" in "+(r||"")+" @ "+(t||"??")),$.submit(e,r,t,n,o||s,i,a)}function s(e,r){return{"signature":e,"args":r,"toString":function(){return this.signature}}}function u(e){for(var r=[],t=e.split("\n"),n=0;n<t.length;n++){r.push(s(t[n],[]))}return r}function c(e){for(var r=[],t=e.split("\n"),n=0;n<t.length;n++){var o=s(t[n],[]);t[n+1]&&(o.signature+="@"+t[n+1],n++),r.push(o)
+}return r}function d(e){if(!e){return null}try{if(e.stack){return u(e.stack)}if(e.error){if(e.error.stack){return u(e.error.stack)}}else if(window.opera&&e.message){return c(e.message)}}catch(e){}return null}function l(e,r){var t=[];try{for(var n=arguments.callee;r>0;){n=n?n.caller:n,r--}for(var o=0;n&&o<w;){var i="InvalidMethod()";try{i=n.toString()}catch(e){}var a=[],u=n.args||n.arguments;if(u){for(var c=0;c<u.length;c++){a[c]=u[c]}}t.push(s(i,a)),n=n.caller,o++}}catch(e){t.push(s(e.toString(),[]))}
+var l=d(e);return l&&(t.push(s("--- Error Event Stack -----------------",[])),t=t.concat(l)),t}function f(e){if(e){try{var r=/function (.{1,})\(/,t=r.exec(e.constructor.toString());return t&&t.length>1?t[1]:""}catch(e){}}return""}function g(e){if(e){try{if("string"!=typeof e&&JSON&&JSON.stringify){var r=f(e),t=JSON.stringify(e);return t&&"{}"!==t||(e.error&&(e=e.error,r=f(e)),(t=JSON.stringify(e))&&"{}"!==t||(t=e.toString())),r+":"+t}}catch(e){}}return""+(e||"")}function v(e){var r=[];try{
+if(jQuery?(r.push("jQuery v:"+jQuery().jquery),jQuery.easing?r.push("jQuery.easing:"+JSON.stringify(jQuery.easing)):r.push("jQuery.easing is not defined")):r.push("jQuery is not defined"),e&&e.expectedVersion&&r.push("Expected jQuery v:"+e.expectedVersion),m){var t,n="";for(t=0;t<m.o.length;t++){n+=m.o[t]+";"}for(r.push("$Do.o["+n+"]"),n="",t=0;t<m.q.length;t++){n+=m.q[t].id+";"}r.push("$Do.q["+n+"]")}if(h.$Debug&&h.$Debug.getLogs){var o=h.$Debug.getLogs();o&&o.length>0&&(r=r.concat(o))}if(b){
+for(var i=0;i<b.length;i++){var a=b[i];if(a&&"submit"===a.cmdName){try{if(JSON&&JSON.stringify){var s=JSON.stringify(a);s&&r.push(s)}}catch(e){r.push(g(e))}}}}}catch(e){r.push(g(e))}return r}var h=window,p=h.$Config||{},y=p.watson,m=h.$Do;if(!h.$WebWatson&&y){var b=[],E=!1,L=!1,w=10,$=h.$WebWatson=new i;$.CB={},$._orgErrorHandler=h.onerror,h.onerror=a,$.errorHooked=!0,m.when("jQuery.version",function(e){y.expectedVersion=e}),m.register("$WebWatson")}}(),function(){function e(e,r){
+for(var t=r.split("."),n=t.length,o=0;o<n&&null!==e&&void 0!==e;){e=e[t[o++]]}return e}function r(r){var t=null;return null===u&&(u=e(i,"Constants")),null!==u&&r&&(t=e(u,r)),null===t||void 0===t?"":t.toString()}function t(t){var n=null;return null===a&&(a=e(i,"$Config.strings")),null!==a&&t&&(n=e(a,t.toLowerCase())),null!==n&&void 0!==n||(n=r(t)),null===n||void 0===n?"":n.toString()}function n(e,r){var n=null;return e&&r&&r[e]&&(n=t("errors."+r[e])),n||(n=t("errors."+e)),n||(n=t("errors."+c)),n||(n=t(c)),n}
+function o(t){var n=null;return null===s&&(s=e(i,"$Config.urls")),null!==s&&t&&(n=e(s,t.toLowerCase())),null!==n&&void 0!==n||(n=r(t)),null===n||void 0===n?"":n.toString()}var i=window,a=null,s=null,u=null,c="GENERIC_ERROR";i.GetString=t,i.GetErrorString=n,i.GetUrl=o}(),function(){var e=window,r=e.$Config||{};e.$B=r.browser||{}}(),function(){function e(e,r,t){e&&e.addEventListener?e.addEventListener(r,t):e&&e.attachEvent&&e.attachEvent("on"+r,t)}function r(r,t){e(document.getElementById(r),"click",t)}
+function t(r,t){var n=document.getElementsByName(r);n&&n.length>0&&e(n[0],"click",t)}var n=window;n.AddListener=e,n.ClickEventListenerById=r,n.ClickEventListenerByName=t}();
+//]]></script> 
+<script type="text/javascript" nonce="">//<![CDATA[
+!function(t,e){!function(){var n=e.getElementsByTagName("head")[0];n&&n.addEventListener&&(n.addEventListener("error",function(e){null!==e.target&&"cdn"===e.target.getAttribute("data-loader")&&t.$Loader.OnError(e.target)},!0),n.addEventListener("load",function(e){null!==e.target&&"cdn"===e.target.getAttribute("data-loader")&&t.$Loader.OnSuccess(e.target)},!0))}()}(window,document);
+//]]></script>
+
+    
+        <link rel="prefetch" href="https://login.live.com/Me.htm?v=3">
+                <link rel="shortcut icon" href="https://aadcdn.msftauth.net/shared/1.0/content/images/favicon_a_eupayfgghqiai7k9sol6lg2.ico">
+
+    <script type="text/javascript" nonce="">
+        ServerData = $Config;
+    </script>
+
+
+    
+    <link data-loader="cdn" crossorigin="anonymous" href="https://aadcdn.msftauth.net/ests/2.1/content/cdnbundles/converged.v2.login.min_kptqschdvwnh6yq41ngsjw2.css" rel="stylesheet">
+
+    <script data-loader="cdn" crossorigin="anonymous" src="https://aadcdn.msftauth.net/shared/1.0/content/js/ConvergedChangePassword_Core_KADpALXTHj1eVQkkCwOSNw2.js" integrity="sha384-fAz6BFWDmkon6txig4tmLfrRd81cmfJgda/ZMmS38v+8BUiPa9tj2vCadWU+9aBu" nonce=""></script>
+
+    <script data-loader="cdn" crossorigin="anonymous" src="https://aadcdn.msftauth.net/ests/2.1/content/cdnbundles/ux.converged.change.password.strings-en.min_ljns56n0xjakfcmwhhy9ua2.js" nonce=""></script>
+
+
+<script charset="utf-8" nonce="" src="https://aadcdn.msftauth.net/shared/1.0/content/js/oneDs_44aa734b8e3560d1653c.js"></script><script charset="utf-8" nonce="" src="https://aadcdn.msftauth.net/shared/1.0/content/js/asyncchunk/convergedchangepassword_customizationloader_ba4b21387dcd55d1b759.js"></script></head>
+
+<body data-bind="defineGlobals: ServerData, bodyCssClass" class="cb" style="display: block;">
+    <script type="text/javascript" nonce="">//<![CDATA[
+!function(){var e=window,s=e.document,i=e.$Config||{};if(e.self===e.top){s&&s.body&&(s.body.style.display="block")}else if(!i.allowFrame){var o,t,r,f,n,d;if(i.fAddTryCatchForIFrameRedirects){try{o=e.self.location.href,t=o.indexOf("#"),r=-1!==t,f=o.indexOf("?"),n=r?t:o.length,d=-1===f||r&&f>t?"?":"&",o=o.substr(0,n)+d+"iframe-request-id="+i.sessionId+o.substr(n),e.top.location=o}catch(e){}}else{o=e.self.location.href,t=o.indexOf("#"),r=-1!==t,f=o.indexOf("?"),n=r?t:o.length,d=-1===f||r&&f>t?"?":"&",
+o=o.substr(0,n)+d+"iframe-request-id="+i.sessionId+o.substr(n),e.top.location=o}}}();
+//]]></script>
+    
+
+<div><!--  -->
+
+<form novalidate="novalidate" spellcheck="false" method="post" target="_top" autocomplete="off" data-bind="autoSubmit: forceSubmit, attr: { action: svr.urlPost }" action="/common/SSPR/End">
+
+    <!-- ko withProperties: { '$changePasswordPage': $data } -->
+    <div data-bind="component: { name: 'master-page',
+        publicMethods: masterPageMethods,
+        params: {
+            serverData: svr,
+            showButtons: svr.fShowButtons,
+            showFooterLinks: true,
+            handleWizardButtons: false,
+            useWizardBehavior: svr.fUseWizardBehavior } }"><!--  -->
+
+<!-- ko ifnot: useLayoutTemplates --><!-- /ko -->
+
+<!-- ko if: useLayoutTemplates -->
+    <!-- ko withProperties: { '$page': $parent } -->
+        <!-- ko if: isLightboxTemplate() -->
+        <div id="lightboxTemplateContainer" data-bind="component: { name: 'lightbox-template', params: { serverData: svr, showHeader: $page.showHeader(), headerLogo: $page.headerLogo() } }, css: { 'provide-min-height': svr.fUseMinHeight }"><!--  -->
+
+<div id="lightboxBackgroundContainer" data-bind="css: { 'provide-min-height': svr.fUsePlaywrightMinHeight },
+    component: { name: 'background-image-control',
+        publicMethods: $page.backgroundControlMethods,
+        event: { load: $page.backgroundImageControl_onLoad } }"><div class="background-image-holder" role="presentation" data-bind="css: { app: isAppBranding }, style: { background: backgroundStyle }">
+    <!-- ko if: smallImageUrl --><!-- /ko -->
+
+    <!-- ko if: backgroundImageUrl -->
+    <div id="backgroundImage" role="img" data-bind="backgroundImage: backgroundImageUrl(), externalCss: { 'background-image': true }, ariaLabel: str['STR_Background_Image_AltText']" class="background-image ext-background-image" aria-label="Organization background image" style="background-image: url(&quot;https://aadcdn.msftauth.net/shared/1.0/content/images/backgrounds/4_eae2dd7eb3a55636dc2d74f4fa4c386e.svg&quot;);"></div>
+        <!-- ko if: useImageMask --><!-- /ko -->
+    <!-- /ko -->
+</div></div>
+
+<!-- ko if: svr.iBannerEnvironment --><!-- /ko -->
+
+<!-- ko withProperties: { '$masterPageContext': $parentContext } -->
+<div class="outer" data-bind="css: { 'app': $page.backgroundLogoUrl }">
+    <!-- ko if: showHeader --><!-- /ko -->
+
+    <div class="template-section main-section">
+        <div data-bind="externalCss: { 'middle': true }" class="middle ext-middle">
+            <div class="full-height" data-bind="component: { name: 'content-control', params: { serverData: svr, isVerticalSplitTemplate: $page.isVerticalSplitTemplate(), hasHeader: showHeader } }"><!--  -->
+
+<!-- ko withProperties: { '$content': $data } -->
+<div class="flex-column">
+    <!-- ko if: $page.paginationControlHelper.showBackgroundLogoHolder --><!-- /ko -->
+
+    <!-- ko if: $page.paginationControlHelper.showPageLevelTitleControl --><!-- /ko -->
+
+    <div class="win-scroll">
+        <div id="lightbox" data-bind="
+            animationEnd: $page.paginationControlHelper.animationEnd,
+            externalCss: { 'sign-in-box': true },
+            css: {
+                'inner':  $content.isVerticalSplitTemplate,
+                'vertical-split-content': $content.isVerticalSplitTemplate,
+                'app': $page.backgroundLogoUrl,
+                'wide': $page.paginationControlHelper.useWiderWidth,
+                'fade-in-lightbox': $page.fadeInLightBox,
+                'has-popup': $page.showFedCredAndNewSession &amp;&amp; ($page.showFedCredButtons() || $page.newSession()),
+                'transparent-lightbox': $page.backgroundControlMethods() &amp;&amp; $page.backgroundControlMethods().useTransparentLightBox,
+                'lightbox-bottom-margin-debug': $page.showDebugDetails,
+                'has-header': $content.hasHeader }" class="sign-in-box ext-sign-in-box fade-in-lightbox">
+
+            <!-- ko template: { nodes: $masterPageContext.$componentTemplateNodes, data: $page } -->
+
+        <div class="lightbox-cover" data-bind="css: { 'disable-lightbox': svr.fAllowGrayOutLightBox &amp;&amp; isRequestPending() }"></div>
+
+        <!-- ko if: isRequestPending --><!-- /ko -->
+
+        <!-- ko if: loadBannerLogo -->
+        <div data-bind="component: { name: 'logo-control', params: { isChinaDc: svr.fIsChinaDc, bannerLogoUrl: bannerLogoUrl() } }"><!--  -->
+
+<!-- ko if: bannerLogoUrl --><!-- /ko -->
+
+<!-- ko if: !bannerLogoUrl && !isChinaDc && !isCiamUserFlowUx -->
+    <!-- ko if: !svr.fEnableDelosBrandingForEntra && !svr.fEnableBleuBrandingForEntra -->
+        <!-- ko component: 'accessible-image-control' --><!-- ko if: (isHighContrastBlackTheme || hasDarkBackground || svr.fHasBackgroundColor) && !isHighContrastWhiteTheme --><!-- /ko -->
+<!-- ko if: (isHighContrastWhiteTheme || (!hasDarkBackground && !svr.fHasBackgroundColor)) && !isHighContrastBlackTheme -->
+<!-- ko template: { nodes: [darkImageNode], data: $parent } --><img class="logo" role="img" pngsrc="https://aadcdn.msftauth.net/shared/1.0/content/images/microsoft_logo_ea19b2112f4dfd8e90b4505ef7dcb4f9.png" svgsrc="https://aadcdn.msftauth.net/shared/1.0/content/images/microsoft_logo_564db913a7fa0ca42727161c6d031bef.svg" data-bind="imgSrc, attr: { alt: str['MOBILE_STR_Footer_Microsoft'] }" src="https://aadcdn.msftauth.net/shared/1.0/content/images/microsoft_logo_564db913a7fa0ca42727161c6d031bef.svg" alt="Microsoft"><!-- /ko -->
+<!-- /ko --><!-- /ko -->
+    <!-- /ko -->
+    <!-- ko if: svr.fEnableDelosBrandingForEntra --><!-- /ko -->
+    <!-- ko if: svr.fEnableBleuBrandingForEntra --><!-- /ko -->
+<!-- /ko -->
+<!-- ko if: !bannerLogoUrl && isCiamUserFlowUx && bannerLogoText --><!-- /ko --></div>
+        <!-- /ko -->
+
+        <div role="main" data-bind="component: { name: 'pagination-control',
+                publicMethods: paginationControlMethods,
+                params: {
+                    enableCssAnimation: svr.fEnableCssAnimation,
+                    disableAnimationIfAnimationEndUnsupported: svr.fDisableAnimationIfAnimationEndUnsupported,
+                    initialViewId: initialViewId },
+                event: {
+                    load: paginationControlHelper.onLoad,
+                    unload: paginationControlHelper.onUnload,
+                    loadView: view_onLoadView,
+                    showView: view_onShow,
+                    setLightBoxFadeIn: view_onSetLightBoxFadeIn } }"><!--  -->
+
+<div data-bind="css: { 'zero-opacity': hidePaginatedView() }" class="">
+    <!-- ko if: showIdentityBanner() && (sharedData.displayName || svr.sPOST_Username) -->
+    <div data-bind="css: {
+        'animate': animate() &amp;&amp; animate.animateBanner(),
+        'slide-out-next': animate.isSlideOutNext(),
+        'slide-in-next': animate.isSlideInNext(),
+        'slide-out-back': animate.isSlideOutBack(),
+        'slide-in-back': animate.isSlideInBack() }" class="animate slide-in-next">
+
+        <div data-bind="component: { name: 'identity-banner-control',
+            params: {
+                userTileUrl: svr.urlProfilePhoto,
+                displayName: sharedData.displayName || svr.sPOST_Username,
+                isBackButtonVisible: isBackButtonVisible(),
+                focusOnBackButton: isBackButtonFocused(),
+                backButtonDescribedBy: backButtonDescribedBy() },
+            event: {
+                backButtonClick: identityBanner_onBackButtonClick } }"><!--  -->
+
+<div class="identityBanner">
+    <!-- ko if: isBackButtonVisible --><!-- /ko -->
+
+    <div id="displayName" class="identity" data-bind="text: unsafe_displayName, attr: { 'title': unsafe_displayName }" title="janprzybylak@onlineszkolafilmowa.com.pl">janprzybylak@onlineszkolafilmowa.com.pl</div>
+</div></div>
+    </div>
+    <!-- /ko -->
+
+    <div class="pagination-view has-identity-banner animate slide-in-next" data-bind="css: {
+        'has-identity-banner': showIdentityBanner() &amp;&amp; (sharedData.displayName || svr.sPOST_Username),
+        'zero-opacity': hidePaginatedView.hideSubView(),
+        'animate': animate(),
+        'slide-out-next': animate.isSlideOutNext(),
+        'slide-in-next': animate.isSlideInNext(),
+        'slide-out-back': animate.isSlideOutBack(),
+        'slide-in-back': animate.isSlideInBack() }">
+
+        <!-- ko foreach: views -->
+            <!-- ko if: $parent.currentViewIndex() === $index() --><!-- /ko -->
+        
+            <!-- ko if: $parent.currentViewIndex() === $index() -->
+                <!-- ko template: { nodes: [$data], data: $parent } --><div data-viewid="22" data-showidentitybanner="true" data-bind="pageViewComponent: { name: 'change-password-view',
+                params: {
+                    serverData: svr },
+                event: {
+                    submitReady: $changePasswordPage.view_onSubmitReady,
+                    showDebugDetails: $changePasswordPage.toggleDebugDetails_onClick,
+                    redirect: $changePasswordPage.view_onRedirect,
+                    setPendingRequest: $changePasswordPage.view_onSetPendingRequest } }"><!--  -->
+
+<input type="hidden" name="ctx" data-bind="value: svr.sCtx" value="rQQIARAA42Kw0s8oKSkottLXT0ktS83JL8hNzSvRy8_LycxLLa7Kzs9JTMvMyc0vT9RLzs_VK8jRLxLiElA9W2fecfGP44S6wLykI9MvrWJUg5lSXpymV5JflAdTXpCYk5kPtCM3R6-oNO8Qo1JmilFKmoW5UWKimaFZmomJmXliimlSimWqWYphqlGSmWXiBUbGF4yMDUyMt5hYgxNzc4xeMbHm5Kdn5m1iVjExsjRNsjBN0TUxMErUNUk1NNFNSjNJ0TUzMDMzTEkxTUlONXzErJ6VmFdQVFWZVJmTmO2A2zMXWHhesTAZcPxgYVzECvRXcnv8zaOqeR4rGa3KP3RwM5xi1Y9yLwjNNEmLyPavjPJyMcszDSvRtnTzC9Qv8Y3M9wm2rMwtzzP0dorKK8i2NbIynMDGe4qN4QMbUwc7wyx2hl2cXsQFjH28Z15xSWJecqptcmJuUlFmSnqqWmJugXV8QGJ6qqeLrbGpwQFehh98vee-Xm84MOW9xyt-Hf2wLK9Cr5ISswKvYG-DqrSqzETvkhyfAHeLtHTXiEAf8zwzxzDD3BLjUl_bDQIMD4BIkOGHIEOHEAMA0">
+<input type="hidden" name="hpgrequestid" data-bind="value: svr.sessionId" value="1ef2ae49-9a00-4842-ac37-5adec99f0a00">
+<input type="hidden" data-bind="attr: { name: svr.sFTName }, value: flowToken" name="flowToken" value="AQABIQEAAABlMNzVhAPUTrARzfQjWPtKRXZvU3RzQXJ0aWZhY3RzAQAAAAAANn-zU5Xar8KitzovNRJdP1Ck7CPEvPRQwBx2FS4pp8Eu2N1igeoNkggM-jzGJLmQTIY6hJTxH11BOHk-8pJAa7oaoDYYmMZiC7EC8sjSkD8ZMtb5muWlyTd9CMlWF9iFQz0MESmrs5AeXBu28dob6OmAbhm8GtIsEd_khdnqPJZasJwCDLs_ycfNGnJvLvWmn0mMfY0kPEp_UkYQRdanzcPwqVUPIo-FoSPHDwUD7OBrC761F2fjX-aJw9lGtOHrmAqMGAfLlxhGKGar4bliaE0SQ0cCe8s25khmoV7HblyKdPIIPW1uop3GikFWrufJmIcX7yhigeYP_iWURBMeis7u0VDxbP0a-giYNHXHA8DSZGrvR2e2gigqPfKAOR3uB8wNAETn3FXT4adNRQpXnMYEJYoRMofjAwrfIlwC5xhry7e-KULOIMplJkUmYCjwd_q9R2es47ki8z1cfT3Ds7_xQcR9YYhHRr3eGcGQg4gQEA3-UkitqCIQFFybJrXaD9zmm6hahR-YAF8T-v9o4UjU4HtfH9PsVkvciaeG3oLdlM9A_qrJdofhv1WIcggblrfuEArA1dDG-ncvdVMo_4dLg_JTDYYbzPCmkv38_0sO1ridC8UlKKmqiH7ptnaE5M9XwEXmVh6hgNKH052eT-NqtxG6FYmoijbEgtUg2n4gAA">
+
+<div role="alert" aria-live="assertive" data-bind="moveOffScreen: { setAriaHidden: false }" class="moveOffScreen" tabindex="-1">
+    <!-- ko foreach: errors --><!-- /ko -->
 </div>
 
-
-
-
-
-
-
-<div style="position:absolute; top: -40 ; left: 20;">
-<table cellcpacing="0" cellpadding="0" width="130">
-<tbody><tr><td class="font">
-<b class="font">Poniedziałek</b><br>
-
-<span class="font">30-03-2026</span>
-</td></tr>
-</tbody></table>
+<div id="title" class="row text-title" role="heading" aria-level="1" data-bind="text: str['STR_ChangePassword_Title']">Update your password</div>
+<div id="description" class="row text-body">
+    <div id="ChangePasswordDescription" class="wrap-content" data-bind="text: description">You need to update your password because this is the first time you are signing in, or because your password has expired.</div>
 </div>
 
+<!-- ko ifnot: isPasswordRecovery -->
+<div class="row">
+    <div class="form-group col-md-24">
+        <!-- ko if: svr.fShowPersistentLabelsInChangePasswordView --><!-- /ko -->
 
+        <!-- ko if: currentPasswordTextbox.error --><!-- /ko -->
 
+        <div class="placeholderContainer" data-bind="component: { name: 'placeholder-textbox-field',
+            publicMethods: currentPasswordTextbox.placeholderTextboxMethods,
+            params: {
+                serverData: svr,
+                hintText: str['STR_ChangePassword_CurrentPassword_Label'] },
+            event: {
+                updateFocus: currentPasswordTextbox.textbox_onUpdateFocus } }"><!-- ko withProperties: { '$placeholderText': placeholderText } -->
+    <!-- ko template: { nodes: $componentTemplateNodes, data: $parent } -->
 
+            <input id="currentPassword" name="currentpasswd" type="password" autocomplete="off" class="form-control" aria-required="true" data-bind="
+                    textInput: currentPasswordTextbox.value,
+                    ariaDescribedBy: 'title description',
+                    hasFocusEx: currentPasswordTextbox.focused,
+                    placeholder: $placeholderText,
+                    ariaLabel: str['STR_ChangePassword_CurrentPassword_AriaLabel'],
+                    css: { 'has-error': currentPasswordTextbox.error }" aria-describedby="title description" placeholder="Current password" aria-label="Enter your current password.">
+        <!-- /ko -->
+<!-- /ko -->
+<!-- ko ifnot: usePlaceholderAttribute --><!-- /ko --></div>
+    </div>
+</div>
+<!-- /ko -->
 
+<div class="row">
+    <div class="form-group col-md-24">
+        <!-- ko if: svr.fShowPersistentLabelsInChangePasswordView --><!-- /ko -->
 
-<div style="position:absolute; top: -40 ; left: 150;">
-<table cellcpacing="0" cellpadding="0" width="130">
-<tbody><tr><td class="font">
-<b class="font">Wtorek</b><br>
+        <!-- ko if: newPasswordTextbox.error --><!-- /ko -->
 
-<span class="font">31-03-2026</span>
-</td></tr>
-</tbody></table>
+        <div class="placeholderContainer" data-bind="component: { name: 'placeholder-textbox-field',
+            publicMethods: newPasswordTextbox.placeholderTextboxMethods,
+            params: {
+                serverData: svr,
+                hintText: str['STR_ChangePassword_NewPassword_Label'] },
+            event: {
+                updateFocus: newPasswordTextbox.textbox_onUpdateFocus } }"><!-- ko withProperties: { '$placeholderText': placeholderText } -->
+    <!-- ko template: { nodes: $componentTemplateNodes, data: $parent } -->
+
+            <input id="newPassword" name="newpasswd" type="password" autocomplete="off" class="form-control" aria-required="true" data-bind="
+                    textInput: newPasswordTextbox.value,
+                    hasFocusEx: newPasswordTextbox.focused,
+                    placeholder: $placeholderText,
+                    ariaLabel: str['STR_ChangePassword_NewPassword_AriaLabel'],
+                    css: { 'has-error': newPasswordTextbox.error }" placeholder="New password" aria-label="Enter your new password.">
+        <!-- /ko -->
+<!-- /ko -->
+<!-- ko ifnot: usePlaceholderAttribute --><!-- /ko --></div>
+    </div>
 </div>
 
+<div class="row">
+    <div class="form-group col-md-24">
+        <!-- ko if: svr.fShowPersistentLabelsInChangePasswordView --><!-- /ko -->
 
+        <!-- ko if: confirmNewPasswordTextbox.error --><!-- /ko -->
 
+        <div class="placeholderContainer" data-bind="component: { name: 'placeholder-textbox-field',
+            publicMethods: confirmNewPasswordTextbox.placeholderTextboxMethods,
+            params: {
+                serverData: svr,
+                hintText: str['STR_ChangePassword_ConfirmNewPassword_Label'] },
+            event: {
+                updateFocus: confirmNewPasswordTextbox.textbox_onUpdateFocus } }"><!-- ko withProperties: { '$placeholderText': placeholderText } -->
+    <!-- ko template: { nodes: $componentTemplateNodes, data: $parent } -->
 
-
-
-<div style="position:absolute; top: -40 ; left: 280;">
-<table cellcpacing="0" cellpadding="0" width="130">
-<tbody><tr><td class="font">
-<b class="font">Środa</b><br>
-
-<span class="font">01-04-2026</span>
-</td></tr>
-</tbody></table>
+            <input id="confirmNewPassword" name="confirmnewpasswd" type="password" autocomplete="off" class="form-control" aria-required="true" data-bind="
+                    textInput: confirmNewPasswordTextbox.value,
+                    hasFocusEx: confirmNewPasswordTextbox.focused,
+                    placeholder: $placeholderText,
+                    ariaLabel: str['STR_ChangePassword_ConfirmNewPassword_AriaLabel'],
+                    css: { 'has-error': confirmNewPasswordTextbox.error }" placeholder="Confirm password" aria-label="Confirm your new password.">
+        <!-- /ko -->
+<!-- /ko -->
+<!-- ko ifnot: usePlaceholderAttribute --><!-- /ko --></div>
+    </div>
 </div>
 
+<div class="win-button-pin-bottom" data-bind="css : { 'boilerplate-button-bottom': tenantBranding.BoilerPlateText }">
+    <div data-bind="css: { 'position-buttons': !tenantBranding.BoilerPlateText }" class="position-buttons">
+        <div class="row" data-bind="css: { 'move-buttons': tenantBranding.BoilerPlateText }">
+            <div data-bind="component: { name: 'footer-buttons-field',
+                params: {
+                    serverData: svr,
+                    primaryButtonText: str['STR_ChangePassword_Button'],
+                    primaryButtonDescribedBy: 'ChangePasswordDescription',
+                    isPrimaryButtonEnabled: !isRequestPending(),
+                    isPrimaryButtonVisible: svr.fShowButtons,
+                    isSecondaryButtonVisible: svr.fShowButtons &amp;&amp; !!svr.fAllowCancel },
+                event: {
+                    primaryButtonClick: primaryButton_onClick,
+                    secondaryButtonClick: secondaryButton_onClick } }"><div class="col-xs-24 no-padding-left-right button-container button-field-container ext-button-field-container" data-bind="
+    visible: isPrimaryButtonVisible() || isSecondaryButtonVisible(),
+    css: { 'no-margin-bottom': removeBottomMargin },
+    externalCss: { 'button-field-container': true }">
 
+    <!-- ko if: isSecondaryButtonVisible --><!-- /ko -->
 
-
-
-
-<div style="position:absolute; top: -40 ; left: 410;">
-<table cellcpacing="0" cellpadding="0" width="130">
-<tbody><tr><td class="font">
-<b class="font">Czwartek</b><br>
-
-<span class="font">02-04-2026</span>
-</td></tr>
-</tbody></table>
+    <div data-bind="css: { 'inline-block': isPrimaryButtonVisible }, externalCss: { 'button-item': true }" class="inline-block button-item ext-button-item">
+        <!-- type="submit" is needed in-addition to 'type' in primaryButtonAttributes observable to support IE8 -->
+        <!-- ko ifnot: svr.fConsentButtonIdViaName -->
+        <input type="submit" id="idSIButton9" class="win-button button_primary high-contrast-overrides button ext-button primary ext-primary" data-report-event="Signin_Submit" data-report-trigger="click" data-report-value="Submit" data-bind="
+                attr: primaryButtonAttributes,
+                css: { 'high-contrast-overrides': true },
+                externalCss: {
+                    'button': true,
+                    'primary': true },
+                value: primaryButtonText() || str['CT_PWD_STR_SignIn_Button_Next'],
+                hasFocus: focusOnPrimaryButton,
+                click: svr.fEnableLivePreview ?  function() { } : primaryButton_onClick,
+                clickBubble: !svr.fEnableLivePreview,
+                enable: isPrimaryButtonEnabled,
+                visible: isPrimaryButtonVisible,
+                preventTabbing: primaryButtonPreventTabbing" aria-describedby="ChangePasswordDescription" value="Sign in" data-report-attached="1">
+        <!-- /ko -->
+        <!-- ko if: svr.fConsentButtonIdViaName --><!-- /ko -->
+    </div>
+</div></div>
+        </div>
+    </div>
 </div>
 
+<!-- ko if: tenantBranding.BoilerPlateText --><!-- /ko --></div><!-- /ko -->
+            <!-- /ko -->
+        
+            <!-- ko if: $parent.currentViewIndex() === $index() --><!-- /ko -->
+        <!-- /ko -->
+    </div>
+</div></div>
 
+        <!-- ko if: svr.sCanaryTokenName -->
+        <input type="hidden" data-bind="attr: { name: svr.sCanaryTokenName }, value: svr.canary" name="canary" value="ZGpUi4fXkOyZJD6n5Vt+9FNQ/tMYoLS9ymwn1KBZnpk=8:1:CANARY:/VjJqJtt6pJSK0zfziaKtlLPG8fgEXQL7n6AV1mt3uM=">
+        <!-- /ko -->
 
+        <div data-bind="component: { name: 'instrumentation-control',
+            publicMethods: instrumentationMethods,
+            params: { serverData: svr } }">
+<input type="hidden" name="i19" data-bind="value: timeOnPage" value=""></div>
 
+    <!-- /ko -->
+        </div>
 
+        <!-- ko if: $page.showFedCredAndNewSession --><!-- /ko -->
 
-<div style="position:absolute; top: -40 ; left: 540;">
-<table cellcpacing="0" cellpadding="0" width="130">
-<tbody><tr><td class="font">
-<b class="font">Piątek</b><br>
-
-<span class="font">03-04-2026</span>
-</td></tr>
-</tbody></table>
+        <!-- ko if: $page.showDebugDetails --><!-- /ko -->
+    </div>
 </div>
+<!-- /ko --></div>
+        </div>
+    </div>
 
+    <!-- ko if: $page.paginationControlHelper.showFooterControl -->
+    <div id="footer" role="contentinfo" data-bind="
+        externalCss: {
+            'footer': true,
+            'has-background': !$page.useDefaultBackground() &amp;&amp; $page.showFooter(),
+            'background-always-visible': $page.backgroundLogoUrl }" class="footer ext-footer">
 
+        <div data-bind="component: { name: 'footer-control',
+            publicMethods: $page.footerMethods,
+            params: {
+                serverData: svr,
+                useDefaultBackground: $page.useDefaultBackground(),
+                hasDarkBackground: $page.backgroundLogoUrl(),
+                showLinks: true,
+                showFooter: $page.showFooter(),
+                hideTOU: $page.hideTOU(),
+                termsText: $page.termsText(),
+                termsLink: $page.termsLink(),
+                hidePrivacy: $page.hidePrivacy(),
+                privacyText: $page.privacyText(),
+                privacyLink: $page.privacyLink() },
+            event: {
+                agreementClick: $page.footer_agreementClick,
+                showDebugDetails: $page.toggleDebugDetails_onClick } }"><!-- ko if: !hideFooter && (showLinks || impressumLink || showIcpLicense) -->
+<div id="footerLinks" class="footerNode text-secondary footer-links ext-footer-links" data-bind="externalCss: { 'footer-links': true }">
 
+    <!-- ko if: showFooter -->
+        <!-- ko if: !hideTOU -->
+        <a id="ftrTerms" data-bind="
+            text: termsText,
+            href: termsLink,
+            click: termsLink_onClick,
+            externalCss: {
+                'footer-content': true,
+                'footer-item': true,
+                'has-background': !useDefaultBackground,
+                'background-always-visible': hasDarkBackground }" href="https://www.microsoft.com/en-US/servicesagreement/" class="footer-content ext-footer-content footer-item ext-footer-item">Terms of use</a>
+        <!-- /ko -->
 
+        <!-- ko if: !hidePrivacy -->
+        <a id="ftrPrivacy" data-bind="
+            text: privacyText,
+            href: privacyLink,
+            click: privacyLink_onClick,
+            externalCss: {
+                'footer-content': true,
+                'footer-item': true,
+                'has-background': !useDefaultBackground,
+                'background-always-visible': hasDarkBackground }" href="https://privacy.microsoft.com/en-US/privacystatement" class="footer-content ext-footer-content footer-item ext-footer-item">Privacy &amp; cookies</a>
+        <!-- /ko -->
 
+        <!-- ko if: impressumLink --><!-- /ko -->
 
-<div style="position:absolute; top: -40 ; left: 670;">
-<table cellcpacing="0" cellpadding="0" width="130">
-<tbody><tr><td class="font">
-<b class="font">Sobota</b><br>
+        <!-- ko if: a11yConformeLink --><!-- /ko -->
 
-<span class="font">04-04-2026</span>
-</td></tr>
-</tbody></table>
+        <!-- ko if: showIcpLicense --><!-- /ko -->
+    <!-- /ko -->
+
+    <!-- Set attr binding before hasFocusEx to prevent Narrator from losing focus -->
+    <a id="moreOptions" href="#" role="button" data-bind="
+        click: moreInfo_onClick,
+        ariaLabel: str['CT_STR_More_Options_Ellipsis_AriaLabel'],
+        attr: { 'aria-expanded': showDebugDetails().toString() },
+        hasFocusEx: focusMoreInfo(),
+        externalCss: {
+            'footer-content': true,
+            'footer-item': true,
+            'debug-item': true,
+            'has-background': !useDefaultBackground,
+            'background-always-visible': hasDarkBackground }" aria-label="Click here for troubleshooting information" aria-expanded="false" class="footer-content ext-footer-content footer-item ext-footer-item debug-item ext-debug-item">...</a>
 </div>
+<!-- /ko -->
 
-
-
-
-
-
-<div style="position:absolute; top: -40 ; left: 800;">
-<table cellcpacing="0" cellpadding="0" width="130">
-<tbody><tr><td class="font">
-<b class="font">Niedziela</b><br>
-
-<span class="font">05-04-2026</span>
-</td></tr>
-</tbody></table>
+<!-- ko if: svr.fShowLegalMessagingInline && showLinks --><!-- /ko --></div>
+    </div>
+    <!-- /ko -->
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div style="
-position:absolute;
-top:0;
-left:800;
-width:129;
-height:419.00;
-layer-background-color:#E6E6E6;
-background-color:#E6E6E6;
-border:1px solid #A4A4A4;
-z-index:0;">
-<table cellspacing="0" cellpadding="0" align="center" width="129">
-<tbody><tr><td width="129" align="center" class="font" valign="middle" height="419.00">Dzień wolny od zajęć</td></tr>
-</tbody></table>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div style="
-position:absolute;
-top:0;
-left:670;
-width:129;
-height:419.00;
-layer-background-color:#E6E6E6;
-background-color:#E6E6E6;
-border:1px solid #A4A4A4;
-z-index:0;">
-<table cellspacing="0" cellpadding="0" align="center" width="129">
-<tbody><tr><td width="129" align="center" class="font" valign="middle" height="419.00">Dzień wolny od zajęć</td></tr>
-</tbody></table>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div style="
-position:absolute;
-top:0;
-left:540;
-width:129;
-height:419.00;
-layer-background-color:#E6E6E6;
-background-color:#E6E6E6;
-border:1px solid #A4A4A4;
-z-index:0;">
-<table cellspacing="0" cellpadding="0" align="center" width="129">
-<tbody><tr><td width="129" align="center" class="font" valign="middle" height="419.00">Dzień wolny od zajęć</td></tr>
-</tbody></table>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div style="
-position:absolute;
-top:0;
-left:410;
-width:129;
-height:419.00;
-layer-background-color:#E6E6E6;
-background-color:#E6E6E6;
-border:1px solid #A4A4A4;
-z-index:0;">
-<table cellspacing="0" cellpadding="0" align="center" width="129">
-<tbody><tr><td width="129" align="center" class="font" valign="middle" height="419.00">Dzień wolny od zajęć</td></tr>
-</tbody></table>
-</div>
-
-
-</div>
-
-
-<table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td class="font">
- <b>...</b> - ...<br>  <b>Ciemnia</b> - Ciemnia (piwnica)<br>  <b>DKS</b> - Dzielnicowy Klub Sportowy TARGÓWEK, ul. Kołowa 18<br>  <b>NON STOP</b> - FIRMA NON STOP, ul. Zagórna 5<br>  <b>FotoWydruk</b> - Foto Wydruki, ul. Hoża 51<br>  <b>Gabinet</b> - Gabinet<br>  <b>Galeria</b> - Galeria Leica, ul. Mysia 3<br>  <b>Game Lab</b> - Game Lab<br>  <b>Gładyszów</b> - Gładyszów<br>  <b>GRIP 7</b> - GRIP 7, ul. Warszawska 295<br>  <b>Heliograf</b> - HELIOGRAF, ul Baletowa 30 C<br>  <b>KINO</b> - KINO ELEKTRONIK<br>  <b>K</b> - KRAKÓW<br>  <b>LAB 2</b> - LAB 2<br>  <b>LAB 5</b> - LAB 5<br>  <b>LAB 6</b> - LAB 6<br>  <b>ME</b> - Muzeum Etnograficzne, ul. Kredytowa 1<br>  <b>MN</b> - Muzeum Narodowe<br>  <b>NSFS</b> - NON STOP FILM SERVICE, Baletowa 30 D<br>  <b>ORKA</b> - ORKA Studio Postprodukcyjne, ul. Bukowińska 22 lok. 3 B<br>  <b>PARKING</b> - PARKING WSF<br>  <b>P</b> - PATIO<br>  <b>GIMNAZJUM</b> - SALA  34 (GIMNAZJUM) II Pietro<br>  <b>1 - Liceum</b> - SALA 1- Liceum Filmowe II Piętro<br>  <b>2 - Liceum</b> - SALA 2 - Liceum Filmowe II piętro<br>  <b>3 - Liceum</b> - SALA 3 - Liceum Filmowe III piętro<br>  <b>4- Liceum</b> - SALA 4- Liceum Filmowe III Piętro<br>  <b>59 -Liceum</b> - SALA 59- Liceum Filmowe III piętro<br>  <b>60- Liceum</b> - SALA 60 Liceum Filmowe III piętro<br>  <b>Kinowa Lic</b> - SALA 61 KINOWA - Liceum Filmowe III piętro<br>  <b>62-S.GIMN</b> - Sala GIMANSTYCZNA - 62<br>  <b>Karowa 18</b> - Sala Klubu Judo AZS UW, ul. Karowa 18, Warszawa<br>  <b>Małe Kino</b> - Sala mała kinowa - Liceum III piętro<br>  <b>nr 12</b> - SALA NR 12<br>  <b>Sala 16</b> - Sala nr 16 (NUCODA)<br>  <b>TP</b> - Teatr Polski<br>  <b>Rumiana61a</b> - ul. Rumiana 61a<br>  <b>Studio</b> - ul. Spokojna 15<br>  <b>WFDiF</b> - WFDiF, ul. Chełmska 21<br>  <b>pedagog</b> - Wirtualny gabinet pedagog<br>  <b>A1</b> - WSF - Aktorska 1<br>  <b>A2</b> - WSF - Aktorska 2<br>  <b>W10</b> - WSF - Czytelnia<br>  <b>K1</b> - WSF - Kinowa 1 (parter)<br>  <b>K2</b> - WSF - Kinowa 2 (piętro)<br>  <b>LAB 1</b> - WSF - LAB 1 (GRY)<br>  <b>LAB 3</b> - WSF - LAB 3 (MONTAŻ DŹWIĘKU)<br>  <b>LAB 4</b> - WSF - LAB 4 (MONTAŻ VIDEO)<br>  <b>M 1</b> - WSF - Montażowa 1<br>  <b>M 2</b> - WSF - Montażowa 2<br>  <b>S1</b> - WSF - Studio 1<br>  <b>S2</b> - WSF - Studio 2<br>  <b>S3 FOTO</b> - WSF - Studio 3<br>  <b>Studio dźw</b> - WSF - Studio dźwiękowe (piwnica)<br>  <b>W1</b> - WSF - Wykładowa 1<br>  <b>W6</b> - WSF - Wykładowa 6<br>  <b>W9</b> - WSF - Wykładowa 9<br>  <b>W11</b> - Wykładowa 11<br>  <b>W2</b> - Wykładowa 2<br>  <b>W2a</b> - Wykładowa 2a<br>  <b>W3L</b> - Wykładowa 3L<br>  <b>W3P</b> - Wykładowa 3P<br>  <b>W4</b> - Wykładowa 4<br>  <b>W5</b> - Wykładowa 5<br>  <b>W7L</b> - Wykładowa 7L<br>  <b>W7P</b> - Wykładowa 7P<br>  <b>8L</b> - Wykładowa 8L<br>  <b>8P</b> - Wykładowa 8P<br>  <b>ONLINE</b> - Zajęcia online<br>  <b>Plener</b> - Zajęcia plenerowe<br> 
-</td></tr></tbody></table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<table border="0" cellspacing="0" cellpadding="0" width="">
-<tbody><tr>
-<td align="right">
-<table cellspacing="0" cellpadding="2" border="0">
-<tbody><tr>
-<td valign="middle"><a class="link" href="/palio/html.run?_Instance=cambridge&amp;_PageID=96&amp;_SessionID=1644632&amp;_SessionKey=339089337&amp;_RowID=7265&amp;_RowIDType=I&amp;_firstDayOfWeek=30-03-2026&amp;_CheckSum=1948229200" target="_blank">drukuj</a></td>
-<td valign="middle"><a class="link" href="/palio/html.run?_Instance=cambridge&amp;_PageID=96&amp;_SessionID=1644632&amp;_SessionKey=339089337&amp;_RowID=7265&amp;_RowIDType=I&amp;_firstDayOfWeek=30-03-2026&amp;_CheckSum=1948229200" target="_blank"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=26&amp;_CheckSum=1936112049" awidth="16" height="14" alt="drukuj" title="drukuj" border="0"></a></td>
-</tr>
-</tbody></table>
-</td>
-</tr>
-</tbody></table>
-
-<div align="center">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<input type="button" name="jump_action" value="Powrót do listy harmonogramów zajęć" class="button" onclick="window.location='/palio/html.run?_Instance=cambridge&amp;_PageID=191&amp;_SessionID=1644632&amp;_SessionKey=339089337&amp;_CheckSum=618931715'">
-
-
-
-</div>
-
-</td></tr></tbody></table>
-<table width="100%" border="0" cellspacing="0" cellpadding="0" align="CENTER">
-<tbody><tr class="bottom_belt">
-<td colspan="3" height="25" align="CENTER" valign="middle">
-<a class="bottom_belt" href="http://www.torn.pl/" target="_blank">COPYRIGHT © 2005-2026 TORN Sp. z o.o.</a>
-</td>
-</tr>
-<tr>
-<td></td>
-<td width="750" align="right">
-<a href="http://www.jpalio.com/" target="_blank" align="right"><img src="/palio/html.resource?_Instance=cambridge&amp;_fileName=smedia/jPALIO_logo.png&amp;_mimeType=image/png" alt="powered by jPALIO" width="127" height="23" border="0"></a>
-</td>
-<td></td>
-</tr>
-</tbody></table>
-<script>
-grayscaleImagesIE10Plus();
-</script>
-
-<p align="right" class="font"><i style="color:#aaaaaa">Czas generowania strony 81 ms</i></p>
-
-
-</body></html>
+<!-- /ko --></div>
+        <!-- /ko -->
+
+        <!-- ko if: isVerticalSplitTemplate() && isTemplateLoaded() --><!-- /ko -->
+    <!-- /ko -->
+<!-- /ko --></div>
+    <!-- /ko -->
+</form></div></body></html>
