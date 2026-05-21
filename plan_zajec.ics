@@ -1,11 +1,144 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Plan Zajec//PL
+PRODID:-//Plan Zajec Szkola Filmowa//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
 X-WR-CALNAME:Plan Zajęć - Szkoła Filmowa
+X-WR-TIMEZONE:Europe/Warsaw
 BEGIN:VEVENT
-SUMMARY:⚠️ Brak zajęć w tym okresie
-DTSTART;TZID=Europe/Warsaw:20260521T103000
-DTEND;TZID=Europe/Warsaw:20260521T113000
-UID:info-202605211030@szkolafilmowa
+SUMMARY:Warsztat operatorski (dr Mikołaj Jaroszewicz)
+DTSTART;TZID=Europe/Warsaw:20260521T104500
+DTEND;TZID=Europe/Warsaw:20260521T121500
+UID:202605211045-88174@szkolafilmowa
+DESCRIPTION:Prowadzący: dr Mikołaj Jaroszewicz
+LOCATION:S1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Warsztat operatorski (dr Mikołaj Jaroszewicz)
+DTSTART;TZID=Europe/Warsaw:20260521T090000
+DTEND;TZID=Europe/Warsaw:20260521T103000
+UID:202605210900-88174@szkolafilmowa
+DESCRIPTION:Prowadzący: dr Mikołaj Jaroszewicz
+LOCATION:S1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Podstawy fotografii (prof. dr hab. Prot Jarnuszkiewicz)
+DTSTART;TZID=Europe/Warsaw:20260520T161500
+DTEND;TZID=Europe/Warsaw:20260520T174500
+UID:202605201615-56151@szkolafilmowa
+DESCRIPTION:Prowadzący: prof. dr hab. Prot Jarnuszkiewicz
+LOCATION:W9
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Podstawy fotografii (prof. dr hab. Prot Jarnuszkiewicz)
+DTSTART;TZID=Europe/Warsaw:20260522T114500
+DTEND;TZID=Europe/Warsaw:20260522T131500
+UID:202605221145-56151@szkolafilmowa
+DESCRIPTION:Prowadzący: prof. dr hab. Prot Jarnuszkiewicz
+LOCATION:W6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Podstawy fotografii (prof. dr hab. Prot Jarnuszkiewicz)
+DTSTART;TZID=Europe/Warsaw:20260520T180000
+DTEND;TZID=Europe/Warsaw:20260520T193000
+UID:202605201800-56151@szkolafilmowa
+DESCRIPTION:Prowadzący: prof. dr hab. Prot Jarnuszkiewicz
+LOCATION:W9
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Podstawy fotografii (prof. dr hab. Prot Jarnuszkiewicz)
+DTSTART;TZID=Europe/Warsaw:20260521T180000
+DTEND;TZID=Europe/Warsaw:20260521T193000
+UID:202605211800-56151@szkolafilmowa
+DESCRIPTION:Prowadzący: prof. dr hab. Prot Jarnuszkiewicz
+LOCATION:W6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Podstawy fotografii (prof. dr hab. Prot Jarnuszkiewicz)
+DTSTART;TZID=Europe/Warsaw:20260521T161500
+DTEND;TZID=Europe/Warsaw:20260521T174500
+UID:202605211615-56151@szkolafilmowa
+DESCRIPTION:Prowadzący: prof. dr hab. Prot Jarnuszkiewicz
+LOCATION:W6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Podstawy fotografii (prof. dr hab. Prot Jarnuszkiewicz)
+DTSTART;TZID=Europe/Warsaw:20260522T100000
+DTEND;TZID=Europe/Warsaw:20260522T113000
+UID:202605221000-56151@szkolafilmowa
+DESCRIPTION:Prowadzący: prof. dr hab. Prot Jarnuszkiewicz
+LOCATION:W6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Język filmu i wizualizacja (mgr Marek Brodzki)
+DTSTART;TZID=Europe/Warsaw:20260520T104500
+DTEND;TZID=Europe/Warsaw:20260520T121500
+UID:202605201045-44499@szkolafilmowa
+DESCRIPTION:Prowadzący: mgr Marek Brodzki
+LOCATION:K2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Język filmu i wizualizacja (mgr Marek Brodzki)
+DTSTART;TZID=Europe/Warsaw:20260520T090000
+DTEND;TZID=Europe/Warsaw:20260520T103000
+UID:202605200900-44499@szkolafilmowa
+DESCRIPTION:Prowadzący: mgr Marek Brodzki
+LOCATION:K2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Podstawy pracy z kamerą (Andrzej Wolf)
+DTSTART;TZID=Europe/Warsaw:20260520T123000
+DTEND;TZID=Europe/Warsaw:20260520T140000
+UID:202605201230-55186@szkolafilmowa
+DESCRIPTION:Prowadzący: Andrzej Wolf
+LOCATION:S1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Podstawy pracy z kamerą (Andrzej Wolf)
+DTSTART;TZID=Europe/Warsaw:20260520T141500
+DTEND;TZID=Europe/Warsaw:20260520T154500
+UID:202605201415-55186@szkolafilmowa
+DESCRIPTION:Prowadzący: Andrzej Wolf
+LOCATION:S1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zajęcia monograficzne (Joanna Malicka)
+DTSTART;TZID=Europe/Warsaw:20260522T141500
+DTEND;TZID=Europe/Warsaw:20260522T181500
+UID:202605221415-9632@szkolafilmowa
+DESCRIPTION:Prowadzący: Joanna Malicka
+LOCATION:W9
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zajęcia monograficzne (Joanna Malicka)
+DTSTART;TZID=Europe/Warsaw:20260518T160000
+DTEND;TZID=Europe/Warsaw:20260518T190000
+UID:202605181600-9632@szkolafilmowa
+DESCRIPTION:Prowadzący: Joanna Malicka
+LOCATION:W6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zajęcia monograficzne (Joanna Malicka)
+DTSTART;TZID=Europe/Warsaw:20260518T123000
+DTEND;TZID=Europe/Warsaw:20260518T153000
+UID:202605181230-9632@szkolafilmowa
+DESCRIPTION:Prowadzący: Joanna Malicka
+LOCATION:W6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zajęcia monograficzne (Joanna Malicka)
+DTSTART;TZID=Europe/Warsaw:20260518T090000
+DTEND;TZID=Europe/Warsaw:20260518T120000
+UID:202605180900-9632@szkolafilmowa
+DESCRIPTION:Prowadzący: Joanna Malicka
+LOCATION:W6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sztuka operatorska (dr hab. Andrzej Ramlau)
+DTSTART;TZID=Europe/Warsaw:20260519T180000
+DTEND;TZID=Europe/Warsaw:20260519T190000
+UID:202605191800-26640@szkolafilmowa
+DESCRIPTION:Prowadzący: dr hab. Andrzej Ramlau
+LOCATION:ONLINE
 END:VEVENT
 END:VCALENDAR
