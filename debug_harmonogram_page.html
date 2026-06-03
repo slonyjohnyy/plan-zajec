@@ -157,14 +157,14 @@
 
 
 
-<title>Wypełnianie ankiet</title>
+<title>Harmonogramy zajęć</title>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <link rel="shortcut icon" href="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=55&amp;_CheckSum=-934094379" type="image/x-icon">
 
 
 
-<link rel="stylesheet" type="text/css" href="/palio/html.run?_Instance=cambridge&amp;_PageID=4&amp;_SessionID=1703073&amp;_SessionKey=728531548&amp;ZoomView=&amp;DisplayMode=&amp;_CheckSum=2071374386">
-<script language="javascript" type="text/javascript" src="/palio/html.run?_Instance=cambridge&amp;_PageID=5&amp;_SessionID=1703073&amp;_SessionKey=728531548&amp;_CheckSum=-917064136"></script>
+<link rel="stylesheet" type="text/css" href="/palio/html.run?_Instance=cambridge&amp;_PageID=4&amp;_SessionID=1703194&amp;_SessionKey=202507555&amp;ZoomView=&amp;DisplayMode=&amp;_CheckSum=-1812577732">
+<script language="javascript" type="text/javascript" src="/palio/html.run?_Instance=cambridge&amp;_PageID=5&amp;_SessionID=1703194&amp;_SessionKey=202507555&amp;_CheckSum=-1534298258"></script>
 
 
 
@@ -348,27 +348,15 @@ function createMenuBar() {
 CambridgeMenuBar = new jsDOMenuBar("absolute", true)
 
 
-  
 
-  
-
-
-  
-
-  
-
-
-  
-    
-  
 
 
 
 AccountMenu=new jsDOMenu(200, "", "absolute", false);
 
-AccountMenu.addMenuItem(new menuItem("Zmiana hasła", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=11&amp;_SessionID=1703073&amp;_SessionKey=728531548&amp;_CheckSum=1780787879"));
+AccountMenu.addMenuItem(new menuItem("Zmiana hasła", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=11&amp;_SessionID=1703194&amp;_SessionKey=202507555&amp;_CheckSum=1163553757"));
 
-  AccountMenu.addMenuItem(new menuItem("Komunikator", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=180&amp;_SessionID=1703073&amp;_SessionKey=728531548&amp;_CheckSum=-877577876"));
+  AccountMenu.addMenuItem(new menuItem("Komunikator", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=180&amp;_SessionID=1703194&amp;_SessionKey=202507555&amp;_CheckSum=-1494811998"));
 
 
 
@@ -381,9 +369,180 @@ AccountMenu.addMenuItem(new menuItem("Yammer", "", "https://www.yammer.com/onlin
 
 AccountMenu.addMenuItem(new menuItem("-"));
 
-AccountMenu.addMenuItem(new menuItem("Wylogowanie", "", "https://student.szkolafilmowa.pl/palio/html.run?_Instance=cambridge&amp;_PageID=10012&amp;_Action=Logout&amp;_SessionID=1703073&amp;_SessionKey=728531548"));
+AccountMenu.addMenuItem(new menuItem("Wylogowanie", "", "https://student.szkolafilmowa.pl/palio/html.run?_Instance=cambridge&amp;_PageID=10012&amp;_Action=Logout&amp;_SessionID=1703194&amp;_SessionKey=202507555"));
 
 CambridgeMenuBar.addMenuBarItem(new menuBarItem("Konto", AccountMenu));
+
+
+
+
+
+
+StudentsMenu=new jsDOMenu(320, "", "absolute", false);
+
+
+
+StudentsMenu.addMenuItem(new menuItem("Moje dane", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=185&amp;_SessionID=1703194&amp;_SessionKey=202507555&amp;_CheckSum=1657481127"));
+
+
+
+
+StudentsMenu.addMenuItem(new menuItem("Moje indeksy", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=186&amp;_SessionID=1703194&amp;_SessionKey=202507555&amp;_CheckSum=-2007027544"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CambridgeMenuBar.addMenuBarItem(new menuBarItem("Studenci", StudentsMenu));
+
+
+
+StudiesMenu=new jsDOMenu(250, "", "absolute", false);
+
+
+
+StudiesMenu.addMenuItem(new menuItem("Moje plany studiów", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=258&amp;_SessionID=1703194&amp;_SessionKey=202507555&amp;_CheckSum=1031129614"));
+
+
+
+
+
+
+
+StudiesMenu.addMenuItem(new menuItem("Harmonogramy zajęć", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=95&amp;_SessionID=1703194&amp;_SessionKey=202507555&amp;_CheckSum=1125337305"));
+
+StudiesMenu.addMenuItem(new menuItem("Harmonogramy moich zajęć", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=191&amp;_SessionID=1703194&amp;_SessionKey=202507555&amp;_CheckSum=1499994818"));
+
+StudiesMenu.addMenuItem(new menuItem("Harmonogramy innych zajęć", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=248&amp;_SessionID=1703194&amp;_SessionKey=202507555&amp;_CheckSum=-1333218577"));
+
+StudiesMenu.addMenuItem(new menuItem("Harmonogramy zajętości sal", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=269&amp;_SessionID=1703194&amp;_SessionKey=202507555&amp;_CheckSum=-269030866"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CambridgeMenuBar.addMenuBarItem(new menuBarItem("Studia", StudiesMenu));
+
+ScholarshipsMenu=new jsDOMenu(230, "", "absolute", false);
+
+
+ScholarshipsMenu.addMenuItem(new menuItem("Moje stypendia", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=187&amp;_SessionID=1703194&amp;_SessionKey=202507555&amp;_CheckSum=-1376568919"));
+
+ScholarshipsMenu.addMenuItem(new menuItem("Mój numer rachunku", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=380&amp;_SessionID=1703194&amp;_SessionKey=202507555&amp;_CheckSum=-934112220"));
+
+
+
+
+
+
+ScholarshipsMenu.addMenuItem(new menuItem("-"));
+
+
+ScholarshipsMenu.addMenuItem(new menuItem("Fundusze stypendialne", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=54&amp;_SessionID=1703194&amp;_SessionKey=202507555&amp;_CheckSum=-372579492"));
+
+ScholarshipsMenu.addMenuItem(new menuItem("Rodzaje stypendiów", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=55&amp;_SessionID=1703194&amp;_SessionKey=202507555&amp;_CheckSum=257879133"));
+
+
+
+
+CambridgeMenuBar.addMenuBarItem(new menuBarItem("Stypendia", ScholarshipsMenu));
+
+
+ReportsMenu=new jsDOMenu(200, "", "absolute", false);
+
+
+ReportsMenu.addMenuItem(new menuItem("Generowanie raportów", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=68&amp;_SessionID=1703194&amp;_SessionKey=202507555&amp;_CheckSum=218635903"));
+
+
+
+
+
+CambridgeMenuBar.addMenuBarItem(new menuBarItem("Raporty", ReportsMenu));
+
+AdditionalsMenu=new jsDOMenu(200, "", "absolute", false);
+
+AdditionalsMenu.addMenuItem(new menuItem("Forum internetowe", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=8001&amp;_SessionID=1703194&amp;_SessionKey=202507555&amp;_CheckSum=1718670646"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CambridgeMenuBar.addMenuBarItem(new menuBarItem("Dodatki", AdditionalsMenu));
+
+
+
+
+
+
+
+
+PollsMenu=new jsDOMenu(225, "", "absolute", false);
+
+
+
+
+PollsMenu.addMenuItem(new menuItem("Wypełnianie ankiet", "", "/palio/html.run?_Instance=cambridge&amp;_PageID=227&amp;_SessionID=1703194&amp;_SessionKey=202507555&amp;_CheckSum=1897561008"));
+
+
+CambridgeMenuBar.addMenuBarItem(new menuBarItem("Ankiety", PollsMenu));
 
 
 CambridgeMenuBar.moveTo(0,20);
@@ -411,13 +570,13 @@ CambridgeMenuBar.moveTo(0,20);
 </head>
 <body class="main" leftmargin="0" topmargin="0" marginleft="0" marginright="0">
 
-<script language="javascript">createMenuBar();</script><div id="DOMenuBar1" draggable="false" class="jsdomenubardiv" style="position: absolute; left: 0px; top: 20px;"><span class="jsdomenubardragdiv"></span><span id="menuBarItem1" class="jsdomenubaritem">Konto</span></div><div id="DOMenu1" class="jsdomenudiv" style="width: 200px; left: 0px; top: 0px;"><div id="menuItem1" class="jsdomenuitem">Zmiana hasła</div><div id="menuItem2" class="jsdomenuitem">Komunikator</div><div id="menuItem3" class="jsdomenuitem">Yammer</div><div id="menuSep1" class="jsdomenusep"><hr></div><div id="menuItem4" class="jsdomenuitem">Wylogowanie</div></div>
+<script language="javascript">createMenuBar();</script><div id="DOMenuBar1" draggable="false" class="jsdomenubardiv" style="position: absolute; left: 0px; top: 20px;"><span class="jsdomenubardragdiv"></span><span id="menuBarItem1" class="jsdomenubaritem">Konto</span><span id="menuBarItem2" class="jsdomenubaritem">Studenci</span><span id="menuBarItem3" class="jsdomenubaritem">Studia</span><span id="menuBarItem4" class="jsdomenubaritem">Stypendia</span><span id="menuBarItem5" class="jsdomenubaritem">Raporty</span><span id="menuBarItem6" class="jsdomenubaritem">Dodatki</span><span id="menuBarItem7" class="jsdomenubaritem">Ankiety</span></div><div id="DOMenu1" class="jsdomenudiv" style="width: 200px; left: 0px; top: 0px;"><div id="menuItem1" class="jsdomenuitem">Zmiana hasła</div><div id="menuItem2" class="jsdomenuitem">Komunikator</div><div id="menuItem3" class="jsdomenuitem">Yammer</div><div id="menuSep1" class="jsdomenusep"><hr></div><div id="menuItem4" class="jsdomenuitem">Wylogowanie</div></div><div id="DOMenu2" class="jsdomenudiv" style="width: 320px; left: 0px; top: 0px;"><div id="menuItem5" class="jsdomenuitem">Moje dane</div><div id="menuItem6" class="jsdomenuitem">Moje indeksy</div></div><div id="DOMenu3" class="jsdomenudiv" style="width: 250px; left: 0px; top: 0px;"><div id="menuItem7" class="jsdomenuitem">Moje plany studiów</div><div id="menuItem8" class="jsdomenuitem">Harmonogramy zajęć</div><div id="menuItem9" class="jsdomenuitem">Harmonogramy moich zajęć</div><div id="menuItem10" class="jsdomenuitem">Harmonogramy innych zajęć</div><div id="menuItem11" class="jsdomenuitem">Harmonogramy zajętości sal</div></div><div id="DOMenu4" class="jsdomenudiv" style="width: 230px; left: 0px; top: 0px;"><div id="menuItem12" class="jsdomenuitem">Moje stypendia</div><div id="menuItem13" class="jsdomenuitem">Mój numer rachunku</div><div id="menuSep2" class="jsdomenusep"><hr></div><div id="menuItem14" class="jsdomenuitem">Fundusze stypendialne</div><div id="menuItem15" class="jsdomenuitem">Rodzaje stypendiów</div></div><div id="DOMenu5" class="jsdomenudiv" style="width: 200px; left: 0px; top: 0px;"><div id="menuItem16" class="jsdomenuitem">Generowanie raportów</div></div><div id="DOMenu6" class="jsdomenudiv" style="width: 200px; left: 0px; top: 0px;"><div id="menuItem17" class="jsdomenuitem">Forum internetowe</div></div><div id="DOMenu7" class="jsdomenudiv" style="width: 225px; left: 0px; top: 0px;"><div id="menuItem18" class="jsdomenuitem">Wypełnianie ankiet</div></div>
 
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
 <tbody><tr class="top_belt">
 
-<td align="left" height="20"><b>&nbsp;<a class="belt" href="/palio/html.run?_Instance=cambridge&amp;_PageID=6&amp;_SessionID=1703073&amp;_SessionKey=728531548&amp;_CheckSum=-286605511"><span class="belt_application">CAMBRIDGE</span> <img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=51&amp;_CheckSum=684598873" width="14" height="14" border="0" style="position:relative;top:-2px;vertical-align:bottom"> Warszawska Szkoła Filmowa</a></b></td>
+<td align="left" height="20"><b>&nbsp;<a class="belt" href="/palio/html.run?_Instance=cambridge&amp;_PageID=6&amp;_SessionID=1703194&amp;_SessionKey=202507555&amp;_CheckSum=-903839633"><span class="belt_application">CAMBRIDGE</span> <img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=51&amp;_CheckSum=684598873" width="14" height="14" border="0" style="position:relative;top:-2px;vertical-align:bottom"> Warszawska Szkoła Filmowa</a></b></td>
 <td align="right">
 
 
@@ -428,23 +587,13 @@ CambridgeMenuBar.moveTo(0,20);
 
 
 
-
-
-
-
-
-
-
-
-
-
-<a href="/palio/html.run?_Instance=cambridge&amp;_PageID=6&amp;_SessionID=1703073&amp;_SessionKey=728531548&amp;SetLanguage=pl&amp;_CheckSum=-1051663807" class="belt" style="font-size:15px;line-height:18px;text-decoration:none" title="polski"><b>PL</b></a>
+<a href="/palio/html.run?_Instance=cambridge&amp;_PageID=6&amp;_SessionID=1703194&amp;_SessionKey=202507555&amp;SetLanguage=pl&amp;_CheckSum=1186773323" class="belt" style="font-size:15px;line-height:18px;text-decoration:none" title="polski"><b>PL</b></a>
 <span class="belt" style="font-size:16px">|</span>
-<a href="/palio/html.run?_Instance=cambridge&amp;_PageID=6&amp;_SessionID=1703073&amp;_SessionKey=728531548&amp;SetLanguage=en&amp;_CheckSum=841119476" class="belt" style="font-size:15px;line-height:18px;text-decoration:none" title="english"><b>EN</b></a>
+<a href="/palio/html.run?_Instance=cambridge&amp;_PageID=6&amp;_SessionID=1703194&amp;_SessionKey=202507555&amp;SetLanguage=en&amp;_CheckSum=-1215410690" class="belt" style="font-size:15px;line-height:18px;text-decoration:none" title="english"><b>EN</b></a>
 <span class="belt" style="font-size:16px">|</span>
 
 
-<img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=94&amp;_CheckSum=-1316787974" style="cursor:pointer;vertical-align:bottom;margin-bottom:2px;margin-right:5px" alt="Wyloguj" title="Wyloguj" onclick="if(confirm('Czy na pewno chcesz się wylogować?'))window.location='https://student.szkolafilmowa.pl/palio/html.run?_Instance=cambridge&amp;_PageID=10012&amp;_Action=Logout&amp;_SessionID=1703073&amp;_SessionKey=728531548'">
+<img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=94&amp;_CheckSum=-1316787974" style="cursor:pointer;vertical-align:bottom;margin-bottom:2px;margin-right:5px" alt="Wyloguj" title="Wyloguj" onclick="if(confirm('Czy na pewno chcesz się wylogować?'))window.location='https://student.szkolafilmowa.pl/palio/html.run?_Instance=cambridge&amp;_PageID=10012&amp;_Action=Logout&amp;_SessionID=1703194&amp;_SessionKey=202507555'">
 </td>
 
 </tr>
@@ -454,7 +603,7 @@ CambridgeMenuBar.moveTo(0,20);
 <table border="0" cellspacing="0" cellpadding="0" align="center" width="750">
 <tbody><tr>
 <td valign="top" width="14"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=2&amp;_CheckSum=-1907088913" width="14" height="13" border="0"></td>
-<td valign="top" align="left" class="p_title">&nbsp;WYPEŁNIANIE ANKIET</td>
+<td valign="top" align="left" class="p_title">&nbsp;HARMONOGRAMY ZAJĘĆ</td>
 <td valign="top" align="right" class="font">użytkownik: <b>janprzybylak</b></td>
 </tr>
 </tbody></table>
@@ -469,40 +618,3182 @@ CambridgeMenuBar.moveTo(0,20);
 
 
 
-<p class="font" align="center"><b>UWAGA</b><br>Aby uzyskać dostęp do menu systemu CAMBRIDGE i tablicy ogłoszeniowej należy wypełnić poniższe ankiety</p>
 
 
-<table cellspacing="0" cellpadding="0" border="0" width="100%" align="center" class="sort">
-<thead class="sort">
+
+
+
+
+
+
+
+
+<div class="info_text">Indywidualny harmonogram zajęć studenta<br>Warszawska Szkoła Filmowa - Film i multimedia/Realizacja obrazu filmowego - licencjackie stacjonarne - semestr II<br>Rozkład zajęć: FIM/ROF/S/2025 2028 semestr II grupa A</div><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+function goToDate(d)
+{
+if (correctReverseDate(d))
+{
+document.schedule_scroll_form._firstDayOfWeek.value = d;
+document.schedule_scroll_form.submit();
+}
+}
+function goForward()
+{
+document.schedule_scroll_form._firstDayOfWeek.value = '24-08-2026';
+document.schedule_scroll_form.submit();
+}
+function goBackward()
+{
+document.schedule_scroll_form._firstDayOfWeek.value = '15-08-2026';
+document.schedule_scroll_form.submit();
+}
+</script>
+<form method="post" name="schedule_scroll_form" id="schedule_scroll_form" action="/palio/html.run?_Instance=cambridge&amp;_PageID=191&amp;_SessionID=1703194&amp;_SessionKey=202507555&amp;_RowID=7265&amp;_RowIDType=I&amp;_CheckSum=-1063210785" onsubmit="return checkFrm_schedule_scroll_form(this)">
+<div style="display:none;"><input type="hidden" name="_formSubmitted" value="yes"></div>
+<input type="hidden" name="_firstDayOfWeek">
+<table cellspacing="0" cellpadding="0" border="0" align="center">
+<tbody><tr>
+<td class="font" align="center"></td>
+<td class="font" align="center">dd-mm-rrrr</td>
+<td class="font" align="center"></td>
+<td class="font" align="center"></td>
+<td class="font" align="center"></td>
+</tr>
 <tr>
-<th class="sort" width="1%">Lp.</th>
-<th class="sort">Ankieta</th>
-<th class="sort">Informacje</th>
-<th class="sort">Dostępność</th>
-<th class="sort" width="1%">Akcje</th>
+<td class="font" align="center"><a href="javascript:goBackward();" class="link"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=16&amp;_CheckSum=-551400784" border="0" alt="poprzedni tydzień" title="poprzedni tydzień"></a></td>
+<td class="font" align="center"><input type="text" name="schedule_date" id="schedule_date" maxlength="10" class="form" size="10"></td>
+<td class="font" align="center"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=22&amp;_CheckSum=-740161995" width="3" height="1" border="0"></td>
+<td class="font" align="center"><input type="button" name="schedule_date_calendar" id="schedule_date_calendar" value="..." class="button" onclick="showCalendar('schedule_date','schedule_date','%d-%m-%Y','24',true,'Bl');"></td>
+<td class="font" align="center"><a href="javascript:goForward();" class="link"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=15&amp;_CheckSum=2000756177" border="0" alt="następny tydzień" title="następny tydzień"></a></td>
 </tr>
-</thead>
-<tbody class="sort">
+<tr>
+<td class="font" align="center"></td>
+<td class="font" align="center"><a href="javascript:goToDate(document.schedule_scroll_form.schedule_date.value);" class="link">przejdź</a></td>
+<td class="font" align="center"></td>
+<td class="font" align="center"></td>
+<td class="font" align="center"></td>
+</tr>
+</tbody></table>
+</form>
+
+<script type="text/javascript">
+function checkFrm_schedule_scroll_form(form) {
+ var error="";
+
+if (error!="") {
+alert("Błędy w formularzu:"+error);
+return false;}
+return true;
+}
+
+</script>
+<script type="text/javascript" src="/palio/html.script?_Instance=cambridge&amp;_fileName=validate.js"></script>
 
 
 
-<tr class="normalRow">
-<td class="sort" align="right" nowrap="" style="white-space:nowrap">1</td>
-<td class="sort">2025/2026 (CZERWIEC) Ankieta oceny zajęć dydaktycznych (FiM)</td>
-<td class="sort">
 
-Dotyczy typu zajęć ćwiczenia z przedmiotu Film roczny - egzamin (prowadzący dr Maciej Ślesicki)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+.tip { border:1px solid black; font-size:10pt; }
+</style>
+<script>
+var IE = document.all?true:false
+if (!IE) document.captureEvents(Event.MOUSEMOVE)
+document.onmousemove = getMouseXY;
+var tmpX = 0;
+var tmpY = 0;
+var update_tip = false;
+function getMouseXY(e)
+{
+tmpX = (document.all) ? window.event.x + document.body.scrollLeft : e.pageX;
+tmpY = (document.all) ? window.event.y + document.body.scrollTop : e.pageY;
+if (update_tip == true) showtip(null);
+return true
+}
+function showtip(text)
+{
+if (text != null) tip = text;
+if (document.layers) // Netscape 4.0+
+{
+theString="<DIV CLASS='tip'>"+tip+"</DIV>"
+document.tooltip.document.write(theString)
+document.tooltip.document.close()
+document.tooltip.left=tmpX+10
+document.tooltip.top=tmpY+20
+document.tooltip.visibility="show"
+}
+else
+{
+if (document.getElementById) // Netscape 6.0+ and Internet Explorer 5.0+
+{
+tipDivElement=document.getElementById("tooltip")
+tipDivElement.innerHTML=tip
+tipDivElement.style.left=tmpX+10
+tipDivElement.style.top=tmpY+20
+tipDivElement.style.visibility = "visible"
+}
+}
+update_tip = true;
+}
+function hidetip()
+{
+update_tip = false;
+if (document.layers) // Netscape 4.0+
+{
+document.tooltip.visibility="hidden"
+}
+else
+{
+if (document.getElementById) // Netscape 6.0+ and Internet Explorer 5.0+
+{
+tipDivElement.style.visibility="hidden"
+}
+}
+}
+</script>
+<div id="tooltip" class="tooltip" style="position:absolute;visibility:hidden;border:1px solid black;font-family: Verdana, arial, helvetica, sans-serif; font-size : 10px;padding:1px;z-index:100;"></div>
+
+
+<br><div style="position:relative;height:445;width:935">
+
+ 
+
+
+
+
+<div style="position:absolute; top: -5 ; left: 0; "><span class="font"><b>8</b></span></div>
+
+
+
+<div style="position:absolute; top: 25 ; left: 0; "><span class="font"><b>9</b></span></div>
+
+
+
+<div style="position:absolute; top: 55 ; left: 0; "><span class="font"><b>10</b></span></div>
+
+
+
+<div style="position:absolute; top: 85 ; left: 0; "><span class="font"><b>11</b></span></div>
+
+
+
+<div style="position:absolute; top: 115 ; left: 0; "><span class="font"><b>12</b></span></div>
+
+
+
+<div style="position:absolute; top: 145 ; left: 0; "><span class="font"><b>13</b></span></div>
+
+
+
+<div style="position:absolute; top: 175 ; left: 0; "><span class="font"><b>14</b></span></div>
+
+
+
+<div style="position:absolute; top: 205 ; left: 0; "><span class="font"><b>15</b></span></div>
+
+
+
+<div style="position:absolute; top: 235 ; left: 0; "><span class="font"><b>16</b></span></div>
+
+
+
+<div style="position:absolute; top: 265 ; left: 0; "><span class="font"><b>17</b></span></div>
+
+
+
+<div style="position:absolute; top: 295 ; left: 0; "><span class="font"><b>18</b></span></div>
+
+
+
+<div style="position:absolute; top: 325 ; left: 0; "><span class="font"><b>19</b></span></div>
+
+
+
+<div style="position:absolute; top: 355 ; left: 0; "><span class="font"><b>20</b></span></div>
+
+
+
+<div style="position:absolute; top: 385 ; left: 0; "><span class="font"><b>21</b></span></div>
+
+
+
+<div style="position:absolute; top: 415 ; left: 0; "><span class="font"><b>22</b></span></div>
+
+
+
+<style type="text/css">
+.frame { border-width:1px 0px 0px 1px; border-color:#D4D4D4; border-style:solid; }
+</style>
+<div style="position:absolute; top:0; left:20; z-index:0;">
+<table cellspacing="0" cellpadding="0" style="border:solid 1px #D4D4D4; z-index:0;" class="sort">
+
+
+<tbody><tr>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+</tr>
+
+
+<tr>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+</tr>
+
+
+<tr>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+</tr>
+
+
+<tr>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+</tr>
+
+
+<tr>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+</tr>
+
+
+<tr>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+</tr>
+
+
+<tr>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+</tr>
+
+
+<tr>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+</tr>
+
+
+<tr>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+</tr>
+
+
+<tr>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+</tr>
+
+
+<tr>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+</tr>
+
+
+<tr>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+</tr>
+
+
+<tr>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+</tr>
+
+
+<tr>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+<td class="frame" width="129" height="29"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=24&amp;_lu=1339668463000&amp;_CheckSum=742390710" width="129" height="29" border="0"></td>
+
+</tr>
+
+
+</tbody></table>
+</div>
+
+
+
+
+
+
+
+<div style="position:absolute; top: -40 ; left: 20;">
+<table cellcpacing="0" cellpadding="0" width="130">
+<tbody><tr><td class="font">
+<b class="font">Poniedziałek</b><br>
+
+<span class="font">17-08-2026</span>
+</td></tr>
+</tbody></table>
+</div>
+
+
+
+
+
+
+<div style="position:absolute; top: -40 ; left: 150;">
+<table cellcpacing="0" cellpadding="0" width="130">
+<tbody><tr><td class="font">
+<b class="font">Wtorek</b><br>
+
+<span class="font">18-08-2026</span>
+</td></tr>
+</tbody></table>
+</div>
+
+
+
+
+
+
+<div style="position:absolute; top: -40 ; left: 280;">
+<table cellcpacing="0" cellpadding="0" width="130">
+<tbody><tr><td class="font">
+<b class="font">Środa</b><br>
+
+<span class="font">19-08-2026</span>
+</td></tr>
+</tbody></table>
+</div>
+
+
+
+
+
+
+<div style="position:absolute; top: -40 ; left: 410;">
+<table cellcpacing="0" cellpadding="0" width="130">
+<tbody><tr><td class="font">
+<b class="font">Czwartek</b><br>
+
+<span class="font">20-08-2026</span>
+</td></tr>
+</tbody></table>
+</div>
+
+
+
+
+
+
+<div style="position:absolute; top: -40 ; left: 540;">
+<table cellcpacing="0" cellpadding="0" width="130">
+<tbody><tr><td class="font">
+<b class="font">Piątek</b><br>
+
+<span class="font">21-08-2026</span>
+</td></tr>
+</tbody></table>
+</div>
+
+
+
+
+
+
+<div style="position:absolute; top: -40 ; left: 670;">
+<table cellcpacing="0" cellpadding="0" width="130">
+<tbody><tr><td class="font">
+<b class="font">Sobota</b><br>
+
+<span class="font">22-08-2026</span>
+</td></tr>
+</tbody></table>
+</div>
+
+
+
+
+
+
+<div style="position:absolute; top: -40 ; left: 800;">
+<table cellcpacing="0" cellpadding="0" width="130">
+<tbody><tr><td class="font">
+<b class="font">Niedziela</b><br>
+
+<span class="font">23-08-2026</span>
+</td></tr>
+</tbody></table>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td class="font">
+ <b>...</b> - ...<br>  <b>Ciemnia</b> - Ciemnia (piwnica)<br>  <b>DKS</b> - Dzielnicowy Klub Sportowy TARGÓWEK, ul. Kołowa 18<br>  <b>NON STOP</b> - FIRMA NON STOP, ul. Zagórna 5<br>  <b>FotoWydruk</b> - Foto Wydruki, ul. Hoża 51<br>  <b>Gabinet</b> - Gabinet<br>  <b>Galeria</b> - Galeria Leica, ul. Mysia 3<br>  <b>Game Lab</b> - Game Lab<br>  <b>Gładyszów</b> - Gładyszów<br>  <b>GRIP 7</b> - GRIP 7, ul. Warszawska 295<br>  <b>Heliograf</b> - HELIOGRAF, ul Baletowa 30 C<br>  <b>KINO</b> - KINO ELEKTRONIK<br>  <b>K</b> - KRAKÓW<br>  <b>LAB 2</b> - LAB 2<br>  <b>LAB 5</b> - LAB 5<br>  <b>LAB 6</b> - LAB 6<br>  <b>ME</b> - Muzeum Etnograficzne, ul. Kredytowa 1<br>  <b>MN</b> - Muzeum Narodowe<br>  <b>NSFS</b> - NON STOP FILM SERVICE, Baletowa 30 D<br>  <b>ORKA</b> - ORKA Studio Postprodukcyjne, ul. Bukowińska 22 lok. 3 B<br>  <b>PARKING</b> - PARKING WSF<br>  <b>P</b> - PATIO<br>  <b>GIMNAZJUM</b> - SALA  34 (GIMNAZJUM) II Pietro<br>  <b>1 - Liceum</b> - SALA 1- Liceum Filmowe II Piętro<br>  <b>2 - Liceum</b> - SALA 2 - Liceum Filmowe II piętro<br>  <b>3 - Liceum</b> - SALA 3 - Liceum Filmowe III piętro<br>  <b>4- Liceum</b> - SALA 4- Liceum Filmowe III Piętro<br>  <b>59 -Liceum</b> - SALA 59- Liceum Filmowe III piętro<br>  <b>60- Liceum</b> - SALA 60 Liceum Filmowe III piętro<br>  <b>Kinowa Lic</b> - SALA 61 KINOWA - Liceum Filmowe III piętro<br>  <b>62-S.GIMN</b> - Sala GIMANSTYCZNA - 62<br>  <b>Karowa 18</b> - Sala Klubu Judo AZS UW, ul. Karowa 18, Warszawa<br>  <b>Małe Kino</b> - Sala mała kinowa - Liceum III piętro<br>  <b>nr 12</b> - SALA NR 12<br>  <b>Sala 16</b> - Sala nr 16 (NUCODA)<br>  <b>TP</b> - Teatr Polski<br>  <b>Rumiana61a</b> - ul. Rumiana 61a<br>  <b>Studio</b> - ul. Spokojna 15<br>  <b>WFDiF</b> - WFDiF, ul. Chełmska 21<br>  <b>pedagog</b> - Wirtualny gabinet pedagog<br>  <b>A1</b> - WSF - Aktorska 1<br>  <b>A2</b> - WSF - Aktorska 2<br>  <b>W10</b> - WSF - Czytelnia<br>  <b>K1</b> - WSF - Kinowa 1 (parter)<br>  <b>K2</b> - WSF - Kinowa 2 (piętro)<br>  <b>LAB 1</b> - WSF - LAB 1 (GRY)<br>  <b>LAB 3</b> - WSF - LAB 3 (MONTAŻ DŹWIĘKU)<br>  <b>LAB 4</b> - WSF - LAB 4 (MONTAŻ VIDEO)<br>  <b>M 1</b> - WSF - Montażowa 1<br>  <b>M 2</b> - WSF - Montażowa 2<br>  <b>S1</b> - WSF - Studio 1<br>  <b>S2</b> - WSF - Studio 2<br>  <b>S3 FOTO</b> - WSF - Studio 3<br>  <b>Studio dźw</b> - WSF - Studio dźwiękowe (piwnica)<br>  <b>W1</b> - WSF - Wykładowa 1<br>  <b>W6</b> - WSF - Wykładowa 6<br>  <b>W9</b> - WSF - Wykładowa 9<br>  <b>W11</b> - Wykładowa 11<br>  <b>W2</b> - Wykładowa 2<br>  <b>W2a</b> - Wykładowa 2a<br>  <b>W3L</b> - Wykładowa 3L<br>  <b>W3P</b> - Wykładowa 3P PIEL<br>  <b>W4</b> - Wykładowa 4<br>  <b>W5</b> - Wykładowa 5<br>  <b>W7L</b> - Wykładowa 7L CHARAK<br>  <b>W7P</b> - Wykładowa 7P<br>  <b>8L</b> - Wykładowa 8L<br>  <b>8P</b> - Wykładowa 8P<br>  <b>ONLINE</b> - Zajęcia online<br>  <b>Plener</b> - Zajęcia plenerowe<br> 
+</td></tr></tbody></table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table border="0" cellspacing="0" cellpadding="0" width="">
+<tbody><tr>
+<td align="right">
+<table cellspacing="0" cellpadding="2" border="0">
+<tbody><tr>
+<td valign="middle"><a class="link" href="/palio/html.run?_Instance=cambridge&amp;_PageID=96&amp;_SessionID=1703194&amp;_SessionKey=202507555&amp;_RowID=7265&amp;_RowIDType=I&amp;_firstDayOfWeek=17-08-2026&amp;_CheckSum=-1021931349" target="_blank">drukuj</a></td>
+<td valign="middle"><a class="link" href="/palio/html.run?_Instance=cambridge&amp;_PageID=96&amp;_SessionID=1703194&amp;_SessionKey=202507555&amp;_RowID=7265&amp;_RowIDType=I&amp;_firstDayOfWeek=17-08-2026&amp;_CheckSum=-1021931349" target="_blank"><img src="/palio/html.media?_Instance=cambridge&amp;_Option=Palio&amp;_ID=26&amp;_CheckSum=1936112049" awidth="16" height="14" alt="drukuj" title="drukuj" border="0"></a></td>
+</tr>
+</tbody></table>
 </td>
-<td class="sort" align="center" style="white-space:nowrap" nowrap="">20-05-2026&nbsp;-&nbsp;14-06-2026</td>
-<td class="sort" nowrap="" style="white-space:nowrap"><input type="button" value="Wypełnij" class="button" onclick="window.location='/palio/html.run?_Instance=cambridge&amp;_PageID=6&amp;_SessionID=1703073&amp;_SessionKey=728531548&amp;poll_result_id=243228&amp;_CheckSum=693830767';"></td>
 </tr>
+</tbody></table>
+
+<div align="center">
 
 
 
-</tbody>
-</table><br>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<input type="button" name="jump_action" value="Powrót do listy harmonogramów zajęć" class="button" onclick="window.location='/palio/html.run?_Instance=cambridge&amp;_PageID=191&amp;_SessionID=1703194&amp;_SessionKey=202507555&amp;_CheckSum=1499994818'">
+
+
+
+</div>
 
 </td></tr></tbody></table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="CENTER">
@@ -523,9 +3814,7 @@ Dotyczy typu zajęć ćwiczenia z przedmiotu Film roczny - egzamin (prowadzący 
 grayscaleImagesIE10Plus();
 </script>
 
-<p align="right" class="font"><i style="color:#aaaaaa">Czas generowania strony 24 ms</i></p>
-
-
+<p align="right" class="font"><i style="color:#aaaaaa">Czas generowania strony 109 ms</i></p>
 
 
 </body></html>
