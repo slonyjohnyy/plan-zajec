@@ -9,7 +9,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztat operatorski (dr Mikołaj Jaroszewicz)
 DTSTART;TZID=Europe/Warsaw:20260615T133000
 DTEND;TZID=Europe/Warsaw:20260615T150000
-UID:202606151330-91326@szkolafilmowa
+UID:202606151330-1283@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Mikołaj Jaroszewicz
 LOCATION:S1
 END:VEVENT
@@ -17,7 +17,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztat operatorski (dr Mikołaj Jaroszewicz)
 DTSTART;TZID=Europe/Warsaw:20260615T151500
 DTEND;TZID=Europe/Warsaw:20260615T164500
-UID:202606151515-91326@szkolafilmowa
+UID:202606151515-1283@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Mikołaj Jaroszewicz
 LOCATION:S1
 END:VEVENT
@@ -25,7 +25,7 @@ BEGIN:VEVENT
 SUMMARY:Film roczny - konsultacje (dr Wojciech Rawecki)
 DTSTART;TZID=Europe/Warsaw:20260617T140000
 DTEND;TZID=Europe/Warsaw:20260617T170000
-UID:202606171400-56924@szkolafilmowa
+UID:202606171400-75999@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Wojciech Rawecki
 LOCATION:M 1
 END:VEVENT
@@ -33,7 +33,7 @@ BEGIN:VEVENT
 SUMMARY:Sztuka operatorska (dr hab. Andrzej Ramlau)
 DTSTART;TZID=Europe/Warsaw:20260619T100000
 DTEND;TZID=Europe/Warsaw:20260619T120000
-UID:202606191000-92315@szkolafilmowa
+UID:202606191000-72149@szkolafilmowa
 DESCRIPTION:Prowadzący: dr hab. Andrzej Ramlau
 LOCATION:KINO
 END:VEVENT
@@ -41,7 +41,7 @@ BEGIN:VEVENT
 SUMMARY:Opowiadanie obrazem (lic. Mateusz Pastewka)
 DTSTART;TZID=Europe/Warsaw:20260615T100000
 DTEND;TZID=Europe/Warsaw:20260615T130000
-UID:202606151000-94243@szkolafilmowa
+UID:202606151000-3778@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Mateusz Pastewka
 LOCATION:S1
 END:VEVENT
@@ -49,7 +49,7 @@ BEGIN:VEVENT
 SUMMARY:Film współczesny (dr Maciej Ślesicki)
 DTSTART;TZID=Europe/Warsaw:20260629T110000
 DTEND;TZID=Europe/Warsaw:20260629T160000
-UID:202606291100-6321@szkolafilmowa
+UID:202606291100-35716@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Maciej Ślesicki
 LOCATION:KINO
 END:VEVENT
