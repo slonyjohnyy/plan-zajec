@@ -9,7 +9,7 @@ BEGIN:VEVENT
 SUMMARY:Film roczny - egzamin - ETAP KOŃCOWY (dr Maciej Ślesicki)
 DTSTART;TZID=Europe/Warsaw:20261126T110000
 DTEND;TZID=Europe/Warsaw:20261126T160000
-UID:202611261100-72817@szkolafilmowa
+UID:202611261100-6522@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Maciej Ślesicki
 LOCATION:KINO
 END:VEVENT
@@ -17,7 +17,7 @@ BEGIN:VEVENT
 SUMMARY:Film roczny - egzamin - ETAP KOŃCOWY (dr Maciej Ślesicki)
 DTSTART;TZID=Europe/Warsaw:20261125T110000
 DTEND;TZID=Europe/Warsaw:20261125T160000
-UID:202611251100-72817@szkolafilmowa
+UID:202611251100-6522@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Maciej Ślesicki
 LOCATION:KINO
 END:VEVENT
@@ -25,7 +25,7 @@ BEGIN:VEVENT
 SUMMARY:Film roczny - egzamin - ETAP KOŃCOWY (dr Maciej Ślesicki)
 DTSTART;TZID=Europe/Warsaw:20261124T110000
 DTEND;TZID=Europe/Warsaw:20261124T160000
-UID:202611241100-72817@szkolafilmowa
+UID:202611241100-6522@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Maciej Ślesicki
 LOCATION:KINO
 END:VEVENT
@@ -33,7 +33,7 @@ BEGIN:VEVENT
 SUMMARY:Film roczny - egzamin - ETAP KOŃCOWY (dr Maciej Ślesicki)
 DTSTART;TZID=Europe/Warsaw:20261123T110000
 DTEND;TZID=Europe/Warsaw:20261123T160000
-UID:202611231100-72817@szkolafilmowa
+UID:202611231100-6522@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Maciej Ślesicki
 LOCATION:KINO
 END:VEVENT
@@ -41,7 +41,7 @@ BEGIN:VEVENT
 SUMMARY:Język angielski (mgr Beata Palka)
 DTSTART;TZID=Europe/Warsaw:20261204T090000
 DTEND;TZID=Europe/Warsaw:20261204T111500
-UID:202612040900-18048@szkolafilmowa
+UID:202612040900-25163@szkolafilmowa
 DESCRIPTION:Prowadzący: mgr Beata Palka
 LOCATION:W6
 END:VEVENT
@@ -49,7 +49,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Inscenizacja (lic. Tadeusz Łysiak)
 DTSTART;TZID=Europe/Warsaw:20261203T164500
 DTEND;TZID=Europe/Warsaw:20261203T181500
-UID:202612031645-59258@szkolafilmowa
+UID:202612031645-30475@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Tadeusz Łysiak
 LOCATION:K1
 END:VEVENT
@@ -57,7 +57,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Inscenizacja (lic. Tadeusz Łysiak)
 DTSTART;TZID=Europe/Warsaw:20261201T191500
 DTEND;TZID=Europe/Warsaw:20261201T204500
-UID:202612011915-59258@szkolafilmowa
+UID:202612011915-30475@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Tadeusz Łysiak
 LOCATION:S1
 END:VEVENT
@@ -65,7 +65,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Inscenizacja (lic. Tadeusz Łysiak)
 DTSTART;TZID=Europe/Warsaw:20261201T173000
 DTEND;TZID=Europe/Warsaw:20261201T190000
-UID:202612011730-59258@szkolafilmowa
+UID:202612011730-30475@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Tadeusz Łysiak
 LOCATION:S1
 END:VEVENT
@@ -73,7 +73,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Inscenizacja (lic. Tadeusz Łysiak)
 DTSTART;TZID=Europe/Warsaw:20261203T183000
 DTEND;TZID=Europe/Warsaw:20261203T200000
-UID:202612031830-59258@szkolafilmowa
+UID:202612031830-30475@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Tadeusz Łysiak
 LOCATION:K1
 END:VEVENT
@@ -81,7 +81,7 @@ BEGIN:VEVENT
 SUMMARY:Język angielski (Laura Strzałkowska)
 DTSTART;TZID=Europe/Warsaw:20261204T090000
 DTEND;TZID=Europe/Warsaw:20261204T111500
-UID:202612040900-51726@szkolafilmowa
+UID:202612040900-77147@szkolafilmowa
 DESCRIPTION:Prowadzący: Laura Strzałkowska
 LOCATION:W1
 END:VEVENT
@@ -89,7 +89,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Inscenizacja (lic. Filip Pasternak)
 DTSTART;TZID=Europe/Warsaw:20261201T191500
 DTEND;TZID=Europe/Warsaw:20261201T204500
-UID:202612011915-23934@szkolafilmowa
+UID:202612011915-89203@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Filip Pasternak
 LOCATION:S1
 END:VEVENT
@@ -97,7 +97,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Inscenizacja (lic. Filip Pasternak)
 DTSTART;TZID=Europe/Warsaw:20261201T173000
 DTEND;TZID=Europe/Warsaw:20261201T190000
-UID:202612011730-23934@szkolafilmowa
+UID:202612011730-89203@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Filip Pasternak
 LOCATION:S1
 END:VEVENT
@@ -105,7 +105,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Inscenizacja (lic. Filip Pasternak)
 DTSTART;TZID=Europe/Warsaw:20261203T183000
 DTEND;TZID=Europe/Warsaw:20261203T200000
-UID:202612031830-23934@szkolafilmowa
+UID:202612031830-89203@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Filip Pasternak
 LOCATION:K1
 END:VEVENT
@@ -113,7 +113,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Inscenizacja (lic. Filip Pasternak)
 DTSTART;TZID=Europe/Warsaw:20261203T164500
 DTEND;TZID=Europe/Warsaw:20261203T181500
-UID:202612031645-23934@szkolafilmowa
+UID:202612031645-89203@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Filip Pasternak
 LOCATION:K1
 END:VEVENT
@@ -121,7 +121,7 @@ BEGIN:VEVENT
 SUMMARY:Historia powszechna kina (dr Robert Wichrowski)
 DTSTART;TZID=Europe/Warsaw:20261130T141500
 DTEND;TZID=Europe/Warsaw:20261130T154500
-UID:202611301415-7943@szkolafilmowa
+UID:202611301415-74562@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Robert Wichrowski
 LOCATION:KINO
 END:VEVENT
@@ -129,7 +129,7 @@ BEGIN:VEVENT
 SUMMARY:Historia powszechna kina (dr Robert Wichrowski)
 DTSTART;TZID=Europe/Warsaw:20261130T123000
 DTEND;TZID=Europe/Warsaw:20261130T140000
-UID:202611301230-7943@szkolafilmowa
+UID:202611301230-74562@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Robert Wichrowski
 LOCATION:KINO
 END:VEVENT
@@ -137,7 +137,7 @@ BEGIN:VEVENT
 SUMMARY:Historia powszechna kina (dr Robert Wichrowski)
 DTSTART;TZID=Europe/Warsaw:20261130T104500
 DTEND;TZID=Europe/Warsaw:20261130T121500
-UID:202611301045-7943@szkolafilmowa
+UID:202611301045-74562@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Robert Wichrowski
 LOCATION:KINO
 END:VEVENT
@@ -145,7 +145,7 @@ BEGIN:VEVENT
 SUMMARY:Historia powszechna kina (dr Robert Wichrowski)
 DTSTART;TZID=Europe/Warsaw:20261130T090000
 DTEND;TZID=Europe/Warsaw:20261130T103000
-UID:202611300900-7943@szkolafilmowa
+UID:202611300900-74562@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Robert Wichrowski
 LOCATION:KINO
 END:VEVENT
@@ -153,7 +153,7 @@ BEGIN:VEVENT
 SUMMARY:Język angielski (mgr Beata Palka)
 DTSTART;TZID=Europe/Warsaw:20261204T113000
 DTEND;TZID=Europe/Warsaw:20261204T134500
-UID:202612041130-18048@szkolafilmowa
+UID:202612041130-25163@szkolafilmowa
 DESCRIPTION:Prowadzący: mgr Beata Palka
 LOCATION:W6
 END:VEVENT
@@ -161,7 +161,7 @@ BEGIN:VEVENT
 SUMMARY:Reżyseria filmowa  - jak to jest zrobione? (... ...)
 DTSTART;TZID=Europe/Warsaw:20261204T170000
 DTEND;TZID=Europe/Warsaw:20261204T200000
-UID:202612041700-78748@szkolafilmowa
+UID:202612041700-20964@szkolafilmowa
 DESCRIPTION:Prowadzący: ... ...
 LOCATION:KINO
 END:VEVENT
@@ -169,7 +169,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Kolorkorekcja (mgr Tomasz Malinowski)
 DTSTART;TZID=Europe/Warsaw:20261202T163000
 DTEND;TZID=Europe/Warsaw:20261202T180000
-UID:202612021630-37956@szkolafilmowa
+UID:202612021630-85077@szkolafilmowa
 DESCRIPTION:Prowadzący: mgr Tomasz Malinowski
 LOCATION:LAB 4
 END:VEVENT
@@ -177,7 +177,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Kolorkorekcja (mgr Tomasz Malinowski)
 DTSTART;TZID=Europe/Warsaw:20261202T181500
 DTEND;TZID=Europe/Warsaw:20261202T194500
-UID:202612021815-37956@szkolafilmowa
+UID:202612021815-85077@szkolafilmowa
 DESCRIPTION:Prowadzący: mgr Tomasz Malinowski
 LOCATION:LAB 4
 END:VEVENT
@@ -185,7 +185,7 @@ BEGIN:VEVENT
 SUMMARY:Oblicza polskiego kina (dr Katarzyna Bałdyga)
 DTSTART;TZID=Europe/Warsaw:20261201T121500
 DTEND;TZID=Europe/Warsaw:20261201T134500
-UID:202612011215-14483@szkolafilmowa
+UID:202612011215-61913@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Katarzyna Bałdyga
 LOCATION:K1
 END:VEVENT
@@ -193,7 +193,7 @@ BEGIN:VEVENT
 SUMMARY:Oblicza polskiego kina (dr Katarzyna Bałdyga)
 DTSTART;TZID=Europe/Warsaw:20261201T103000
 DTEND;TZID=Europe/Warsaw:20261201T120000
-UID:202612011030-14483@szkolafilmowa
+UID:202612011030-61913@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Katarzyna Bałdyga
 LOCATION:K1
 END:VEVENT
@@ -201,7 +201,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Opowiadanie obrazem (lic. Mateusz Pastewka)
 DTSTART;TZID=Europe/Warsaw:20261203T144500
 DTEND;TZID=Europe/Warsaw:20261203T161500
-UID:202612031445-2520@szkolafilmowa
+UID:202612031445-41006@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Mateusz Pastewka
 LOCATION:W6
 END:VEVENT
@@ -209,7 +209,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Opowiadanie obrazem (lic. Mateusz Pastewka)
 DTSTART;TZID=Europe/Warsaw:20261203T130000
 DTEND;TZID=Europe/Warsaw:20261203T143000
-UID:202612031300-2520@szkolafilmowa
+UID:202612031300-41006@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Mateusz Pastewka
 LOCATION:W6
 END:VEVENT
@@ -217,7 +217,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Język optyki filmowej (Konrad Bloch)
 DTSTART;TZID=Europe/Warsaw:20261202T133000
 DTEND;TZID=Europe/Warsaw:20261202T154500
-UID:202612021330-71324@szkolafilmowa
+UID:202612021330-326@szkolafilmowa
 DESCRIPTION:Prowadzący: Konrad Bloch
 LOCATION:K1
 END:VEVENT
@@ -225,7 +225,7 @@ BEGIN:VEVENT
 SUMMARY:Analiza techniczna filmu (dr hab. Katarzyna Taras)
 DTSTART;TZID=Europe/Warsaw:20261130T180000
 DTEND;TZID=Europe/Warsaw:20261130T193000
-UID:202611301800-23945@szkolafilmowa
+UID:202611301800-71931@szkolafilmowa
 DESCRIPTION:Prowadzący: dr hab. Katarzyna Taras
 LOCATION:K1
 END:VEVENT
@@ -233,7 +233,7 @@ BEGIN:VEVENT
 SUMMARY:Analiza techniczna filmu (dr hab. Katarzyna Taras)
 DTSTART;TZID=Europe/Warsaw:20261130T161500
 DTEND;TZID=Europe/Warsaw:20261130T174500
-UID:202611301615-23945@szkolafilmowa
+UID:202611301615-71931@szkolafilmowa
 DESCRIPTION:Prowadzący: dr hab. Katarzyna Taras
 LOCATION:K1
 END:VEVENT
@@ -241,7 +241,7 @@ BEGIN:VEVENT
 SUMMARY:Film dokumentalny (dr Barbara Pawłowska)
 DTSTART;TZID=Europe/Warsaw:20261202T090000
 DTEND;TZID=Europe/Warsaw:20261202T111500
-UID:202612020900-62533@szkolafilmowa
+UID:202612020900-62513@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Barbara Pawłowska
 LOCATION:K1
 END:VEVENT
@@ -249,7 +249,7 @@ BEGIN:VEVENT
 SUMMARY:Historia powszechna kina (dr Robert Wichrowski)
 DTSTART;TZID=Europe/Warsaw:20261207T141500
 DTEND;TZID=Europe/Warsaw:20261207T154500
-UID:202612071415-7943@szkolafilmowa
+UID:202612071415-74562@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Robert Wichrowski
 LOCATION:KINO
 END:VEVENT
@@ -257,7 +257,7 @@ BEGIN:VEVENT
 SUMMARY:Historia powszechna kina (dr Robert Wichrowski)
 DTSTART;TZID=Europe/Warsaw:20261207T123000
 DTEND;TZID=Europe/Warsaw:20261207T140000
-UID:202612071230-7943@szkolafilmowa
+UID:202612071230-74562@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Robert Wichrowski
 LOCATION:KINO
 END:VEVENT
@@ -265,7 +265,7 @@ BEGIN:VEVENT
 SUMMARY:Język angielski (mgr Beata Palka)
 DTSTART;TZID=Europe/Warsaw:20261210T093000
 DTEND;TZID=Europe/Warsaw:20261210T114500
-UID:202612100930-18048@szkolafilmowa
+UID:202612100930-25163@szkolafilmowa
 DESCRIPTION:Prowadzący: mgr Beata Palka
 LOCATION:ONLINE
 END:VEVENT
@@ -273,7 +273,7 @@ BEGIN:VEVENT
 SUMMARY:Kultura wizualna (mgr Lena Pierga)
 DTSTART;TZID=Europe/Warsaw:20261207T100000
 DTEND;TZID=Europe/Warsaw:20261207T121500
-UID:202612071000-93154@szkolafilmowa
+UID:202612071000-38689@szkolafilmowa
 DESCRIPTION:Prowadzący: mgr Lena Pierga
 LOCATION:KINO
 END:VEVENT
@@ -281,7 +281,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Kolorkorekcja (mgr Tomasz Malinowski)
 DTSTART;TZID=Europe/Warsaw:20261209T181500
 DTEND;TZID=Europe/Warsaw:20261209T194500
-UID:202612091815-37956@szkolafilmowa
+UID:202612091815-85077@szkolafilmowa
 DESCRIPTION:Prowadzący: mgr Tomasz Malinowski
 LOCATION:LAB 4
 END:VEVENT
@@ -289,7 +289,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Kolorkorekcja (mgr Tomasz Malinowski)
 DTSTART;TZID=Europe/Warsaw:20261209T163000
 DTEND;TZID=Europe/Warsaw:20261209T180000
-UID:202612091630-37956@szkolafilmowa
+UID:202612091630-85077@szkolafilmowa
 DESCRIPTION:Prowadzący: mgr Tomasz Malinowski
 LOCATION:LAB 4
 END:VEVENT
@@ -297,7 +297,7 @@ BEGIN:VEVENT
 SUMMARY:Oblicza polskiego kina (dr Katarzyna Bałdyga)
 DTSTART;TZID=Europe/Warsaw:20261208T103000
 DTEND;TZID=Europe/Warsaw:20261208T120000
-UID:202612081030-14483@szkolafilmowa
+UID:202612081030-61913@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Katarzyna Bałdyga
 LOCATION:K1
 END:VEVENT
@@ -305,7 +305,7 @@ BEGIN:VEVENT
 SUMMARY:Oblicza polskiego kina (dr Katarzyna Bałdyga)
 DTSTART;TZID=Europe/Warsaw:20261208T121500
 DTEND;TZID=Europe/Warsaw:20261208T134500
-UID:202612081215-14483@szkolafilmowa
+UID:202612081215-61913@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Katarzyna Bałdyga
 LOCATION:K1
 END:VEVENT
@@ -313,7 +313,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Język optyki filmowej (Konrad Bloch)
 DTSTART;TZID=Europe/Warsaw:20261209T133000
 DTEND;TZID=Europe/Warsaw:20261209T154500
-UID:202612091330-71324@szkolafilmowa
+UID:202612091330-326@szkolafilmowa
 DESCRIPTION:Prowadzący: Konrad Bloch
 LOCATION:K1
 END:VEVENT
@@ -321,7 +321,7 @@ BEGIN:VEVENT
 SUMMARY:Analiza techniczna filmu (dr hab. Katarzyna Taras)
 DTSTART;TZID=Europe/Warsaw:20261207T180000
 DTEND;TZID=Europe/Warsaw:20261207T193000
-UID:202612071800-23945@szkolafilmowa
+UID:202612071800-71931@szkolafilmowa
 DESCRIPTION:Prowadzący: dr hab. Katarzyna Taras
 LOCATION:K1
 END:VEVENT
@@ -329,7 +329,7 @@ BEGIN:VEVENT
 SUMMARY:Analiza techniczna filmu (dr hab. Katarzyna Taras)
 DTSTART;TZID=Europe/Warsaw:20261207T161500
 DTEND;TZID=Europe/Warsaw:20261207T174500
-UID:202612071615-23945@szkolafilmowa
+UID:202612071615-71931@szkolafilmowa
 DESCRIPTION:Prowadzący: dr hab. Katarzyna Taras
 LOCATION:K1
 END:VEVENT
@@ -338,7 +338,7 @@ SUMMARY:Ćwiczenia warsztatowe dla operatora obrazu (prof. dr hab. Andrzej
   J Jaroszewicz)
 DTSTART;TZID=Europe/Warsaw:20261208T154500
 DTEND;TZID=Europe/Warsaw:20261208T171500
-UID:202612081545-27549@szkolafilmowa
+UID:202612081545-93549@szkolafilmowa
 DESCRIPTION:Prowadzący: prof. dr hab. Andrzej J Jaroszewicz
 LOCATION:M 1
 END:VEVENT
@@ -347,7 +347,7 @@ SUMMARY:Ćwiczenia warsztatowe dla operatora obrazu (prof. dr hab. Andrzej
   J Jaroszewicz)
 DTSTART;TZID=Europe/Warsaw:20261208T140000
 DTEND;TZID=Europe/Warsaw:20261208T153000
-UID:202612081400-27549@szkolafilmowa
+UID:202612081400-93549@szkolafilmowa
 DESCRIPTION:Prowadzący: prof. dr hab. Andrzej J Jaroszewicz
 LOCATION:M 1
 END:VEVENT
@@ -355,7 +355,7 @@ BEGIN:VEVENT
 SUMMARY:Film dokumentalny (dr Barbara Pawłowska)
 DTSTART;TZID=Europe/Warsaw:20261209T114500
 DTEND;TZID=Europe/Warsaw:20261209T131500
-UID:202612091145-62533@szkolafilmowa
+UID:202612091145-62513@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Barbara Pawłowska
 LOCATION:K1
 END:VEVENT
@@ -363,7 +363,7 @@ BEGIN:VEVENT
 SUMMARY:Film dokumentalny (dr Barbara Pawłowska)
 DTSTART;TZID=Europe/Warsaw:20261209T100000
 DTEND;TZID=Europe/Warsaw:20261209T113000
-UID:202612091000-62533@szkolafilmowa
+UID:202612091000-62513@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Barbara Pawłowska
 LOCATION:K1
 END:VEVENT
@@ -371,7 +371,7 @@ BEGIN:VEVENT
 SUMMARY:Język angielski (mgr Beata Palka)
 DTSTART;TZID=Europe/Warsaw:20261218T090000
 DTEND;TZID=Europe/Warsaw:20261218T111500
-UID:202612180900-18048@szkolafilmowa
+UID:202612180900-25163@szkolafilmowa
 DESCRIPTION:Prowadzący: mgr Beata Palka
 LOCATION:W6
 END:VEVENT
@@ -379,7 +379,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Inscenizacja (lic. Tadeusz Łysiak)
 DTSTART;TZID=Europe/Warsaw:20261217T130000
 DTEND;TZID=Europe/Warsaw:20261217T143000
-UID:202612171300-59258@szkolafilmowa
+UID:202612171300-30475@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Tadeusz Łysiak
 LOCATION:S1
 END:VEVENT
@@ -387,7 +387,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Inscenizacja (lic. Tadeusz Łysiak)
 DTSTART;TZID=Europe/Warsaw:20261217T144500
 DTEND;TZID=Europe/Warsaw:20261217T161500
-UID:202612171445-59258@szkolafilmowa
+UID:202612171445-30475@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Tadeusz Łysiak
 LOCATION:S1
 END:VEVENT
@@ -395,7 +395,7 @@ BEGIN:VEVENT
 SUMMARY:Język angielski (Laura Strzałkowska)
 DTSTART;TZID=Europe/Warsaw:20261218T090000
 DTEND;TZID=Europe/Warsaw:20261218T111500
-UID:202612180900-51726@szkolafilmowa
+UID:202612180900-77147@szkolafilmowa
 DESCRIPTION:Prowadzący: Laura Strzałkowska
 LOCATION:LAB 3
 END:VEVENT
@@ -403,7 +403,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Inscenizacja (lic. Filip Pasternak)
 DTSTART;TZID=Europe/Warsaw:20261217T144500
 DTEND;TZID=Europe/Warsaw:20261217T161500
-UID:202612171445-23934@szkolafilmowa
+UID:202612171445-89203@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Filip Pasternak
 LOCATION:S1
 END:VEVENT
@@ -411,7 +411,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Inscenizacja (lic. Filip Pasternak)
 DTSTART;TZID=Europe/Warsaw:20261217T130000
 DTEND;TZID=Europe/Warsaw:20261217T143000
-UID:202612171300-23934@szkolafilmowa
+UID:202612171300-89203@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Filip Pasternak
 LOCATION:S1
 END:VEVENT
@@ -419,7 +419,7 @@ BEGIN:VEVENT
 SUMMARY:Historia powszechna kina (dr Robert Wichrowski)
 DTSTART;TZID=Europe/Warsaw:20261214T141500
 DTEND;TZID=Europe/Warsaw:20261214T154500
-UID:202612141415-7943@szkolafilmowa
+UID:202612141415-74562@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Robert Wichrowski
 LOCATION:KINO
 END:VEVENT
@@ -427,7 +427,7 @@ BEGIN:VEVENT
 SUMMARY:Historia powszechna kina (dr Robert Wichrowski)
 DTSTART;TZID=Europe/Warsaw:20261214T123000
 DTEND;TZID=Europe/Warsaw:20261214T140000
-UID:202612141230-7943@szkolafilmowa
+UID:202612141230-74562@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Robert Wichrowski
 LOCATION:KINO
 END:VEVENT
@@ -435,7 +435,7 @@ BEGIN:VEVENT
 SUMMARY:Język angielski (mgr Beata Palka)
 DTSTART;TZID=Europe/Warsaw:20261218T113000
 DTEND;TZID=Europe/Warsaw:20261218T134500
-UID:202612181130-18048@szkolafilmowa
+UID:202612181130-25163@szkolafilmowa
 DESCRIPTION:Prowadzący: mgr Beata Palka
 LOCATION:W6
 END:VEVENT
@@ -443,7 +443,7 @@ BEGIN:VEVENT
 SUMMARY:Kultura wizualna (mgr Lena Pierga)
 DTSTART;TZID=Europe/Warsaw:20261214T100000
 DTEND;TZID=Europe/Warsaw:20261214T121500
-UID:202612141000-93154@szkolafilmowa
+UID:202612141000-38689@szkolafilmowa
 DESCRIPTION:Prowadzący: mgr Lena Pierga
 LOCATION:KINO
 END:VEVENT
@@ -451,7 +451,7 @@ BEGIN:VEVENT
 SUMMARY:WF (lic. Łukasz Sip)
 DTSTART;TZID=Europe/Warsaw:20261217T183000
 DTEND;TZID=Europe/Warsaw:20261217T203000
-UID:202612171830-20645@szkolafilmowa
+UID:202612171830-3406@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Łukasz Sip
 LOCATION:P
 END:VEVENT
@@ -459,7 +459,7 @@ BEGIN:VEVENT
 SUMMARY:Reżyseria filmowa  - jak to jest zrobione? (... ...)
 DTSTART;TZID=Europe/Warsaw:20261218T170000
 DTEND;TZID=Europe/Warsaw:20261218T200000
-UID:202612181700-78748@szkolafilmowa
+UID:202612181700-20964@szkolafilmowa
 DESCRIPTION:Prowadzący: ... ...
 LOCATION:KINO
 END:VEVENT
@@ -467,7 +467,7 @@ BEGIN:VEVENT
 SUMMARY:Kulturoznawstwo (Katarzyna Czajka-Kominiarczuk)
 DTSTART;TZID=Europe/Warsaw:20261215T173000
 DTEND;TZID=Europe/Warsaw:20261215T194500
-UID:202612151730-79360@szkolafilmowa
+UID:202612151730-1539@szkolafilmowa
 DESCRIPTION:Prowadzący: Katarzyna Czajka-Kominiarczuk
 LOCATION:K2
 END:VEVENT
@@ -475,7 +475,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Kolorkorekcja (mgr Tomasz Malinowski)
 DTSTART;TZID=Europe/Warsaw:20261216T181500
 DTEND;TZID=Europe/Warsaw:20261216T194500
-UID:202612161815-37956@szkolafilmowa
+UID:202612161815-85077@szkolafilmowa
 DESCRIPTION:Prowadzący: mgr Tomasz Malinowski
 LOCATION:LAB 4
 END:VEVENT
@@ -483,7 +483,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Kolorkorekcja (mgr Tomasz Malinowski)
 DTSTART;TZID=Europe/Warsaw:20261216T163000
 DTEND;TZID=Europe/Warsaw:20261216T180000
-UID:202612161630-37956@szkolafilmowa
+UID:202612161630-85077@szkolafilmowa
 DESCRIPTION:Prowadzący: mgr Tomasz Malinowski
 LOCATION:LAB 4
 END:VEVENT
@@ -491,7 +491,7 @@ BEGIN:VEVENT
 SUMMARY:Oblicza polskiego kina (dr Katarzyna Bałdyga)
 DTSTART;TZID=Europe/Warsaw:20261215T121500
 DTEND;TZID=Europe/Warsaw:20261215T134500
-UID:202612151215-14483@szkolafilmowa
+UID:202612151215-61913@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Katarzyna Bałdyga
 LOCATION:K2
 END:VEVENT
@@ -499,7 +499,7 @@ BEGIN:VEVENT
 SUMMARY:Oblicza polskiego kina (dr Katarzyna Bałdyga)
 DTSTART;TZID=Europe/Warsaw:20261215T103000
 DTEND;TZID=Europe/Warsaw:20261215T120000
-UID:202612151030-14483@szkolafilmowa
+UID:202612151030-61913@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Katarzyna Bałdyga
 LOCATION:K2
 END:VEVENT
@@ -507,7 +507,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Opowiadanie obrazem (lic. Mateusz Pastewka)
 DTSTART;TZID=Europe/Warsaw:20261217T104500
 DTEND;TZID=Europe/Warsaw:20261217T121500
-UID:202612171045-2520@szkolafilmowa
+UID:202612171045-41006@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Mateusz Pastewka
 LOCATION:S3 FOTO
 END:VEVENT
@@ -515,7 +515,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Opowiadanie obrazem (lic. Mateusz Pastewka)
 DTSTART;TZID=Europe/Warsaw:20261217T090000
 DTEND;TZID=Europe/Warsaw:20261217T103000
-UID:202612170900-2520@szkolafilmowa
+UID:202612170900-41006@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Mateusz Pastewka
 LOCATION:S3 FOTO
 END:VEVENT
@@ -523,7 +523,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Język optyki filmowej (Konrad Bloch)
 DTSTART;TZID=Europe/Warsaw:20261216T133000
 DTEND;TZID=Europe/Warsaw:20261216T154500
-UID:202612161330-71324@szkolafilmowa
+UID:202612161330-326@szkolafilmowa
 DESCRIPTION:Prowadzący: Konrad Bloch
 LOCATION:K1
 END:VEVENT
@@ -531,7 +531,7 @@ BEGIN:VEVENT
 SUMMARY:Analiza techniczna filmu (dr hab. Katarzyna Taras)
 DTSTART;TZID=Europe/Warsaw:20261214T180000
 DTEND;TZID=Europe/Warsaw:20261214T193000
-UID:202612141800-23945@szkolafilmowa
+UID:202612141800-71931@szkolafilmowa
 DESCRIPTION:Prowadzący: dr hab. Katarzyna Taras
 LOCATION:K2
 END:VEVENT
@@ -539,7 +539,7 @@ BEGIN:VEVENT
 SUMMARY:Analiza techniczna filmu (dr hab. Katarzyna Taras)
 DTSTART;TZID=Europe/Warsaw:20261214T161500
 DTEND;TZID=Europe/Warsaw:20261214T174500
-UID:202612141615-23945@szkolafilmowa
+UID:202612141615-71931@szkolafilmowa
 DESCRIPTION:Prowadzący: dr hab. Katarzyna Taras
 LOCATION:K2
 END:VEVENT
@@ -548,7 +548,7 @@ SUMMARY:Ćwiczenia warsztatowe dla operatora obrazu (prof. dr hab. Andrzej
   J Jaroszewicz)
 DTSTART;TZID=Europe/Warsaw:20261218T140000
 DTEND;TZID=Europe/Warsaw:20261218T170000
-UID:202612181400-27549@szkolafilmowa
+UID:202612181400-93549@szkolafilmowa
 DESCRIPTION:Prowadzący: prof. dr hab. Andrzej J Jaroszewicz
 LOCATION:W2
 END:VEVENT
@@ -557,7 +557,7 @@ SUMMARY:Ćwiczenia warsztatowe dla operatora obrazu (prof. dr hab. Andrzej
   J Jaroszewicz)
 DTSTART;TZID=Europe/Warsaw:20261215T154500
 DTEND;TZID=Europe/Warsaw:20261215T171500
-UID:202612151545-27549@szkolafilmowa
+UID:202612151545-93549@szkolafilmowa
 DESCRIPTION:Prowadzący: prof. dr hab. Andrzej J Jaroszewicz
 LOCATION:M 1
 END:VEVENT
@@ -566,7 +566,7 @@ SUMMARY:Ćwiczenia warsztatowe dla operatora obrazu (prof. dr hab. Andrzej
   J Jaroszewicz)
 DTSTART;TZID=Europe/Warsaw:20261215T140000
 DTEND;TZID=Europe/Warsaw:20261215T153000
-UID:202612151400-27549@szkolafilmowa
+UID:202612151400-93549@szkolafilmowa
 DESCRIPTION:Prowadzący: prof. dr hab. Andrzej J Jaroszewicz
 LOCATION:M 1
 END:VEVENT
@@ -574,7 +574,7 @@ BEGIN:VEVENT
 SUMMARY:Film dokumentalny (dr Barbara Pawłowska)
 DTSTART;TZID=Europe/Warsaw:20261216T090000
 DTEND;TZID=Europe/Warsaw:20261216T111500
-UID:202612160900-62533@szkolafilmowa
+UID:202612160900-62513@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Barbara Pawłowska
 LOCATION:K1
 END:VEVENT
@@ -582,7 +582,7 @@ BEGIN:VEVENT
 SUMMARY:Język angielski (mgr Beata Palka)
 DTSTART;TZID=Europe/Warsaw:20270108T090000
 DTEND;TZID=Europe/Warsaw:20270108T111500
-UID:202701080900-18048@szkolafilmowa
+UID:202701080900-25163@szkolafilmowa
 DESCRIPTION:Prowadzący: mgr Beata Palka
 LOCATION:W6
 END:VEVENT
@@ -590,7 +590,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Inscenizacja (lic. Tadeusz Łysiak)
 DTSTART;TZID=Europe/Warsaw:20270107T144500
 DTEND;TZID=Europe/Warsaw:20270107T161500
-UID:202701071445-59258@szkolafilmowa
+UID:202701071445-30475@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Tadeusz Łysiak
 LOCATION:S2
 END:VEVENT
@@ -598,7 +598,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Inscenizacja (lic. Tadeusz Łysiak)
 DTSTART;TZID=Europe/Warsaw:20270107T130000
 DTEND;TZID=Europe/Warsaw:20270107T143000
-UID:202701071300-59258@szkolafilmowa
+UID:202701071300-30475@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Tadeusz Łysiak
 LOCATION:S2
 END:VEVENT
@@ -606,7 +606,7 @@ BEGIN:VEVENT
 SUMMARY:Język angielski (Laura Strzałkowska)
 DTSTART;TZID=Europe/Warsaw:20270108T090000
 DTEND;TZID=Europe/Warsaw:20270108T111500
-UID:202701080900-51726@szkolafilmowa
+UID:202701080900-77147@szkolafilmowa
 DESCRIPTION:Prowadzący: Laura Strzałkowska
 LOCATION:W1
 END:VEVENT
@@ -614,7 +614,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Inscenizacja (lic. Filip Pasternak)
 DTSTART;TZID=Europe/Warsaw:20270107T144500
 DTEND;TZID=Europe/Warsaw:20270107T161500
-UID:202701071445-23934@szkolafilmowa
+UID:202701071445-89203@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Filip Pasternak
 LOCATION:S2
 END:VEVENT
@@ -622,7 +622,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Inscenizacja (lic. Filip Pasternak)
 DTSTART;TZID=Europe/Warsaw:20270107T130000
 DTEND;TZID=Europe/Warsaw:20270107T143000
-UID:202701071300-23934@szkolafilmowa
+UID:202701071300-89203@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Filip Pasternak
 LOCATION:S2
 END:VEVENT
@@ -630,7 +630,7 @@ BEGIN:VEVENT
 SUMMARY:Język angielski (mgr Beata Palka)
 DTSTART;TZID=Europe/Warsaw:20270108T113000
 DTEND;TZID=Europe/Warsaw:20270108T134500
-UID:202701081130-18048@szkolafilmowa
+UID:202701081130-25163@szkolafilmowa
 DESCRIPTION:Prowadzący: mgr Beata Palka
 LOCATION:W6
 END:VEVENT
@@ -638,7 +638,7 @@ BEGIN:VEVENT
 SUMMARY:WF (lic. Łukasz Sip)
 DTSTART;TZID=Europe/Warsaw:20270107T183000
 DTEND;TZID=Europe/Warsaw:20270107T203000
-UID:202701071830-20645@szkolafilmowa
+UID:202701071830-3406@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Łukasz Sip
 LOCATION:P
 END:VEVENT
@@ -646,7 +646,7 @@ BEGIN:VEVENT
 SUMMARY:Reżyseria filmowa  - jak to jest zrobione? (... ...)
 DTSTART;TZID=Europe/Warsaw:20270108T170000
 DTEND;TZID=Europe/Warsaw:20270108T200000
-UID:202701081700-78748@szkolafilmowa
+UID:202701081700-20964@szkolafilmowa
 DESCRIPTION:Prowadzący: ... ...
 LOCATION:KINO
 END:VEVENT
@@ -654,7 +654,7 @@ BEGIN:VEVENT
 SUMMARY:Oblicza polskiego kina (dr Katarzyna Bałdyga)
 DTSTART;TZID=Europe/Warsaw:20270105T151500
 DTEND;TZID=Europe/Warsaw:20270105T164500
-UID:202701051515-14483@szkolafilmowa
+UID:202701051515-61913@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Katarzyna Bałdyga
 LOCATION:K1
 END:VEVENT
@@ -662,7 +662,7 @@ BEGIN:VEVENT
 SUMMARY:Oblicza polskiego kina (dr Katarzyna Bałdyga)
 DTSTART;TZID=Europe/Warsaw:20270105T133000
 DTEND;TZID=Europe/Warsaw:20270105T150000
-UID:202701051330-14483@szkolafilmowa
+UID:202701051330-61913@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Katarzyna Bałdyga
 LOCATION:K1
 END:VEVENT
@@ -670,7 +670,7 @@ BEGIN:VEVENT
 SUMMARY:Analiza techniczna filmu (dr hab. Katarzyna Taras)
 DTSTART;TZID=Europe/Warsaw:20270105T184500
 DTEND;TZID=Europe/Warsaw:20270105T201500
-UID:202701051845-23945@szkolafilmowa
+UID:202701051845-71931@szkolafilmowa
 DESCRIPTION:Prowadzący: dr hab. Katarzyna Taras
 LOCATION:K1
 END:VEVENT
@@ -678,7 +678,7 @@ BEGIN:VEVENT
 SUMMARY:Analiza techniczna filmu (dr hab. Katarzyna Taras)
 DTSTART;TZID=Europe/Warsaw:20270105T170000
 DTEND;TZID=Europe/Warsaw:20270105T183000
-UID:202701051700-23945@szkolafilmowa
+UID:202701051700-71931@szkolafilmowa
 DESCRIPTION:Prowadzący: dr hab. Katarzyna Taras
 LOCATION:K1
 END:VEVENT
@@ -687,7 +687,7 @@ SUMMARY:Ćwiczenia warsztatowe dla operatora obrazu (prof. dr hab. Andrzej
   J Jaroszewicz)
 DTSTART;TZID=Europe/Warsaw:20270107T111500
 DTEND;TZID=Europe/Warsaw:20270107T124500
-UID:202701071115-27549@szkolafilmowa
+UID:202701071115-93549@szkolafilmowa
 DESCRIPTION:Prowadzący: prof. dr hab. Andrzej J Jaroszewicz
 LOCATION:W2
 END:VEVENT
@@ -696,7 +696,7 @@ SUMMARY:Ćwiczenia warsztatowe dla operatora obrazu (prof. dr hab. Andrzej
   J Jaroszewicz)
 DTSTART;TZID=Europe/Warsaw:20270107T093000
 DTEND;TZID=Europe/Warsaw:20270107T110000
-UID:202701070930-27549@szkolafilmowa
+UID:202701070930-93549@szkolafilmowa
 DESCRIPTION:Prowadzący: prof. dr hab. Andrzej J Jaroszewicz
 LOCATION:W2
 END:VEVENT
@@ -704,7 +704,7 @@ BEGIN:VEVENT
 SUMMARY:Film dokumentalny (dr Barbara Pawłowska)
 DTSTART;TZID=Europe/Warsaw:20270105T114500
 DTEND;TZID=Europe/Warsaw:20270105T131500
-UID:202701051145-62533@szkolafilmowa
+UID:202701051145-62513@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Barbara Pawłowska
 LOCATION:K1
 END:VEVENT
@@ -712,7 +712,7 @@ BEGIN:VEVENT
 SUMMARY:Film dokumentalny (dr Barbara Pawłowska)
 DTSTART;TZID=Europe/Warsaw:20270105T100000
 DTEND;TZID=Europe/Warsaw:20270105T113000
-UID:202701051000-62533@szkolafilmowa
+UID:202701051000-62513@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Barbara Pawłowska
 LOCATION:K1
 END:VEVENT
@@ -720,7 +720,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Inscenizacja (lic. Tadeusz Łysiak)
 DTSTART;TZID=Europe/Warsaw:20270114T144500
 DTEND;TZID=Europe/Warsaw:20270114T161500
-UID:202701141445-59258@szkolafilmowa
+UID:202701141445-30475@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Tadeusz Łysiak
 LOCATION:S2
 END:VEVENT
@@ -728,7 +728,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Inscenizacja (lic. Tadeusz Łysiak)
 DTSTART;TZID=Europe/Warsaw:20270114T130000
 DTEND;TZID=Europe/Warsaw:20270114T143000
-UID:202701141300-59258@szkolafilmowa
+UID:202701141300-30475@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Tadeusz Łysiak
 LOCATION:S2
 END:VEVENT
@@ -736,7 +736,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Inscenizacja (lic. Filip Pasternak)
 DTSTART;TZID=Europe/Warsaw:20270114T130000
 DTEND;TZID=Europe/Warsaw:20270114T143000
-UID:202701141300-23934@szkolafilmowa
+UID:202701141300-89203@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Filip Pasternak
 LOCATION:S2
 END:VEVENT
@@ -744,7 +744,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Inscenizacja (lic. Filip Pasternak)
 DTSTART;TZID=Europe/Warsaw:20270114T144500
 DTEND;TZID=Europe/Warsaw:20270114T161500
-UID:202701141445-23934@szkolafilmowa
+UID:202701141445-89203@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Filip Pasternak
 LOCATION:S2
 END:VEVENT
@@ -752,7 +752,7 @@ BEGIN:VEVENT
 SUMMARY:Historia powszechna kina (dr Robert Wichrowski)
 DTSTART;TZID=Europe/Warsaw:20270111T141500
 DTEND;TZID=Europe/Warsaw:20270111T154500
-UID:202701111415-7943@szkolafilmowa
+UID:202701111415-74562@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Robert Wichrowski
 LOCATION:KINO
 END:VEVENT
@@ -760,7 +760,7 @@ BEGIN:VEVENT
 SUMMARY:Historia powszechna kina (dr Robert Wichrowski)
 DTSTART;TZID=Europe/Warsaw:20270111T123000
 DTEND;TZID=Europe/Warsaw:20270111T140000
-UID:202701111230-7943@szkolafilmowa
+UID:202701111230-74562@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Robert Wichrowski
 LOCATION:KINO
 END:VEVENT
@@ -768,7 +768,7 @@ BEGIN:VEVENT
 SUMMARY:Kultura wizualna (mgr Lena Pierga)
 DTSTART;TZID=Europe/Warsaw:20270111T100000
 DTEND;TZID=Europe/Warsaw:20270111T121500
-UID:202701111000-93154@szkolafilmowa
+UID:202701111000-38689@szkolafilmowa
 DESCRIPTION:Prowadzący: mgr Lena Pierga
 LOCATION:KINO
 END:VEVENT
@@ -776,7 +776,7 @@ BEGIN:VEVENT
 SUMMARY:WF (lic. Łukasz Sip)
 DTSTART;TZID=Europe/Warsaw:20270114T183000
 DTEND;TZID=Europe/Warsaw:20270114T203000
-UID:202701141830-20645@szkolafilmowa
+UID:202701141830-3406@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Łukasz Sip
 LOCATION:P
 END:VEVENT
@@ -784,7 +784,7 @@ BEGIN:VEVENT
 SUMMARY:Kulturoznawstwo (Katarzyna Czajka-Kominiarczuk)
 DTSTART;TZID=Europe/Warsaw:20270112T173000
 DTEND;TZID=Europe/Warsaw:20270112T194500
-UID:202701121730-79360@szkolafilmowa
+UID:202701121730-1539@szkolafilmowa
 DESCRIPTION:Prowadzący: Katarzyna Czajka-Kominiarczuk
 LOCATION:K2
 END:VEVENT
@@ -792,7 +792,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Kolorkorekcja (mgr Tomasz Malinowski)
 DTSTART;TZID=Europe/Warsaw:20270113T184500
 DTEND;TZID=Europe/Warsaw:20270113T201500
-UID:202701131845-37956@szkolafilmowa
+UID:202701131845-85077@szkolafilmowa
 DESCRIPTION:Prowadzący: mgr Tomasz Malinowski
 LOCATION:LAB 4
 END:VEVENT
@@ -800,7 +800,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Kolorkorekcja (mgr Tomasz Malinowski)
 DTSTART;TZID=Europe/Warsaw:20270113T170000
 DTEND;TZID=Europe/Warsaw:20270113T183000
-UID:202701131700-37956@szkolafilmowa
+UID:202701131700-85077@szkolafilmowa
 DESCRIPTION:Prowadzący: mgr Tomasz Malinowski
 LOCATION:LAB 4
 END:VEVENT
@@ -808,7 +808,7 @@ BEGIN:VEVENT
 SUMMARY:Oblicza polskiego kina (dr Katarzyna Bałdyga)
 DTSTART;TZID=Europe/Warsaw:20270112T121500
 DTEND;TZID=Europe/Warsaw:20270112T134500
-UID:202701121215-14483@szkolafilmowa
+UID:202701121215-61913@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Katarzyna Bałdyga
 LOCATION:K1
 END:VEVENT
@@ -816,7 +816,7 @@ BEGIN:VEVENT
 SUMMARY:Oblicza polskiego kina (dr Katarzyna Bałdyga)
 DTSTART;TZID=Europe/Warsaw:20270112T103000
 DTEND;TZID=Europe/Warsaw:20270112T120000
-UID:202701121030-14483@szkolafilmowa
+UID:202701121030-61913@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Katarzyna Bałdyga
 LOCATION:K1
 END:VEVENT
@@ -824,7 +824,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Opowiadanie obrazem (lic. Mateusz Pastewka)
 DTSTART;TZID=Europe/Warsaw:20270114T104500
 DTEND;TZID=Europe/Warsaw:20270114T121500
-UID:202701141045-2520@szkolafilmowa
+UID:202701141045-41006@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Mateusz Pastewka
 LOCATION:K1
 END:VEVENT
@@ -832,7 +832,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Opowiadanie obrazem (lic. Mateusz Pastewka)
 DTSTART;TZID=Europe/Warsaw:20270114T090000
 DTEND;TZID=Europe/Warsaw:20270114T103000
-UID:202701140900-2520@szkolafilmowa
+UID:202701140900-41006@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Mateusz Pastewka
 LOCATION:K1
 END:VEVENT
@@ -840,7 +840,7 @@ BEGIN:VEVENT
 SUMMARY:Analiza techniczna filmu (dr hab. Katarzyna Taras)
 DTSTART;TZID=Europe/Warsaw:20270111T180000
 DTEND;TZID=Europe/Warsaw:20270111T193000
-UID:202701111800-23945@szkolafilmowa
+UID:202701111800-71931@szkolafilmowa
 DESCRIPTION:Prowadzący: dr hab. Katarzyna Taras
 LOCATION:K1
 END:VEVENT
@@ -848,7 +848,7 @@ BEGIN:VEVENT
 SUMMARY:Analiza techniczna filmu (dr hab. Katarzyna Taras)
 DTSTART;TZID=Europe/Warsaw:20270111T161500
 DTEND;TZID=Europe/Warsaw:20270111T174500
-UID:202701111615-23945@szkolafilmowa
+UID:202701111615-71931@szkolafilmowa
 DESCRIPTION:Prowadzący: dr hab. Katarzyna Taras
 LOCATION:K1
 END:VEVENT
@@ -857,7 +857,7 @@ SUMMARY:Ćwiczenia warsztatowe dla operatora obrazu (prof. dr hab. Andrzej
   J Jaroszewicz)
 DTSTART;TZID=Europe/Warsaw:20270112T154500
 DTEND;TZID=Europe/Warsaw:20270112T171500
-UID:202701121545-27549@szkolafilmowa
+UID:202701121545-93549@szkolafilmowa
 DESCRIPTION:Prowadzący: prof. dr hab. Andrzej J Jaroszewicz
 LOCATION:W6
 END:VEVENT
@@ -866,7 +866,7 @@ SUMMARY:Ćwiczenia warsztatowe dla operatora obrazu (prof. dr hab. Andrzej
   J Jaroszewicz)
 DTSTART;TZID=Europe/Warsaw:20270112T140000
 DTEND;TZID=Europe/Warsaw:20270112T153000
-UID:202701121400-27549@szkolafilmowa
+UID:202701121400-93549@szkolafilmowa
 DESCRIPTION:Prowadzący: prof. dr hab. Andrzej J Jaroszewicz
 LOCATION:W6
 END:VEVENT
@@ -874,7 +874,7 @@ BEGIN:VEVENT
 SUMMARY:Film dokumentalny (dr Barbara Pawłowska)
 DTSTART;TZID=Europe/Warsaw:20270113T100000
 DTEND;TZID=Europe/Warsaw:20270113T113000
-UID:202701131000-62533@szkolafilmowa
+UID:202701131000-62513@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Barbara Pawłowska
 LOCATION:K1
 END:VEVENT
@@ -882,7 +882,7 @@ BEGIN:VEVENT
 SUMMARY:Film dokumentalny (dr Barbara Pawłowska)
 DTSTART;TZID=Europe/Warsaw:20270113T114500
 DTEND;TZID=Europe/Warsaw:20270113T131500
-UID:202701131145-62533@szkolafilmowa
+UID:202701131145-62513@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Barbara Pawłowska
 LOCATION:K1
 END:VEVENT
@@ -890,7 +890,7 @@ BEGIN:VEVENT
 SUMMARY:Język angielski (mgr Beata Palka)
 DTSTART;TZID=Europe/Warsaw:20270122T090000
 DTEND;TZID=Europe/Warsaw:20270122T111500
-UID:202701220900-18048@szkolafilmowa
+UID:202701220900-25163@szkolafilmowa
 DESCRIPTION:Prowadzący: mgr Beata Palka
 LOCATION:W6
 END:VEVENT
@@ -898,7 +898,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Inscenizacja (lic. Tadeusz Łysiak)
 DTSTART;TZID=Europe/Warsaw:20270121T151500
 DTEND;TZID=Europe/Warsaw:20270121T164500
-UID:202701211515-59258@szkolafilmowa
+UID:202701211515-30475@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Tadeusz Łysiak
 LOCATION:S2
 END:VEVENT
@@ -906,7 +906,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Inscenizacja (lic. Tadeusz Łysiak)
 DTSTART;TZID=Europe/Warsaw:20270121T133000
 DTEND;TZID=Europe/Warsaw:20270121T150000
-UID:202701211330-59258@szkolafilmowa
+UID:202701211330-30475@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Tadeusz Łysiak
 LOCATION:S2
 END:VEVENT
@@ -914,7 +914,7 @@ BEGIN:VEVENT
 SUMMARY:Język angielski (Laura Strzałkowska)
 DTSTART;TZID=Europe/Warsaw:20270122T090000
 DTEND;TZID=Europe/Warsaw:20270122T111500
-UID:202701220900-51726@szkolafilmowa
+UID:202701220900-77147@szkolafilmowa
 DESCRIPTION:Prowadzący: Laura Strzałkowska
 LOCATION:W1
 END:VEVENT
@@ -922,7 +922,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Inscenizacja (lic. Filip Pasternak)
 DTSTART;TZID=Europe/Warsaw:20270121T151500
 DTEND;TZID=Europe/Warsaw:20270121T164500
-UID:202701211515-23934@szkolafilmowa
+UID:202701211515-89203@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Filip Pasternak
 LOCATION:S2
 END:VEVENT
@@ -930,7 +930,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Inscenizacja (lic. Filip Pasternak)
 DTSTART;TZID=Europe/Warsaw:20270121T133000
 DTEND;TZID=Europe/Warsaw:20270121T150000
-UID:202701211330-23934@szkolafilmowa
+UID:202701211330-89203@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Filip Pasternak
 LOCATION:S2
 END:VEVENT
@@ -938,7 +938,7 @@ BEGIN:VEVENT
 SUMMARY:Historia powszechna kina (dr Robert Wichrowski)
 DTSTART;TZID=Europe/Warsaw:20270118T141500
 DTEND;TZID=Europe/Warsaw:20270118T154500
-UID:202701181415-7943@szkolafilmowa
+UID:202701181415-74562@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Robert Wichrowski
 LOCATION:KINO
 END:VEVENT
@@ -946,7 +946,7 @@ BEGIN:VEVENT
 SUMMARY:Historia powszechna kina (dr Robert Wichrowski)
 DTSTART;TZID=Europe/Warsaw:20270118T123000
 DTEND;TZID=Europe/Warsaw:20270118T140000
-UID:202701181230-7943@szkolafilmowa
+UID:202701181230-74562@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Robert Wichrowski
 LOCATION:KINO
 END:VEVENT
@@ -954,7 +954,7 @@ BEGIN:VEVENT
 SUMMARY:Język angielski (mgr Beata Palka)
 DTSTART;TZID=Europe/Warsaw:20270122T113000
 DTEND;TZID=Europe/Warsaw:20270122T134500
-UID:202701221130-18048@szkolafilmowa
+UID:202701221130-25163@szkolafilmowa
 DESCRIPTION:Prowadzący: mgr Beata Palka
 LOCATION:W6
 END:VEVENT
@@ -962,7 +962,7 @@ BEGIN:VEVENT
 SUMMARY:Kultura wizualna (mgr Lena Pierga)
 DTSTART;TZID=Europe/Warsaw:20270118T100000
 DTEND;TZID=Europe/Warsaw:20270118T121500
-UID:202701181000-93154@szkolafilmowa
+UID:202701181000-38689@szkolafilmowa
 DESCRIPTION:Prowadzący: mgr Lena Pierga
 LOCATION:KINO
 END:VEVENT
@@ -970,7 +970,7 @@ BEGIN:VEVENT
 SUMMARY:WF (lic. Łukasz Sip)
 DTSTART;TZID=Europe/Warsaw:20270120T170000
 DTEND;TZID=Europe/Warsaw:20270120T190000
-UID:202701201700-20645@szkolafilmowa
+UID:202701201700-3406@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Łukasz Sip
 LOCATION:P
 END:VEVENT
@@ -978,7 +978,7 @@ BEGIN:VEVENT
 SUMMARY:WF (lic. Łukasz Sip)
 DTSTART;TZID=Europe/Warsaw:20270121T183000
 DTEND;TZID=Europe/Warsaw:20270121T203000
-UID:202701211830-20645@szkolafilmowa
+UID:202701211830-3406@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Łukasz Sip
 LOCATION:P
 END:VEVENT
@@ -986,7 +986,7 @@ BEGIN:VEVENT
 SUMMARY:Reżyseria filmowa  - jak to jest zrobione? (... ...)
 DTSTART;TZID=Europe/Warsaw:20270122T170000
 DTEND;TZID=Europe/Warsaw:20270122T200000
-UID:202701221700-78748@szkolafilmowa
+UID:202701221700-20964@szkolafilmowa
 DESCRIPTION:Prowadzący: ... ...
 LOCATION:KINO
 END:VEVENT
@@ -994,7 +994,7 @@ BEGIN:VEVENT
 SUMMARY:Oblicza polskiego kina (dr Katarzyna Bałdyga)
 DTSTART;TZID=Europe/Warsaw:20270119T121500
 DTEND;TZID=Europe/Warsaw:20270119T134500
-UID:202701191215-14483@szkolafilmowa
+UID:202701191215-61913@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Katarzyna Bałdyga
 LOCATION:K1
 END:VEVENT
@@ -1002,7 +1002,7 @@ BEGIN:VEVENT
 SUMMARY:Oblicza polskiego kina (dr Katarzyna Bałdyga)
 DTSTART;TZID=Europe/Warsaw:20270119T103000
 DTEND;TZID=Europe/Warsaw:20270119T120000
-UID:202701191030-14483@szkolafilmowa
+UID:202701191030-61913@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Katarzyna Bałdyga
 LOCATION:K1
 END:VEVENT
@@ -1010,7 +1010,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Język optyki filmowej (Konrad Bloch)
 DTSTART;TZID=Europe/Warsaw:20270120T133000
 DTEND;TZID=Europe/Warsaw:20270120T154500
-UID:202701201330-71324@szkolafilmowa
+UID:202701201330-326@szkolafilmowa
 DESCRIPTION:Prowadzący: Konrad Bloch
 LOCATION:K1
 END:VEVENT
@@ -1018,7 +1018,7 @@ BEGIN:VEVENT
 SUMMARY:Analiza techniczna filmu (dr hab. Katarzyna Taras)
 DTSTART;TZID=Europe/Warsaw:20270118T180000
 DTEND;TZID=Europe/Warsaw:20270118T193000
-UID:202701181800-23945@szkolafilmowa
+UID:202701181800-71931@szkolafilmowa
 DESCRIPTION:Prowadzący: dr hab. Katarzyna Taras
 LOCATION:K1
 END:VEVENT
@@ -1026,7 +1026,7 @@ BEGIN:VEVENT
 SUMMARY:Analiza techniczna filmu (dr hab. Katarzyna Taras)
 DTSTART;TZID=Europe/Warsaw:20270118T161500
 DTEND;TZID=Europe/Warsaw:20270118T174500
-UID:202701181615-23945@szkolafilmowa
+UID:202701181615-71931@szkolafilmowa
 DESCRIPTION:Prowadzący: dr hab. Katarzyna Taras
 LOCATION:K1
 END:VEVENT
@@ -1034,7 +1034,7 @@ BEGIN:VEVENT
 SUMMARY:Film dokumentalny (dr Barbara Pawłowska)
 DTSTART;TZID=Europe/Warsaw:20270120T090000
 DTEND;TZID=Europe/Warsaw:20270120T111500
-UID:202701200900-62533@szkolafilmowa
+UID:202701200900-62513@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Barbara Pawłowska
 LOCATION:K1
 END:VEVENT
@@ -1042,7 +1042,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Inscenizacja (lic. Tadeusz Łysiak)
 DTSTART;TZID=Europe/Warsaw:20270128T184500
 DTEND;TZID=Europe/Warsaw:20270128T201500
-UID:202701281845-59258@szkolafilmowa
+UID:202701281845-30475@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Tadeusz Łysiak
 LOCATION:S1
 END:VEVENT
@@ -1050,7 +1050,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Inscenizacja (lic. Tadeusz Łysiak)
 DTSTART;TZID=Europe/Warsaw:20270128T170000
 DTEND;TZID=Europe/Warsaw:20270128T183000
-UID:202701281700-59258@szkolafilmowa
+UID:202701281700-30475@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Tadeusz Łysiak
 LOCATION:S1
 END:VEVENT
@@ -1058,7 +1058,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Inscenizacja (lic. Filip Pasternak)
 DTSTART;TZID=Europe/Warsaw:20270128T184500
 DTEND;TZID=Europe/Warsaw:20270128T201500
-UID:202701281845-23934@szkolafilmowa
+UID:202701281845-89203@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Filip Pasternak
 LOCATION:S1
 END:VEVENT
@@ -1066,7 +1066,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Inscenizacja (lic. Filip Pasternak)
 DTSTART;TZID=Europe/Warsaw:20270128T170000
 DTEND;TZID=Europe/Warsaw:20270128T183000
-UID:202701281700-23934@szkolafilmowa
+UID:202701281700-89203@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Filip Pasternak
 LOCATION:S1
 END:VEVENT
@@ -1074,7 +1074,7 @@ BEGIN:VEVENT
 SUMMARY:WF (lic. Łukasz Sip)
 DTSTART;TZID=Europe/Warsaw:20270127T170000
 DTEND;TZID=Europe/Warsaw:20270127T190000
-UID:202701271700-20645@szkolafilmowa
+UID:202701271700-3406@szkolafilmowa
 DESCRIPTION:Prowadzący: lic. Łukasz Sip
 LOCATION:P
 END:VEVENT
@@ -1082,7 +1082,7 @@ BEGIN:VEVENT
 SUMMARY:Warsztaty tematyczne. Język optyki filmowej (Konrad Bloch)
 DTSTART;TZID=Europe/Warsaw:20270127T133000
 DTEND;TZID=Europe/Warsaw:20270127T154500
-UID:202701271330-71324@szkolafilmowa
+UID:202701271330-326@szkolafilmowa
 DESCRIPTION:Prowadzący: Konrad Bloch
 LOCATION:K1
 END:VEVENT
@@ -1090,7 +1090,7 @@ BEGIN:VEVENT
 SUMMARY:Analiza techniczna filmu (dr hab. Katarzyna Taras)
 DTSTART;TZID=Europe/Warsaw:20270125T113000
 DTEND;TZID=Europe/Warsaw:20270125T130000
-UID:202701251130-23945@szkolafilmowa
+UID:202701251130-71931@szkolafilmowa
 DESCRIPTION:Prowadzący: dr hab. Katarzyna Taras
 LOCATION:K1
 END:VEVENT
@@ -1098,7 +1098,7 @@ BEGIN:VEVENT
 SUMMARY:Analiza techniczna filmu (dr hab. Katarzyna Taras)
 DTSTART;TZID=Europe/Warsaw:20270126T100000
 DTEND;TZID=Europe/Warsaw:20270126T113000
-UID:202701261000-23945@szkolafilmowa
+UID:202701261000-71931@szkolafilmowa
 DESCRIPTION:Prowadzący: dr hab. Katarzyna Taras
 LOCATION:K1
 END:VEVENT
@@ -1106,7 +1106,7 @@ BEGIN:VEVENT
 SUMMARY:Analiza techniczna filmu (dr hab. Katarzyna Taras)
 DTSTART;TZID=Europe/Warsaw:20270125T131500
 DTEND;TZID=Europe/Warsaw:20270125T144500
-UID:202701251315-23945@szkolafilmowa
+UID:202701251315-71931@szkolafilmowa
 DESCRIPTION:Prowadzący: dr hab. Katarzyna Taras
 LOCATION:K1
 END:VEVENT
@@ -1114,7 +1114,7 @@ BEGIN:VEVENT
 SUMMARY:Analiza techniczna filmu (dr hab. Katarzyna Taras)
 DTSTART;TZID=Europe/Warsaw:20270126T114500
 DTEND;TZID=Europe/Warsaw:20270126T131500
-UID:202701261145-23945@szkolafilmowa
+UID:202701261145-71931@szkolafilmowa
 DESCRIPTION:Prowadzący: dr hab. Katarzyna Taras
 LOCATION:K1
 END:VEVENT
@@ -1123,7 +1123,7 @@ SUMMARY:Ćwiczenia warsztatowe dla operatora obrazu (prof. dr hab. Andrzej
   J Jaroszewicz)
 DTSTART;TZID=Europe/Warsaw:20270128T144500
 DTEND;TZID=Europe/Warsaw:20270128T161500
-UID:202701281445-27549@szkolafilmowa
+UID:202701281445-93549@szkolafilmowa
 DESCRIPTION:Prowadzący: prof. dr hab. Andrzej J Jaroszewicz
 LOCATION:S2
 END:VEVENT
@@ -1132,7 +1132,7 @@ SUMMARY:Ćwiczenia warsztatowe dla operatora obrazu (prof. dr hab. Andrzej
   J Jaroszewicz)
 DTSTART;TZID=Europe/Warsaw:20270128T130000
 DTEND;TZID=Europe/Warsaw:20270128T143000
-UID:202701281300-27549@szkolafilmowa
+UID:202701281300-93549@szkolafilmowa
 DESCRIPTION:Prowadzący: prof. dr hab. Andrzej J Jaroszewicz
 LOCATION:S2
 END:VEVENT
@@ -1141,7 +1141,7 @@ SUMMARY:Ćwiczenia warsztatowe dla operatora obrazu (prof. dr hab. Andrzej
   J Jaroszewicz)
 DTSTART;TZID=Europe/Warsaw:20270126T154500
 DTEND;TZID=Europe/Warsaw:20270126T171500
-UID:202701261545-27549@szkolafilmowa
+UID:202701261545-93549@szkolafilmowa
 DESCRIPTION:Prowadzący: prof. dr hab. Andrzej J Jaroszewicz
 LOCATION:W6
 END:VEVENT
@@ -1150,7 +1150,7 @@ SUMMARY:Ćwiczenia warsztatowe dla operatora obrazu (prof. dr hab. Andrzej
   J Jaroszewicz)
 DTSTART;TZID=Europe/Warsaw:20270126T140000
 DTEND;TZID=Europe/Warsaw:20270126T153000
-UID:202701261400-27549@szkolafilmowa
+UID:202701261400-93549@szkolafilmowa
 DESCRIPTION:Prowadzący: prof. dr hab. Andrzej J Jaroszewicz
 LOCATION:W6
 END:VEVENT
@@ -1158,7 +1158,7 @@ BEGIN:VEVENT
 SUMMARY:Film dokumentalny (dr Barbara Pawłowska)
 DTSTART;TZID=Europe/Warsaw:20270127T114500
 DTEND;TZID=Europe/Warsaw:20270127T131500
-UID:202701271145-62533@szkolafilmowa
+UID:202701271145-62513@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Barbara Pawłowska
 LOCATION:K1
 END:VEVENT
@@ -1166,7 +1166,7 @@ BEGIN:VEVENT
 SUMMARY:Film dokumentalny (dr Barbara Pawłowska)
 DTSTART;TZID=Europe/Warsaw:20270127T100000
 DTEND;TZID=Europe/Warsaw:20270127T113000
-UID:202701271000-62533@szkolafilmowa
+UID:202701271000-62513@szkolafilmowa
 DESCRIPTION:Prowadzący: dr Barbara Pawłowska
 LOCATION:K1
 END:VEVENT
